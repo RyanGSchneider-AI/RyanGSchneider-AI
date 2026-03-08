@@ -1,0 +1,63 @@
+# Templates
+
+Reusable frameworks and documents for AI-assisted product development.
+
+Every template in this folder is designed with two audiences in mind:
+**human product teams** who need clear, structured requirements, and
+**AI-assisted development teams or autonomous agents** who need unambiguous
+inputs, explicit constraints, and measurable success conditions.
+
+The goal is a single document that serves as both the input to development
+and the validation record of its output — closing the loop from requirements
+to delivery in one place.
+
+---
+
+## Contents
+
+| File | Description | Status |
+|---|---|---|
+| [PRD-TEMPLATE.md](./PRD-TEMPLATE.md) | AI-ready Product Requirements Document | v1.0 |
+
+---
+
+## Design Philosophy
+
+Traditional PRDs were written for human developers in sprint planning meetings.
+They assumed shared context, verbal clarification, and iterative back-and-forth.
+
+AI-assisted development changes that contract. Agents and AI-enabled teams work
+best with:
+
+- **Explicit requirements** — nothing assumed, nothing verbal
+- **Traceable structure** — every requirement linked to a test case
+- **Clear constraints** — hard boundaries stated upfront, not discovered mid-build
+- **Unambiguous success conditions** — the agent knows exactly when it is done
+
+These templates are built around those principles. They are also intentionally
+useful for traditional teams — the discipline that makes a good AI handoff
+makes a good human handoff too.
+
+---
+
+## How to Use These Templates
+
+1. Copy the template file into the relevant project folder
+2. Rename it to reflect the project (e.g., `PRD-payments-onboarding.md`)
+3. Work through each section top to bottom — resist the urge to skip ahead
+4. Leave Section 10 (Test & Validation) and Section 11 (Agent Handoff) for last,
+   after requirements are stable
+5. Treat the document as a living record — update it as decisions change,
+   questions resolve, and test results come in
+
+---
+
+## Contributing / Evolving These Templates
+
+These templates are a work in progress. As I apply them to real projects,
+I'll update them to reflect what works. If you use one and find a gap,
+open an issue or submit a PR — I'd welcome the input.
+
+---
+
+*Maintained by [Ryan Schneider](https://www.linkedin.com/in/rgschneider/)*
