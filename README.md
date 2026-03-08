@@ -1,6 +1,6 @@
 # Ryan Schneider
 
-Aerospace engineer turned Payments product executive. I've built and scaled omnichannel fintech products at <a href="https://www.americanexpress.com" target="_blank">American Express</a>,<a href="https://payroc.com" target="_blank">Payroc</a>, and <a href="https://www.vancopayments.com" target="_blank">Vanco</a>/<a href="https://www.revtrak.com" target="_blank">RevTrak</a> - with deep domain expertise across payments infrastructure, consumer finance, and B2B-integrated financial tooling, from growth-stage platforms to large enterprise systems.
+Aerospace engineer turned Payments product executive. I've built and scaled omnichannel fintech products at <a href="https://www.americanexpress.com" target="_blank">American Express</a>, <a href="https://payroc.com" target="_blank">Payroc</a>, and <a href="https://www.vancopayments.com" target="_blank">Vanco</a>/<a href="https://www.revtrak.com" target="_blank">RevTrak</a> - with deep domain expertise across payments infrastructure, consumer finance, and B2B-integrated financial tooling, from growth-stage platforms to large enterprise systems.
 
 Engineering foundation: RF, Infrared, and Targeting systems at <a href="https://www.northropgrumman.com" target="_blank">Northrop Grumman</a>.
 
