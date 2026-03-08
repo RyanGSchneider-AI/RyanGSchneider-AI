@@ -8,13 +8,9 @@
 
 | Field | Value |
 |---|---|
-| **Product / Feature Name** | |
-| **PRD Author** | |
-| **Engineering Lead** | |
-| **Status** | Draft / In Review / Approved / In Development / Complete |
-| **Version** | 0.1 |
-| **Created** | YYYY-MM-DD |
-| **Last Updated** | YYYY-MM-DD |
+| **Feature Name** | |
+| **Author** | |
+| **Status** | Draft / Approved / In Development / Complete |
 | **Target Release** | YYYY-MM-DD |
 
 ---
