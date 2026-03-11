@@ -23,11 +23,11 @@ without ambiguity.
 │   ├── INTERNAL-STAKEHOLDERS.md     ← Internal org structure and stakeholder concerns
 │   │   Governed by: Organizational structure and reporting authority
 │   │
-│   └── EXTERNAL-STAKEHOLDERS.md     ← External partners, vendors, regulators, and customers
-│       Governed by: Contracts, agreements, and terms of service
+│   └── EXTERNAL-STAKEHOLDERS.md     ← Strategic partners, key customers, regulatory bodies
+│       Governed by: Contracts, agreements, terms of service, and compliance obligations
 │
 ├── Market & Customer                 ← coming soon
-│   ├── Customer Research
+│   ├── Customer Personas
 │   └── Competitive Intelligence
 │
 ├── Institutional Knowledge           ← coming soon
@@ -46,7 +46,7 @@ without ambiguity.
 |---|---|---|---|
 | [PRD-TEMPLATE.md](./PRD-TEMPLATE.md) | AI-ready Product Requirements Document | Product roadmap and initiative priority | Product, Engineering, QA, Compliance |
 | [INTERNAL-STAKEHOLDERS.md](./INTERNAL-STAKEHOLDERS.md) | Internal org structure and stakeholder areas of concern | Organizational structure and reporting authority | All internal teams |
-| [EXTERNAL-STAKEHOLDERS.md](./EXTERNAL-STAKEHOLDERS.md) | Strategic partners, vendors, key customers, customer personas, and regulatory bodies | Contracts, agreements, and terms of service | Sales, Legal, Finance, Executive Leadership |
+| [EXTERNAL-STAKEHOLDERS.md](./EXTERNAL-STAKEHOLDERS.md) | Strategic partners, key customers, and regulatory bodies | Contracts, agreements, terms of service, and compliance obligations | Sales, Legal, Finance, Executive Leadership |
 
 ---
 
