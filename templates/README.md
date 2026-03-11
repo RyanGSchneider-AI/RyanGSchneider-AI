@@ -20,7 +20,7 @@ without ambiguity.
 │   └── PRD-TEMPLATE.md              ← Requirements, test, and agent handoff
 │
 ├── People & Relationships
-│   ├── STAKEHOLDER-MAP.md           ← Internal org structure and stakeholder concerns
+│   ├── INTERNAL-STAKEHOLDERS.md     ← Internal org structure and stakeholder concerns
 │   │   Governed by: Organizational structure and reporting authority
 │   │
 │   └── EXTERNAL-STAKEHOLDERS.md     ← coming soon
@@ -45,7 +45,7 @@ without ambiguity.
 | File | Description | Governed By | Serves |
 |---|---|---|---|
 | [PRD-TEMPLATE.md](./PRD-TEMPLATE.md) | AI-ready Product Requirements Document | Product roadmap and initiative priority | Product, Engineering, QA, Compliance |
-| [STAKEHOLDER-MAP.md](./STAKEHOLDER-MAP.md) | Internal org structure and stakeholder areas of concern | Organizational structure and reporting authority | All internal teams |
+| [INTERNAL-STAKEHOLDERS.md](./INTERNAL-STAKEHOLDERS.md) | Internal org structure and stakeholder areas of concern | Organizational structure and reporting authority | All internal teams |
 | EXTERNAL-STAKEHOLDERS.md | Strategic partners, vendors, key customers, customer personas, and regulatory bodies | Contracts, agreements, and terms of service | Sales, Legal, Finance, Executive Leadership |
 
 ---
