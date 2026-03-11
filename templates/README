@@ -1,63 +1,77 @@
 # Templates
 
-Reusable frameworks and documents for AI-assisted product development.
+Reusable frameworks for corporate intelligence and AI-assisted execution.
 
-Every template in this folder is designed with two audiences in mind:
-**human product teams** who need clear, structured requirements, and
-**AI-assisted development teams or autonomous agents** who need unambiguous
-inputs, explicit constraints, and measurable success conditions.
+These templates are designed to be **independently useful across the organization**
+— not just for product and engineering teams. Each artifact stands on its own and
+serves its primary audience, while connecting to the others when needed.
 
-The goal is a single document that serves as both the input to development
-and the validation record of its output — closing the loop from requirements
-to delivery in one place.
+The goal is a shared intelligence layer that improves decision-making across
+Product, Sales, Marketing, Finance, Legal, and Executive leadership — and that
+provides the structured context AI-assisted teams and agents need to execute
+without ambiguity.
+
+---
+
+## Corporate Intelligence Framework
+
+```
+├── Product Development
+│   └── PRD-TEMPLATE.md          ← Requirements, test, and agent handoff
+│
+├── People & Relationships        ← coming soon
+│   └── Stakeholder Map
+│
+├── Market & Customer             ← coming soon
+│   ├── Customer Research
+│   └── Competitive Intelligence
+│
+├── Institutional Knowledge       ← coming soon
+│   ├── Decision Log
+│   └── Lessons Learned
+│
+└── Strategic Context             ← coming soon
+    └── OKR / Goals Framework
+```
 
 ---
 
 ## Contents
 
-| File | Description | Status |
+| File | Description | Serves |
 |---|---|---|
-| [PRD-TEMPLATE.md](./PRD-TEMPLATE.md) | AI-ready Product Requirements Document | v1.0 |
+| [PRD-TEMPLATE.md](./PRD-TEMPLATE.md) | AI-ready Product Requirements Document | Product, Engineering, QA, Compliance |
 
 ---
 
 ## Design Philosophy
 
-Traditional PRDs were written for human developers in sprint planning meetings.
-They assumed shared context, verbal clarification, and iterative back-and-forth.
+These templates are built around three principles:
 
-AI-assisted development changes that contract. Agents and AI-enabled teams work
-best with:
+**Independently useful** — each artifact is valuable on its own, to its primary
+audience, without requiring the full framework to be in place.
 
-- **Explicit requirements** — nothing assumed, nothing verbal
-- **Traceable structure** — every requirement linked to a test case
-- **Clear constraints** — hard boundaries stated upfront, not discovered mid-build
-- **Unambiguous success conditions** — the agent knows exactly when it is done
+**Connectable** — artifacts reference each other where relevant, building a
+shared intelligence layer over time rather than siloed documents.
 
-These templates are built around those principles. They are also intentionally
-useful for traditional teams — the discipline that makes a good AI handoff
-makes a good human handoff too.
+**AI-ready** — every template is structured for both human readers and
+AI-assisted teams or autonomous agents. The discipline that makes a good
+AI handoff makes a good human handoff too.
 
 ---
 
 ## How to Use These Templates
 
-1. Copy the template file into the relevant project folder
-2. Rename it to reflect the project (e.g., `PRD-payments-onboarding.md`)
-3. Work through each section top to bottom — resist the urge to skip ahead
-4. Leave Section 10 (Test & Validation) and Section 11 (Agent Handoff) for last,
-   after requirements are stable
-5. Treat the document as a living record — update it as decisions change,
-   questions resolve, and test results come in
+1. Copy the template into the relevant project or team folder
+2. Rename it to reflect the specific use (e.g., `PRD-payments-onboarding.md`)
+3. Work top to bottom — resist the urge to skip ahead
+4. Treat each document as a living record — update as decisions change,
+   questions resolve, and results come in
+5. Link to related artifacts in Section 0 (Connected Artifacts) as they are created
 
 ---
 
-## Contributing / Evolving These Templates
+## This Framework is Evolving
 
-These templates are a work in progress. As I apply them to real projects,
-I'll update them to reflect what works. If you use one and find a gap,
-open an issue or submit a PR — I'd welcome the input.
-
----
-
-*Maintained by [Ryan Schneider](https://www.linkedin.com/in/rgschneider/)*
+Templates are added and refined as they are applied to real work. If you use
+one and find a gap, open an issue or submit a PR.
