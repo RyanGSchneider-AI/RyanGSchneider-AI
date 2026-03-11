@@ -1,6 +1,5 @@
 # Product Requirements Document (PRD)
-> **Template Version**: 1.0 | Maintained by: [Your Name]
-> **Format**: Markdown — optimized for AI-assisted development teams and agent handoff
+> Markdown format — optimized for AI-assisted development teams and agent handoff
 
 ---
 
@@ -10,15 +9,54 @@
 |---|---|
 | **Feature Name** | |
 | **Author** | |
+| **PRD Type** | Maintenance / Incremental Improvement / Strategic Request / Growth Initiative |
+
+> **PRD Type Definitions:**
+> - **Maintenance**: Bug fixes, technical debt, minor enhancements — low complexity, contained scope
+> - **Incremental Improvement**: Meaningful enhancements to existing functionality — measurable growth within existing markets
+> - **Strategic Request**: Customer-driven feature work — validate broad applicability, avoid bespoke complexity
+> - **Growth Initiative**: New products, new user segments, or new markets — expanding beyond current footprint
 | **Status** | Draft / Approved / In Development / Complete |
 | **Target Release** | YYYY-MM-DD |
+
+> **PRD Type Guide:**
+>
+> | Section | Maintenance | Incremental | Strategic Request | Growth Initiative |
+> |---|---|---|---|---|
+> | 1. Problem Statement | 1.2 only | All | All | All |
+> | 2. Goals & Metrics | Goals + 1 KPI | All | All | All |
+> | 3. Personas | Optional | Optional | Required | Required |
+> | 4. Functional Requirements | Required | Required | Required | Required |
+> | 5. User Stories | Optional | Required | Required | Required |
+> | 6. Non-Functional Requirements | Affected areas only | Affected areas only | All | All |
+> | 7. Design & UX | Optional | Required | Required | Required |
+> | 8. Dependencies & Constraints | Required | Required | Required | Required |
+> | 9. Open Questions | Required | Required | Required | Required |
+> | 10. Test & Validation | Required | Required | Required | Required |
+> | 11. Agent Handoff | Optional | Optional | Optional | Optional |
+
+---
+
+## 0. Connected Artifacts
+
+> This section links the PRD to supporting intelligence that informs and shapes it.
+> These artifacts are maintained separately and referenced here — not duplicated.
+> *This framework is evolving. Add links as artifacts are created.*
+
+| Artifact | Description | Link / Location |
+|---|---|---|
+| Stakeholder Map | Internal owners, influencers, and affected parties | |
+| Customer & Market Research | Personas, segments, voice of customer, market sizing | |
+| Competitive Intelligence | Positioning, differentiation, known gaps vs. competitors | |
+| Institutional Knowledge | Prior decisions, architectural constraints, lessons learned | |
+| Strategic Context | Relevant OKRs, roadmap themes, or company goals this work supports | |
 
 ---
 
 ## 1. Problem Statement
 
-### 1.1 Background
-> What context does the team need to understand why this work matters?
+### 1.1 Context
+> What environment is this solution going into? Describe the existing system, workflow, or market the change will land in.
 > Keep this to 2–3 paragraphs. Link to supporting research, data, or prior docs.
 
 [Describe the market, customer, or operational context that makes this problem worth solving.]
@@ -65,10 +103,11 @@
 
 ### 2.4 Non-Goals
 > Explicitly state what this effort will NOT address. This prevents scope creep.
+> **Strategic Request check**: Does this solution work for all customers, or only the requesting customer? If the latter, it belongs here as a non-goal until that changes.
 
-- This PRD does not cover: [e.g., International payment methods]
-- This PRD does not cover: [e.g., Refund or dispute workflows]
-- This PRD does not cover: [e.g., Mobile app — web only for v1]
+- [e.g., International payment methods]
+- [e.g., Refund or dispute workflows]
+- [e.g., Mobile app — web only for v1]
 
 ---
 
@@ -119,11 +158,8 @@
 | REQ-011 | [e.g., Transactions must complete or fail within 10 seconds] | P0 | SLA requirement |
 | REQ-012 | [e.g., System must retry failed transactions up to 3 times] | P1 | |
 
-### 4.3 Feature Area: [Add as needed]
 
-| ID | Requirement | Priority | Notes |
-|---|---|---|---|
-| REQ-020 | | | |
+> Add feature area sections as needed following the pattern above.
 
 ---
 
@@ -165,7 +201,13 @@
 
 ---
 
+> Add stories as needed following the pattern above.
+
+---
+
 ## 6. Non-Functional Requirements
+
+> *Maintenance and Incremental Improvement: complete only sections affected by this change.*
 
 ### 6.1 Performance
 - [ ] [e.g., Page load time must not exceed 2 seconds on a 4G connection]
@@ -276,12 +318,13 @@
 ## 11. Agent Handoff Instructions
 
 > This section is written for AI-assisted development teams or autonomous agents.
-> It consolidates everything an agent needs to begin implementation without ambiguity.
+> It consolidates everything needed to begin implementation without ambiguity.
+> Human teams may skip this section — all requirements are fully stated above.
 
 ### 11.1 Objective
-> One paragraph summary of what needs to be built and why.
+> See Section 1.2 for the full problem definition. Do not restate it here.
 
-[Restate the core problem and solution in plain, unambiguous language. Avoid product jargon. Write as if the reader has no prior context.]
+In plain language, the goal of this build is: [One sentence — what are we building and what should it do?]
 
 ### 11.2 Inputs
 > What does the agent/team receive as inputs to begin work?
@@ -293,7 +336,7 @@
 - [ ] Test data / sandbox credentials: [Link or location]
 
 ### 11.3 Explicit Constraints
-> Hard rules the agent must not violate under any circumstances.
+> Hard rules that must not be violated under any circumstances.
 
 - **Do not** store raw payment card data — tokenization is required
 - **Do not** modify the existing [X] service — integrate via API only
@@ -301,38 +344,23 @@
 - **Do not** introduce new external dependencies without approval
 - [Add constraints specific to your environment]
 
-### 11.4 Success Conditions
-> The agent's work is complete when ALL of the following are true:
-
-- [ ] All P0 requirements in Section 4 are implemented
-- [ ] All P0 acceptance criteria in Section 5 are passing
-- [ ] All TC-00X test cases in Section 10.1 pass
-- [ ] No regressions in [existing feature / test suite]
-- [ ] Code is documented and follows [style guide / conventions link]
-- [ ] PR is submitted to [branch] with test results attached
-
-### 11.5 Ambiguity Protocol
-> What should the agent do when it encounters something not covered by this PRD?
+### 11.4 Ambiguity Protocol
+> What to do when something is not covered by this PRD.
 
 1. Check the Open Questions log (Section 9) first
 2. Default to the most conservative interpretation that satisfies the requirement
-3. Flag the ambiguity in a comment in the PR — do not silently choose
-4. Do not block on minor unknowns — implement with a clearly marked TODO
+3. Flag the ambiguity as a comment in the PR — do not silently choose
+4. Do not block on minor unknowns — implement with a clearly marked `TODO`
+5. Log any new questions discovered during development in Section 9
 
-### 11.6 Handoff Checklist
-> Agent completes this before marking work done.
+### 11.5 Definition of Done
+> Work is complete when ALL of the following are true.
 
-- [ ] All success conditions met (Section 11.4)
-- [ ] Open questions encountered during development logged in Section 9
-- [ ] Test results filled into Section 10
-- [ ] Any deviations from requirements documented with rationale
-- [ ] Staging deployment confirmed and link provided
-
----
-
-## Revision History
-
-| Version | Date | Author | Changes |
-|---|---|---|---|
-| 0.1 | YYYY-MM-DD | [Name] | Initial draft |
-| | | | |
+- [ ] All P0 requirements in Section 4 are implemented
+- [ ] All P0 acceptance criteria in Section 5 are passing
+- [ ] All test cases in Section 10.1 pass
+- [ ] No regressions in [existing feature / test suite]
+- [ ] Code is documented and follows [style guide / conventions link]
+- [ ] Test results are filled into Section 10
+- [ ] Any deviations from requirements are documented with rationale
+- [ ] PR submitted to [branch] with staging deployment link confirmed
