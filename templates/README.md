@@ -17,20 +17,24 @@ without ambiguity.
 
 ```
 ├── Product Development
-│   └── PRD-TEMPLATE.md          ← Requirements, test, and agent handoff
+│   └── PRD-TEMPLATE.md              ← Requirements, test, and agent handoff
 │
-├── People & Relationships        ← coming soon
-│   └── Stakeholder Map
+├── People & Relationships
+│   ├── STAKEHOLDER-MAP.md           ← Internal org structure and stakeholder concerns
+│   │   Governed by: Organizational structure and reporting authority
+│   │
+│   └── EXTERNAL-STAKEHOLDERS.md     ← coming soon
+│       Governed by: Contracts, agreements, and terms of service
 │
-├── Market & Customer             ← coming soon
+├── Market & Customer                 ← coming soon
 │   ├── Customer Research
 │   └── Competitive Intelligence
 │
-├── Institutional Knowledge       ← coming soon
+├── Institutional Knowledge           ← coming soon
 │   ├── Decision Log
 │   └── Lessons Learned
 │
-└── Strategic Context             ← coming soon
+└── Strategic Context                 ← coming soon
     └── OKR / Goals Framework
 ```
 
@@ -38,9 +42,11 @@ without ambiguity.
 
 ## Contents
 
-| File | Description | Serves |
-|---|---|---|
-| [PRD-TEMPLATE.md](./PRD-TEMPLATE.md) | AI-ready Product Requirements Document | Product, Engineering, QA, Compliance |
+| File | Description | Governed By | Serves |
+|---|---|---|---|
+| [PRD-TEMPLATE.md](./PRD-TEMPLATE.md) | AI-ready Product Requirements Document | Product roadmap and initiative priority | Product, Engineering, QA, Compliance |
+| [STAKEHOLDER-MAP.md](./STAKEHOLDER-MAP.md) | Internal org structure and stakeholder areas of concern | Organizational structure and reporting authority | All internal teams |
+| EXTERNAL-STAKEHOLDERS.md | Strategic partners, vendors, key customers, customer personas, and regulatory bodies | Contracts, agreements, and terms of service | Sales, Legal, Finance, Executive Leadership |
 
 ---
 
