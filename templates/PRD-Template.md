@@ -37,22 +37,6 @@
 
 ---
 
-## 0. Connected Artifacts
-
-> This section links the PRD to supporting intelligence that informs and shapes it.
-> These artifacts are maintained separately and referenced here — not duplicated.
-> *This framework is evolving. Add links as artifacts are created.*
-
-| Artifact | Description | Link / Location |
-|---|---|---|
-| Stakeholder Map | Internal owners, influencers, and affected parties | |
-| Customer & Market Research | Personas, segments, voice of customer, market sizing | |
-| Competitive Intelligence | Positioning, differentiation, known gaps vs. competitors | |
-| Institutional Knowledge | Prior decisions, architectural constraints, lessons learned | |
-| Strategic Context | Relevant OKRs, roadmap themes, or company goals this work supports | |
-
----
-
 ## 1. Problem Statement
 
 ### 1.1 Context
