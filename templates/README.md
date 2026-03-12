@@ -168,11 +168,33 @@ reasoning and organizational memory behind them.
 
 ## How to Use These Templates
 
-1. Copy the template into the relevant project or team folder
-2. Rename it to reflect the specific use (e.g., `PRD-payments-onboarding.md`)
-3. Work top to bottom — resist the urge to skip ahead
-4. Treat each document as a living record — update as decisions change,
-   questions resolve, and results come in
+### Artifact Types
+These artifacts fall into two categories:
+
+**Living frameworks** — maintained continuously as a single source of truth for the organization or product. Most artifacts in this framework are this type. They are never "complete" — they are updated as the organization learns, decisions are made, and context changes. Start with whatever sections are most immediately useful and fill in the rest over time.
+
+**Per-effort documents** — created fresh for each discrete initiative. Two artifacts work this way:
+- **PRD-Template** — one per development effort
+- **Business-Case** — one per initiative contemplated
+
+When creating a per-effort document, copy the template, rename it to reflect the specific effort (e.g., `PRD-user-onboarding-2026.md`, `Business-Case-mobile-app.md`), and work through the relevant sections.
+
+### Flexibility, Not Rigor
+No artifact needs to be complete before it is useful. Start with what you know. A partially populated Chronicle is more valuable than no Chronicle. A rough Business Case with honest estimates is more valuable than no Business Case.
+
+The framework does not require a specific sequence. Use whichever artifact is most relevant to the work at hand. An artifact that stands alone is still doing its job.
+
+### How Artifacts Stay Current
+Artifacts are updated in two ways:
+
+**In the background** — as work happens, decisions are made, and things are learned, the relevant artifacts should be updated to reflect the new state. A product decision that changes a design principle belongs in the Chronicle. A closed deal that produces a new reference customer belongs in Reference Customers and Champions. This is the default: updates flow naturally from activity.
+
+**Explicitly** — any artifact can be deliberately updated to inform or trigger a review of related artifacts. If the Customer Lens in the Chronicle changes significantly, it should prompt a review of the Design Principles. If Strategy-and-Intent shifts, People-and-Talent-Strategy should be reviewed against it. These connections are made at the point of use — not hardcoded in the artifacts themselves.
+
+### Standalone vs. Connected
+Each artifact is independently useful. An organization that only has a PRD and a Business Case is still better off than one with neither. Each artifact added to the framework increases the intelligence available to the people and agents working within it.
+
+The framework becomes compoundingly more powerful as more artifacts are populated and connected. A PRD that can reference a populated Product Chronicle, Design Guide, Customer Personas, and Competitive Intelligence is a fundamentally different document than one written in isolation — and an AI agent working from a fully populated framework operates with organizational context that would otherwise take months to absorb.
 
 ---
 
