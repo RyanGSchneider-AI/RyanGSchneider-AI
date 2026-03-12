@@ -68,9 +68,7 @@ without ambiguity.
 │   ├── Business-Case.md               ← Rationale for pursuing an effort
 │   ├── PRD-Template.md                ← Requirements, test, and agent handoff
 │   ├── Product-Chronicle.md           ← Living product intelligence: design principles, tradeoff rationale, customer understanding, competitive positioning, and internal narrative
-│   └── Product-Design-Guide.md        ← Persistent UI/UX standards, interaction  [coming soon]
-│                                          patterns, voice and tone, and accessibility
-│                                          commitments — governs all PRDs that touch UI/UX
+│   └── Product-Design-Guide.md        ← Persistent UI/UX standards, interaction patterns, voice and tone, and accessibility commitments — governs all PRDs that touch UI/UX
 │
 ├── Rhythm and Calendar
 │   └── Company-Calendar.md            ← Industry events, product releases,     [coming soon]
@@ -122,7 +120,7 @@ without ambiguity.
 | People-and-Talent-Strategy.md | How the organization thinks about hiring, capability gaps, succession, and the skills needed to execute strategy | HR and Executive leadership | Executive Leadership, Department heads, HR |
 | [PRD-Template.md](./product/PRD-Template.md) | AI-ready Product Requirements Document | Product roadmap and initiative priority | Product, Engineering, QA, Compliance |
 | [Product-Chronicle.md](./product/Product-Chronicle.md) | Living product intelligence — design principles, tradeoffs, customer understanding, and internal narrative | Product ownership and accumulated organizational learning | Product, Marketing, Sales, Engineering |
-| Product-Design-Guide.md | Persistent UI/UX standards, interaction patterns, voice and tone, and accessibility commitments | Product and Design leadership | Product, Engineering, Design, QA |
+| [Product-Design-Guide.md](./product/Product-Design-Guide.md) | Persistent UI/UX standards, interaction patterns, voice and tone, and accessibility commitments | Product and Design leadership | Product, Engineering, Design, QA |
 | Reference-Customers-and-Champions.md | Customers who validate the product, open doors, and advocate in the market — classified by strategic role, not just revenue | Executed agreements and terms of service | Sales, Executive Leadership, Product, Marketing |
 | Sales-Playbook.md | How deals are run — stages, discovery, objection handling, and competitive positioning | Sales leadership | Sales, Marketing |
 | [Strategic-Context.md](./organizational-intelligence/Strategic-Context.md) | Organizational mission, vision, and living goals across time horizons | Collectively owned — maintained against current organizational direction | All teams, executive leadership, AI agents |
