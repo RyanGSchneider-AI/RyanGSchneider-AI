@@ -17,25 +17,25 @@ without ambiguity.
 
 ```
 ├── Product Development
-│   └── PRD-TEMPLATE.md              ← Requirements, test, and agent handoff
+│   └── PRD-Template.md              ← Requirements, test, and agent handoff
 │
 ├── People & Relationships
 │   ├── Internal-Stakeholders.md     ← Internal org structure and stakeholder concerns
 │   │   Governed by: Organizational structure and reporting authority
 │   │
-│   └── External-Stakeholders.md     ← Strategic partners, key customers, regulatory bodies
+│   └── External-Stakeholders.md     ← Strategic partners, vendors, and regulatory bodies
 │       Governed by: Contracts, agreements, terms of service, and compliance obligations
 │
-├── Market & Customer                 ← coming soon
-│   ├── Customer Personas
-│   └── Competitive Intelligence
+├── Market & Customer
+│   ├── Key-Customers.md             ← Named accounts with strategic importance
+│   ├── Customer-Personas.md         ← Research-based archetypes organized by use case
+│   └── Competitive Intelligence      ← coming soon
 │
-├── Institutional Knowledge           ← coming soon
-│   ├── Decision Log
-│   └── Lessons Learned
+├── Institutional Knowledge
+│   └── Institutional-Knowledge.md   ← Living repository of decisions, lessons, constraints, and process
 │
-└── Strategic Context                 ← coming soon
-    └── OKR / Goals Framework
+└── Strategic Context
+    └── Strategic-Context.md         ← Living organizational goals, reasoning, and initiative connections
 ```
 
 ---
@@ -44,9 +44,13 @@ without ambiguity.
 
 | File | Description | Governed By | Serves |
 |---|---|---|---|
-| [PRD-TEMPLATE.md](./PRD-TEMPLATE.md) | AI-ready Product Requirements Document | Product roadmap and initiative priority | Product, Engineering, QA, Compliance |
+| [PRD-Template.md](./PRD-Template.md) | AI-ready Product Requirements Document | Product roadmap and initiative priority | Product, Engineering, QA, Compliance |
 | [Internal-Stakeholders.md](./Internal-Stakeholders.md) | Internal org structure and stakeholder areas of concern | Organizational structure and reporting authority | All internal teams |
-| [External-Stakeholders.md](./External-Stakeholders.md) | Strategic partners, key customers, and regulatory bodies | Contracts, agreements, terms of service, and compliance obligations | Sales, Legal, Finance, Executive Leadership |
+| [External-Stakeholders.md](./External-Stakeholders.md) | Strategic partners, vendors, and regulatory bodies | Contracts, agreements, terms of service, and compliance obligations | Sales, Legal, Finance, Executive Leadership |
+| [Key-Customers.md](./Key-Customers.md) | Named accounts classified by revenue tier and strategic importance | Executed agreements and terms of service | Sales, Executive Leadership, Product, Finance |
+| [Customer-Personas.md](./Customer-Personas.md) | Research-based customer archetypes organized by use case | Research and market understanding | Product, Marketing, Sales |
+| [Institutional-Knowledge.md](./Institutional-Knowledge.md) | Living repository of organizational learning — decisions, lessons, constraints, and process | Collectively owned — fed from retros, reviews, and organizational feedback | All teams, new hires, AI agents |
+| [Strategic-Context.md](./Strategic-Context.md) | Organizational mission, vision, and living goals across time horizons | Collectively owned — maintained against current organizational direction | All teams, executive leadership, AI agents |
 
 ---
 
@@ -55,10 +59,14 @@ without ambiguity.
 These templates are built around three principles:
 
 **Independently useful** — each artifact is valuable on its own, to its primary
-audience, without requiring the full framework to be in place.
+audience, without requiring the full framework to be in place. An artifact should
+never be blocked by the absence of another. If related artifacts exist, use them.
+If they don't, move forward independently.
 
-**Connectable** — artifacts reference each other where relevant, building a
-shared intelligence layer over time rather than siloed documents.
+**Connectable** — artifacts inform each other at the point of use, not through
+hardcoded references within each file. The README is the map. Connections are made
+in context — in a PRD, a Business Case, a meeting — not maintained as lists inside
+every document.
 
 **AI-ready** — every template is structured for both human readers and
 AI-assisted teams or autonomous agents. The discipline that makes a good
