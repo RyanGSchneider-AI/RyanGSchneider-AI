@@ -27,7 +27,8 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 
 ```
 ├── Financial
-│   └── Cost-and-Benefit-Framework.md ← How the organization estimates effort  [coming soon]
+│   ├── Cost-and-Benefit-Framework.md ← How the organization estimates effort  [coming soon]
+│   └── Funding-and-Business-Model.md ← Capitalization, business model, and organizational drivers
 │                                        and impact — informs every Business
 │                                        Case; scales from solo founder to
 │                                        enterprise
@@ -111,6 +112,7 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 | Company-Calendar.md | Industry events, product releases, compliance dates, internal cadences, and organizational milestones | Organizational planning and external commitments | All teams |
 | Competitive-Intelligence.md | Market landscape and competitor analysis — from formal profiles to informal usage mapping | Market research and ongoing competitive monitoring | Product, Marketing, Sales, Executive Leadership |
 | Cost-and-Benefit-Framework.md | How the organization estimates effort and impact — living history of tradeoff characterization that informs every Business Case; scales from solo founder to enterprise | Finance and Product leadership | Product, Finance, Executive Leadership |
+| [Funding-and-Business-Model.md](./financial/Funding-and-Business-Model.md) | How the organization is capitalized, how it creates and captures value, and what it is currently optimizing for — essential context for strategy, product, and financial decisions | Finance and Executive leadership | Executive Leadership, Board, Finance, Product |
 | [Customer-Personas.md](./market-and-customer/Customer-Personas.md) | Research-based customer archetypes organized by use case | Research and market understanding | Product, Marketing, Sales |
 | Data-Dictionary.md | Authoritative definitions of key data entities, their meaning, and where they live | Engineering and Data leadership | Engineering, Product, Finance, AI agents |
 | Data-Intelligence-Map.md | What useful insight lives in each system, and how data flows and enriches across systems to answer business questions no single system can | Engineering, Data, and Product leadership | Product, Sales, Finance, Marketing, AI agents |
