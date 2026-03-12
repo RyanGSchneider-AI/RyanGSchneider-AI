@@ -65,7 +65,7 @@ without ambiguity.
 │                                          strategy
 │
 ├── Product
-│   ├── Business-Case.md               ← Rationale for pursuing an effort       [coming soon]
+│   ├── Business-Case.md               ← Rationale for pursuing an effort
 │   ├── PRD-Template.md                ← Requirements, test, and agent handoff
 │   ├── Product-Chronicle.md           ← Living product intelligence: design principles, tradeoff rationale, customer understanding, competitive positioning, and internal narrative
 │   └── Product-Design-Guide.md        ← Persistent UI/UX standards, interaction  [coming soon]
@@ -105,7 +105,7 @@ without ambiguity.
 | File | Description | Governed By | Serves |
 |---|---|---|---|
 | Brand-and-Narrative.md | External brand position, voice, and messaging architecture — how the organization wants to be perceived and talked about | Marketing and Executive leadership | Marketing, Sales, Product, Executive Leadership |
-| Business-Case.md | Rationale for pursuing a product effort | Product strategy and executive approval | Product, Finance, Executive Leadership |
+| [Business-Case.md](./product/Business-Case.md) | Rationale for pursuing a product effort — scales from brief internal reasoning to formal executive approval | Product strategy and executive approval | Product, Finance, Executive Leadership |
 | Company-Calendar.md | Industry events, product releases, compliance dates, internal cadences, and organizational milestones | Organizational planning and external commitments | All teams |
 | Competitive-Intelligence.md | Market landscape and competitor analysis — from formal profiles to informal usage mapping | Market research and ongoing competitive monitoring | Product, Marketing, Sales, Executive Leadership |
 | Cost-and-Benefit-Framework.md | How the organization estimates effort and impact — living history of tradeoff characterization that informs every Business Case; scales from solo founder to enterprise | Finance and Product leadership | Product, Finance, Executive Leadership |
