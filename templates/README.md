@@ -60,7 +60,7 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 │   │                                     context, and Goodhart's Law guardrails
 │   │                                     distinguishing health indicators from
 │   │                                     targets
-│   └── Strategic-Context.md           ← Living organizational goals, reasoning, and initiative connections
+│   └── Strategy-and-Intent.md           ← Living organizational goals, reasoning, and initiative connections
 │
 ├── People and Relationships
 │   ├── External-Stakeholders.md       ← Strategic partners, vendors, and regulatory bodies
@@ -69,10 +69,7 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 │   ├── Internal-Stakeholders.md       ← Internal org structure and stakeholder concerns
 │   │   Governed by: Organizational structure and reporting authority
 │   │
-│   └── People-and-Talent-Strategy.md  ← How the organization thinks about     [coming soon]
-│                                          hiring, capability gaps, succession,
-│                                          and the skills needed to execute
-│                                          strategy
+│   └── People-and-Talent-Strategy.md  ← How the organization thinks about hiring, capability gaps, succession, and the skills needed to execute strategy
 │
 ├── Product
 │   ├── Business-Case.md               ← Rationale for pursuing an effort
@@ -127,13 +124,13 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 | Key-Operational-Processes.md | Critical processes and how work actually gets done | Operations leadership | All teams, new hires, AI agents |
 | Metrics-Framework.md | What the organization measures — standardized definitions, financial context, and Goodhart's Law guardrails distinguishing health indicators from targets | Finance, Data, and Product leadership | All teams, Finance, Executive Leadership, AI agents |
 | Organizational-Risk-and-Compliance.md | Risk inventory, compliance obligations, certifications, and regulatory commitments — informs how operational processes are designed and governed | Legal, Operations, and Executive leadership | All teams, Legal, Finance, Executive Leadership, AI agents |
-| People-and-Talent-Strategy.md | How the organization thinks about hiring, capability gaps, succession, and the skills needed to execute strategy | HR and Executive leadership | Executive Leadership, Department heads, HR |
+| [People-and-Talent-Strategy.md](./people-and-relationships/People-and-Talent-Strategy.md) | How the organization thinks about capability needs, search and onboarding, culture fit, and key person risk — tied directly to strategic goals | HR and Executive leadership | Executive Leadership, Department heads, HR |
 | [PRD-Template.md](./product/PRD-Template.md) | AI-ready Product Requirements Document | Product roadmap and initiative priority | Product, Engineering, QA, Compliance |
 | [Product-Chronicle.md](./product/Product-Chronicle.md) | Living product intelligence — design principles, tradeoffs, customer understanding, and internal narrative | Product ownership and accumulated organizational learning | Product, Marketing, Sales, Engineering |
 | [Product-Design-Guide.md](./product/Product-Design-Guide.md) | Persistent UI/UX standards, interaction patterns, voice and tone, and accessibility commitments | Product and Design leadership | Product, Engineering, Design, QA |
 | Reference-Customers-and-Champions.md | Customers who validate the product, open doors, and advocate in the market — classified by strategic role, not just revenue | Executed agreements and terms of service | Sales, Executive Leadership, Product, Marketing |
 | Sales-Playbook.md | How deals are run — stages, discovery, objection handling, and competitive positioning | Sales leadership | Sales, Marketing |
-| [Strategic-Context.md](./organizational-intelligence/Strategic-Context.md) | Organizational mission, vision, and living goals across time horizons | Collectively owned — maintained against current organizational direction | All teams, executive leadership, AI agents |
+| [Strategy-and-Intent.md](./organizational-intelligence/Strategy-and-Intent.md) | Organizational mission, vision, living goals across time horizons, and the strategic assumptions and risks that underpin them | Collectively owned — maintained against current organizational direction | All teams, executive leadership, AI agents |
 | Systems-Registry.md | All platforms the organization uses, with clear designation of Systems of Record per data domain | IT and Operations leadership | All teams, Engineering, Finance, AI agents |
 
 ---
