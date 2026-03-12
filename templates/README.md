@@ -83,11 +83,8 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 │                                          and organizational milestones
 │
 ├── Sales
-│   ├── Go-to-Market.md                ← Channels, sales motion, target segment  [coming soon]
-│   │                                     strategy, and pricing and packaging
-│   └── Sales-Playbook.md              ← How deals are run: stages, discovery,   [coming soon]
-│                                          objection handling, and competitive
-│                                          positioning in a sales context
+│   ├── Go-to-Market.md                ← Channels, sales motion, target segment strategy, and pricing and packaging
+│   └── Sales-Playbook.md              ← How deals are run: stages, discovery, objection handling, and competitive positioning in a sales context
 │
 └── Systems and Data
     ├── Data-Dictionary.md             ← Authoritative definitions of key data   [coming soon]
@@ -118,7 +115,7 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 | Data-Dictionary.md | Authoritative definitions of key data entities, their meaning, and where they live | Engineering and Data leadership | Engineering, Product, Finance, AI agents |
 | Data-Intelligence-Map.md | What useful insight lives in each system, and how data flows and enriches across systems to answer business questions no single system can | Engineering, Data, and Product leadership | Product, Sales, Finance, Marketing, AI agents |
 | [External-Stakeholders.md](./people-and-relationships/External-Stakeholders.md) | Strategic partners, vendors, and regulatory bodies | Contracts, agreements, terms of service, and compliance obligations | Sales, Legal, Finance, Executive Leadership |
-| Go-to-Market.md | Channels, sales motion, target segment strategy, and pricing and packaging | Sales and Marketing leadership | Sales, Marketing, Product, Executive Leadership |
+| [Go-to-Market.md](./sales/Go-to-Market.md) | Channels, sales motion, target segment strategy, and pricing and packaging — accommodates any combination of product-led, sales-led, and partner-led motions | Sales and Marketing leadership | Sales, Marketing, Product, Executive Leadership |
 | [Institutional-Knowledge.md](./organizational-intelligence/Institutional-Knowledge.md) | Living repository of organizational learning — decisions, lessons, constraints, and process | Collectively owned — fed from retros, reviews, and organizational feedback | All teams, new hires, AI agents |
 | [Internal-Stakeholders.md](./people-and-relationships/Internal-Stakeholders.md) | Internal org structure and stakeholder areas of concern | Organizational structure and reporting authority | All internal teams |
 | Key-Operational-Processes.md | Critical processes and how work actually gets done | Operations leadership | All teams, new hires, AI agents |
@@ -129,7 +126,7 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 | [Product-Chronicle.md](./product/Product-Chronicle.md) | Living product intelligence — design principles, tradeoffs, customer understanding, and internal narrative | Product ownership and accumulated organizational learning | Product, Marketing, Sales, Engineering |
 | [Product-Design-Guide.md](./product/Product-Design-Guide.md) | Persistent UI/UX standards, interaction patterns, voice and tone, and accessibility commitments | Product and Design leadership | Product, Engineering, Design, QA |
 | Reference-Customers-and-Champions.md | Customers who validate the product, open doors, and advocate in the market — classified by strategic role, not just revenue | Executed agreements and terms of service | Sales, Executive Leadership, Product, Marketing |
-| Sales-Playbook.md | How deals are run — stages, discovery, objection handling, and competitive positioning | Sales leadership | Sales, Marketing |
+| [Sales-Playbook.md](./sales/Sales-Playbook.md) | How deals are run — discovery, stakeholder mapping, objection handling, pricing conversations, and competitive positioning | Sales leadership | Sales, Marketing |
 | [Strategy-and-Intent.md](./organizational-intelligence/Strategy-and-Intent.md) | Organizational mission, vision, living goals across time horizons, and the strategic assumptions and risks that underpin them | Collectively owned — maintained against current organizational direction | All teams, executive leadership, AI agents |
 | Systems-Registry.md | All platforms the organization uses, with clear designation of Systems of Record per data domain | IT and Operations leadership | All teams, Engineering, Finance, AI agents |
 
