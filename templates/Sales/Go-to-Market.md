@@ -49,8 +49,8 @@
 
 | Segment | Description | Why This Segment | Stage |
 |---|---|---|---|
-| [e.g., K-12 school districts] | [e.g., Public institutions processing tuition and activity fees] | [e.g., Large addressable market, recurring revenue, strong reference network] | Active |
-| [e.g., Faith-based organizations] | [e.g., Nonprofits managing member giving and event fees] | [e.g., Underserved by enterprise solutions, high loyalty] | Active |
+| [e.g., Regional healthcare networks] | [e.g., Multi-site organizations managing care coordination and billing workflows] | [e.g., Large addressable market, recurring revenue, strong peer-referral culture] | Active |
+| [e.g., Professional services firms] | [e.g., Mid-size firms managing client engagements, billing, and compliance reporting] | [e.g., Underserved by enterprise solutions, high switching cost once embedded] | Active |
 
 > **Stage options**: Active — investing now / Developing — building toward / Watching — not yet investing
 
@@ -61,7 +61,7 @@
 
 **A strong fit looks like:**
 - [e.g., Organization size: 500–5,000 students or members]
-- [e.g., Current payment infrastructure: outdated or manual]
+- [e.g., Current operational infrastructure: manual, disconnected, or aging]
 - [e.g., Decision-making: clear administrative authority, not committee-only]
 - [e.g., Budget: dedicated technology or operations budget]
 - [e.g., Geography: US-based, operating under US regulatory framework]
@@ -80,7 +80,7 @@
 | Segment | Why Not Pursuing |
 |---|---|
 | [e.g., Enterprise multinational] | [e.g., International compliance requirements outside current scope] |
-| [e.g., Consumer payments] | [e.g., Outside core competency and strategic direction] |
+| [e.g., B2C or direct consumer markets] | [e.g., Outside current ICP and go-to-market motion] |
 
 ---
 
@@ -95,7 +95,7 @@
 |---|---|---|---|
 | Product-led | Product drives discovery, trial, and initial conversion with minimal human intervention | [e.g., SMB segment] | [e.g., Early / Developing / Established] |
 | Sales-led | Human relationships drive the deal — outbound prospecting, discovery, proposal, negotiation | [e.g., Mid-market and enterprise] | [e.g., Early / Developing / Established] |
-| Partner-led | Channel partners, resellers, or referral networks drive distribution | [e.g., Faith-based via denominational networks] | [e.g., Early / Developing / Established] |
+| Partner-led | Channel partners, resellers, or referral networks drive distribution | [e.g., Professional services via industry association networks] | [e.g., Early / Developing / Established] |
 
 ### 2.2 Primary Motion Detail
 > Describe the dominant motion in enough detail that a new team member
@@ -226,8 +226,8 @@ What is the process — notice period, transition of open deals, communication t
 
 | Package / Tier | What's Included | Price / Basis | Target Segment | Notes |
 |---|---|---|---|---|
-| [e.g., Core] | [e.g., Payment processing, basic reporting] | [e.g., % of transaction volume] | [e.g., SMB] | |
-| [e.g., Professional] | [e.g., Core + advanced reporting, API access] | [e.g., Monthly platform fee + %] | [e.g., Mid-market] | |
+| [e.g., Core] | [e.g., Core platform access, standard reporting] | [e.g., per-seat or per-unit pricing] | [e.g., SMB] | |
+| [e.g., Professional] | [e.g., Core + advanced reporting, API access] | [e.g., Monthly platform fee + usage] | [e.g., Mid-market] | |
 | [e.g., Enterprise] | [e.g., Full platform, dedicated support, SLA] | [e.g., Custom] | [e.g., Enterprise] | |
 
 ### 4.2 Pricing Principles
@@ -251,8 +251,8 @@ What are the legitimate reasons to offer a reduced price?]
 > Honest accounting of where the current pricing model creates friction,
 > competitive disadvantage, or internal disagreement.
 
-- [e.g., Transaction-based pricing creates uncertainty for customers with variable volume]
-- [e.g., SMB price point undervalues the product relative to enterprise alternatives]
+- [e.g., Usage-based pricing creates uncertainty for customers with variable demand]
+- [e.g., Entry price point undervalues the product relative to enterprise alternatives]
 
 ---
 
@@ -287,8 +287,8 @@ competitive pressure, regulatory deadline, cost of continuing status quo?]
 > or competitive position that underpins this GTM strategy?
 > If these assumptions change, the strategy should be revisited.
 
-- [e.g., K-12 administrators make technology decisions at the district level, not the school level]
-- [e.g., The primary buying trigger is a failed audit or compliance incident]
+- [e.g., Decisions in our primary segment are made at the organizational level, not the department level]
+- [e.g., The primary buying trigger is an operational failure with visible business impact]
 
 ### 6.2 Open Questions
 

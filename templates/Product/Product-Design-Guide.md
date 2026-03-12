@@ -154,7 +154,7 @@ What is the standard approach for first-use empty states vs. no-results states?]
 ### 3.4 Success and Confirmation Messages
 [How does the product confirm that something worked?
 What warrants a toast notification vs. an inline confirmation vs. a full confirmation screen?
-Success messages should be specific — "Payment processed" not "Success."]
+Success messages should be specific — "Report generated" or "Changes saved" — not "Success."]
 
 ---
 

@@ -111,17 +111,17 @@ decided but why — especially if the decision looks questionable in hindsight.]
 **Date**: YYYY-MM-DD
 **Contributor**: [Name / Role]
 **Source**: [e.g., Architecture review]
-**Initiative**: [e.g., Real-time payments integration]
+**Initiative**: [e.g., Third-party data platform integration]
 **Aspect Tags**: `#decision` `#constraint`
 
 #### Summary
 [e.g., Decided to integrate via existing processor API rather than direct network connection due to certification timeline.]
 
 #### Detail
-[e.g., Direct network connection to the RTP network would require 6–9 months of certification work and dedicated engineering resources. The processor API provides RTP access in weeks with minimal certification overhead. Performance difference is negligible for current transaction volumes.]
+[e.g., Direct integration with the vendor's core platform would require 6–9 months of certification and dedicated engineering. Their published API provides equivalent access in weeks with minimal overhead. Performance difference is negligible at current data volumes.]
 
 #### Why This Decision Was Made
-[e.g., Direct network connection to the RTP network would require 6–9 months of certification work and dedicated engineering resources. The processor API provides RTP access in weeks with minimal certification overhead. Performance difference is negligible for current transaction volumes. Timeline pressure from a committed customer delivery date was the deciding factor.]
+[e.g., Direct integration with the vendor's core platform would require 6–9 months of certification and dedicated engineering. Their published API provides equivalent access in weeks with minimal overhead. Performance difference is negligible at current data volumes. Timeline pressure from a committed customer delivery date was the deciding factor.]
 
 #### Implications
 [e.g., Future RTP features are dependent on processor API roadmap. Negotiate API access terms carefully at next contract renewal.]

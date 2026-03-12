@@ -31,7 +31,7 @@
 | Organization | Primary Contact | Title | Relationship Type | Core Responsibilities | Governing Instrument | Expiration / Review Date | Notes |
 |---|---|---|---|---|---|---|---|
 | [e.g., Fiserv] | [Name] | [e.g., Partner Manager] | Integration | [e.g., ACH processing, settlement] | [e.g., MSA dated YYYY-MM-DD] | YYYY-MM-DD | |
-| [e.g., Stripe] | [Name] | [e.g., Account Manager] | Vendor | [e.g., Payment gateway, fraud tooling] | [e.g., SaaS agreement] | YYYY-MM-DD | |
+| [e.g., Cloud infrastructure provider] | [Name] | [e.g., Account Manager] | Vendor | [e.g., Core infrastructure — compute, storage, and networking] | [e.g., SaaS agreement] | YYYY-MM-DD | |
 | [e.g., AWS] | [Name] | [e.g., TAM] | Vendor | [e.g., Cloud infrastructure] | [e.g., Enterprise agreement] | YYYY-MM-DD | |
 
 > Add or remove rows as needed.
@@ -47,10 +47,10 @@
 | Body | Jurisdiction | Domain | Key Requirements | Internal Owner | Review Cadence | Notes |
 |---|---|---|---|---|---|---|
 | [e.g., CFPB] | US Federal | Consumer financial protection | [e.g., Reg E, UDAAP compliance] | [e.g., Compliance Officer] | Annual | |
-| [e.g., PCI SSC] | Global | Card data security | [e.g., PCI-DSS Level 1 certification] | [e.g., Engineering / Compliance] | Annual audit | |
+| [e.g., Industry regulatory body] | Global | Data security and privacy standards | [e.g., Applicable security certification — e.g., SOC2 Type II / ISO 27001] | [e.g., Engineering / Legal / Compliance] | Per certification cycle | |
 | [e.g., FinCEN] | US Federal | Anti-money laundering | [e.g., BSA / AML program, SAR filing] | [e.g., Compliance Officer] | Ongoing | |
 | [e.g., State DFI] | [e.g., State] | Money transmission licensing | [e.g., MTL requirements by state] | [e.g., Legal] | Per state schedule | |
-| [e.g., EMVCo] | Global | EMV chip, contactless, and 3DS specifications | [e.g., EMV chip certification, Contactless Level 1/2, 3DS protocol compliance] | [e.g., Engineering / Product] | Per specification release | [e.g., Membership provides early access to spec updates] |
+| [e.g., Standards body] | Global | Technical and interoperability standards for the industry | [e.g., Relevant certifications and compliance obligations per applicable standards] | [e.g., Engineering / Product / Compliance] | Per standards update cycle | [e.g., Active participation provides early visibility into standards changes] |
 
 > Add or remove rows to reflect the regulatory environment relevant to your organization and markets.
 

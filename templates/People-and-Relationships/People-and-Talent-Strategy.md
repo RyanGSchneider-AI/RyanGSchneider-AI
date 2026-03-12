@@ -202,7 +202,7 @@ What has been learned about what works and what doesn't?]
 
 | Role / Individual | Risk Description | Mitigation | Status |
 |---|---|---|---|
-| [e.g., Head of Engineering] | [e.g., Only person who understands legacy payment processing architecture] | [e.g., Documentation sprint underway] | In progress |
+| [e.g., Head of Engineering] | [e.g., Only person who understands the legacy system architecture and integration dependencies] | [e.g., Documentation sprint underway] | In progress |
 | [e.g., Lead Sales Rep] | [e.g., Owns relationships with top 5 accounts personally] | [e.g., Account team introductions scheduled] | Not started |
 
 ---

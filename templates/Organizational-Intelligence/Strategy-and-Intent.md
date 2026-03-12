@@ -75,7 +75,7 @@
 ---
 
 **Goal ID**: SG-001
-**Goal**: [e.g., Become the leading payment platform for mission-driven organizations in the US]
+**Goal**: [e.g., Become the category leader in our primary market segment]
 **Owner**: [Name / Role]
 **Last Updated**: YYYY-MM-DD
 
@@ -84,9 +84,9 @@
 makes this the right direction? Include what was considered and not chosen.]
 
 **Key Results / Success Indicators**:
-- [e.g., X% market share in K-12 and faith-based segments by YYYY]
+- [e.g., X% market share in our primary segment by YYYY]
 - [e.g., Net revenue retention above X%]
-- [e.g., Recognized in [industry report] as a top platform for nonprofits]
+- [e.g., Recognized in [industry analyst report] as a leading solution in our category]
 
 **Connected Initiatives**:
 - [Initiative name — link to PRD or Business Case]
@@ -106,7 +106,7 @@ makes this the right direction? Include what was considered and not chosen.]
 ---
 
 **Goal ID**: SG-010
-**Goal**: [e.g., Launch real-time payment capability for existing enterprise customers]
+**Goal**: [e.g., Launch next-generation capability for existing enterprise customers]
 **Owner**: [Name / Role]
 **Last Updated**: YYYY-MM-DD
 

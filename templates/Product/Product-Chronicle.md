@@ -67,9 +67,9 @@ Capturing this gap is important for retention, messaging, and product decisions.
 > What do they use heavily? What do they ignore? What do they use in ways we didn't anticipate?
 
 **Core use cases — what customers actually do:**
-- [e.g., Daily: reconciling payment batches against the ledger]
-- [e.g., Weekly: pulling fee reports for finance review]
-- [e.g., Seasonally: bulk enrollment processing at start of school year]
+- [e.g., Daily: reviewing open cases in the service queue]
+- [e.g., Weekly: generating utilization and performance reports for leadership review]
+- [e.g., Seasonally: annual configuration review and contract renewal preparation]
 
 **Underused features:**
 - [Feature] — [why it's underused: awareness gap, UX friction, doesn't fit workflow, etc.]
@@ -88,7 +88,7 @@ signals for future product direction or messaging opportunities.]
 
 **What they love:**
 - [e.g., "It just works — we don't have to think about it"]
-- [e.g., "The reconciliation saves my team hours every week"]
+- [e.g., "It handles the tedious parts so my team can focus on higher-value work"]
 
 **What frustrates them:**
 - [e.g., "The reporting is hard to customize"]
@@ -109,7 +109,7 @@ This is often the most useful language for sales and renewal conversations.]
 **Feedback ID**: CF-001
 **Date**: YYYY-MM-DD
 **Source**: [e.g., Support call / NPS survey / Customer interview / Media coverage / Sales discovery call]
-**Customer Segment**: [e.g., K-12 Enterprise / Faith-based SMB]
+**Customer Segment**: [e.g., Enterprise / SMB / Mid-market]
 **Sentiment**: Positive / Negative / Mixed / Neutral
 **Summary**: [One sentence.]
 **Detail**: [What the customer said or what was observed. Use their words where possible.]
@@ -192,11 +192,11 @@ direction, maintaining a dual focus, or phasing the existing customer base?]
   exists, what customer understanding it reflects, and what decisions it has governed.]
 
 > Example:
-> - **Reconciliation first**: Every transaction must be traceable end-to-end before
+> - **Data integrity first**: Every record must be traceable and auditable before
 >   any other feature is considered. This principle emerged from repeated customer
->   feedback that trust in the numbers is the foundation of everything — if customers
->   can't reconcile, they can't operate. It has governed every architecture decision
->   since 2019.
+>   feedback that trust in the data is the foundation of everything — if customers
+>   can't verify what happened, they can't operate with confidence. It has governed
+>   every architecture decision since the product's first enterprise deployment.
 
 ---
 
@@ -227,11 +227,11 @@ direction, maintaining a dual focus, or phasing the existing customer base?]
 > For detailed competitor profiles, see Competitive-Intelligence.md.
 
 **Where we win:**
-- [e.g., Depth of reconciliation in K-12 environments — no competitor matches it]
-- [e.g., EMV/contactless certification — most competitors rely on third-party hardware]
+- [e.g., Depth of workflow automation in complex operational environments — competitors require manual workarounds]
+- [e.g., Native ERP integration — most competitors require expensive middleware or custom development]
 
 **Where we lose:**
-- [e.g., International payments — not supported, frequently a disqualifier for multinational orgs]
+- [e.g., Multi-language support — not yet available, frequently a disqualifier for global deployments]
 - [e.g., Self-serve onboarding — high-touch model is a disadvantage for SMB segment]
 
 **Our defensible advantage:**
@@ -271,7 +271,7 @@ product decisions, and customer trust.]
 
 | Limitation | Type | Why It Exists | Workaround | Revisit? |
 |---|---|---|---|---|
-| [e.g., No international payment support] | Intentional — out of scope | [e.g., Compliance complexity, market focus] | [e.g., Partner referral] | [e.g., Yes — Q3 strategic review] |
+| [e.g., No multi-language or multi-currency support] | Intentional — out of scope | [e.g., Scope decision — global compliance complexity exceeds current capacity] | [e.g., Partner referral] | [e.g., Yes — Q3 strategic review] |
 | [e.g., Reporting not customizable] | Technical debt | [e.g., Legacy reporting engine] | [e.g., Data export to Excel] | [e.g., Yes — on roadmap] |
 | [e.g., Single currency only] | Intentional | [e.g., Core market is US-only] | None | [e.g., No near-term plans] |
 

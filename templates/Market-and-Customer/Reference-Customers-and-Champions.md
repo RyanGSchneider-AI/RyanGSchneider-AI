@@ -46,8 +46,8 @@
 
 | Organization | Primary Contact | Title | Segment | Revenue Tier | Products Used | Reference Activities | Renewal Date | Notes |
 |---|---|---|---|---|---|---|---|---|
-| [Company] | [Name] | [e.g., CFO] | [e.g., K-12] | Enterprise | [e.g., Payment processing, fee management] | [e.g., Case study, conference speaker] | YYYY-MM-DD | |
-| [Company] | [Name] | [e.g., Controller] | [e.g., Faith-based] | Mid-Market | [e.g., Giving platform] | [e.g., Referral program] | YYYY-MM-DD | |
+| [Company] | [Name] | [e.g., VP Operations] | [e.g., Healthcare] | Enterprise | [e.g., Workflow automation, compliance reporting] | [e.g., Case study, conference speaker] | YYYY-MM-DD | |
+| [Company] | [Name] | [e.g., Head of Operations] | [e.g., Professional Services] | Mid-Market | [e.g., Client billing and engagement tracking] | [e.g., Referral program] | YYYY-MM-DD | |
 
 ### 2.2 Co-Development Partners
 
@@ -55,7 +55,7 @@
 
 | Organization | Primary Contact | Title | Segment | Revenue Tier | Products Used | Co-Development Focus | Renewal Date | Notes |
 |---|---|---|---|---|---|---|---|---|
-| [Company] | [Name] | [e.g., VP Technology] | [e.g., Nonprofit] | Enterprise | [e.g., Donor management, ACH] | [e.g., Real-time payment beta, API integration] | YYYY-MM-DD | |
+| [Company] | [Name] | [e.g., CTO] | [e.g., Logistics] | Enterprise | [e.g., Supply chain visibility, ERP integration] | [e.g., Early access program, API integration] | YYYY-MM-DD | |
 
 ### 2.3 Pilot Customers
 
@@ -63,7 +63,7 @@
 
 | Organization | Primary Contact | Title | Segment | Revenue Tier | Pilot Focus | Expected Outcomes | Pilot End Date | Notes |
 |---|---|---|---|---|---|---|---|---|
-| [Company] | [Name] | [e.g., Director of Finance] | [e.g., K-12] | Mid-Market | [e.g., Contactless payment rollout] | [e.g., Validate UX, measure adoption rate] | YYYY-MM-DD | |
+| [Company] | [Name] | [e.g., Head of Operations] | [e.g., Healthcare] | Mid-Market | [e.g., Inventory management workflow rollout] | [e.g., Validate UX, measure adoption rate] | YYYY-MM-DD | |
 
 ### 2.4 Strategic Accounts
 

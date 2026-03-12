@@ -41,50 +41,50 @@
 
 ---
 
-**Persona Name**: [Give the persona a memorable name — e.g., "The District Finance Director"]
-**Use Case**: [e.g., K-12 school district payment management]
+**Persona Name**: [Give the persona a memorable name — e.g., "The Operations Manager"]
+**Use Case**: [e.g., Mid-size manufacturer managing production scheduling and vendor coordination]
 **Last Validated**: YYYY-MM-DD
 
 #### Who They Are
 > 2–3 sentences. Role, organization type, and what they are responsible for day-to-day.
 
-[e.g., A Finance Director or Controller at a mid-to-large K-12 school district, responsible for managing student activity fees, lunch payments, and district-wide financial compliance. They oversee a small team and report to the CFO or Superintendent.]
+[e.g., An Operations Manager at a mid-size manufacturing company, responsible for coordinating production schedules, managing vendor relationships, and ensuring on-time delivery. They oversee a team of supervisors and report to the VP of Operations or COO.]
 
 #### Jobs to Be Done
 > What are they trying to accomplish? Frame as outcomes, not features.
 
-- [e.g., Collect payments from families efficiently without burdening office staff]
-- [e.g., Reconcile payment data with the district's ERP system without manual intervention]
-- [e.g., Stay compliant with state and federal financial reporting requirements]
+- [e.g., Maintain production schedules without manual coordination across departments]
+- [e.g., Identify supply chain disruptions before they impact delivery commitments]
+- [e.g., Generate accurate status reports for leadership without spending hours pulling data]
 
 #### Pain Points
 > What frustrates, slows down, or blocks them today?
 
-- [e.g., Disconnected systems that require manual data re-entry]
-- [e.g., Parents calling the office to resolve payment issues]
-- [e.g., Audits that require pulling records from multiple platforms]
+- [e.g., Disconnected systems that require manual data re-entry across platforms]
+- [e.g., No single source of truth for production status — different teams have different numbers]
+- [e.g., Reactive rather than proactive — problems are discovered when customers complain]
 
 #### Buying Triggers
 > What causes them to start evaluating a new solution?
 
-- [e.g., Current vendor contract renewal approaching]
-- [e.g., A high-profile payment error or compliance incident]
-- [e.g., Peer district recommendation at a state finance conference]
+- [e.g., A missed delivery commitment that had visible executive impact]
+- [e.g., Current system failing to scale with increased order volume]
+- [e.g., Peer recommendation at an industry conference or through a professional network]
 
 #### Objections
 > What will they push back on during evaluation or sales conversations?
 
-- [e.g., "We just implemented our last system — we can't go through another change"]
-- [e.g., "Our IT department has to approve any new vendor"]
-- [e.g., "What does migration look like? We can't afford downtime during fee collection season"]
+- [e.g., "We've been burned by implementations before — what does rollout actually look like?"]
+- [e.g., "My team doesn't have bandwidth for a lengthy onboarding process"]
+- [e.g., "IT needs to approve any new system — how long does that typically take?"]
 
 #### Success Looks Like
 > How does this persona define a win with your product?
 
-[e.g., Families pay online without calling the office. Reconciliation runs automatically. The district passes its annual audit without scrambling for records.]
+[e.g., Production status is visible in real time without chasing updates. Exceptions surface automatically. Leadership reports take minutes, not hours.]
 
 #### Notes
-[Any additional context — regional variation, org size sensitivity, seasonal considerations, etc.]
+[Any additional context — org size sensitivity, industry variation, seasonal considerations, etc.]
 
 ---
 
@@ -95,22 +95,22 @@
 
 ---
 
-**Persona Name**: [e.g., "The Parish Administrator"]
-**Use Case**: [e.g., Faith-based organization giving and event management]
+**Persona Name**: [e.g., "The Clinical Administrator"]
+**Use Case**: [e.g., Healthcare organization managing scheduling and patient communication workflows]
 **Last Validated**: YYYY-MM-DD
 
-**Who They Are**: [1–2 sentences.]
+**Who They Are**: [e.g., An administrator at a regional healthcare network responsible for coordinating patient scheduling, managing staff workflows, and ensuring compliance with documentation requirements.]
 
 **Jobs to Be Done**:
-- [Job 1]
-- [Job 2]
+- [e.g., Reduce scheduling gaps and no-shows without adding staff overhead]
+- [e.g., Keep documentation complete and audit-ready without manual follow-up]
 
 **Pain Points**:
-- [Pain point 1]
-- [Pain point 2]
+- [e.g., High volume of phone-based coordination that could be automated]
+- [e.g., Documentation gaps discovered during audits rather than prevented in workflows]
 
 **Buying Triggers**:
-- [Trigger 1]
+- [e.g., Regulatory audit finding that exposed a workflow gap]
 
 **Notes**: [Anything worth flagging for Product, Marketing, or Sales.]
 
