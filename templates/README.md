@@ -11,6 +11,16 @@ Product, Sales, Marketing, Finance, Legal, and Executive leadership — and that
 provides the structured context AI-assisted teams and agents need to execute
 without ambiguity.
 
+### Serving as a Framework for Organizational Memory
+
+Organizations lose memory in predictable ways — through personnel changes where knowledge walks out the door, through growth that outpaces documentation, and through M&A, where entire leadership layers are replaced and the context behind decisions disappears with them. This framework is a deliberate defense against that loss.
+
+Organizational memory lives in three places: **People**, **Process**, and **Culture**. People leave, taking accumulated judgment with them. Culture is emergent — it cannot be defined or mandated, only reflected in the decisions and behaviors the organization accumulates over time. Process is the most recoverable leg, but only when the *why* behind each process is captured alongside the *what* — and only when that capture is treated as ongoing work, not a one-time exercise.
+
+AI tools make it possible to capture and synthesize organizational memory in ways that weren't previously practical. Artifacts that once required dedicated effort to produce can now be captured as a natural part of existing workflows — and the same tools can actively apply that memory, helping teams and agents make decisions that are grounded in what the organization has already learned.
+
+By capturing not just *what* was decided but *why* — not just *how* work gets done but *how the how came about* — these artifacts preserve the organizational context that makes new team members, new leadership, and AI agents effective faster, and give the organization a fighting chance of understanding why it has been successful.
+
 ---
 
 ## Corporate Intelligence Framework
@@ -130,7 +140,7 @@ without ambiguity.
 
 ## Design Philosophy
 
-These templates are built around three principles:
+These templates are built around four principles:
 
 **Independently useful** — each artifact is valuable on its own, to its primary
 audience, without requiring the full framework to be in place. An artifact should
@@ -145,9 +155,20 @@ Business Case can spawn multiple PRDs, a PRD may support multiple Business Cases
 and a Maintenance PRD may have no Business Case at all. No relationship is assumed
 — all are possible.
 
+**Memory-preserving** — every artifact is designed to capture not just *what* was
+decided or built, but *why*. The reasoning behind a decision is as important as the
+decision itself — often more so, because it is what gets lost first. An organization
+that knows what it decided but not why will relitigate the same questions every time
+personnel changes. An organization that captures the why builds judgment that survives
+turnover, scales through growth, and recovers from the disruption of M&A. Each artifact
+in this framework is a deposit into that organizational memory — individually useful,
+and collectively a record of how the organization thinks.
+
 **AI-ready** — every template is structured for both human readers and
 AI-assisted teams or autonomous agents. The discipline that makes a good
-AI handoff makes a good human handoff too.
+AI handoff makes a good human handoff too. An AI agent operating from this
+framework has the context to act with intent — not just instructions, but the
+reasoning and organizational memory behind them.
 
 ---
 
