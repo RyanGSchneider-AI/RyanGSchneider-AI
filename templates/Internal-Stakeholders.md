@@ -15,16 +15,6 @@
 
 ---
 
-## 0. Connected Artifacts
-
-| Artifact | Link / Location |
-|---|---|
-| PRD | |
-| Business Case | |
-| OKR / Goals Framework | |
-
----
-
 ## 1. Organizational Structure
 
 > One row per department. Executive Owner is the senior leader accountable for that function.
@@ -114,7 +104,30 @@
 
 ---
 
-## 3. Open Questions
+## 3. Committees
+
+> Committees represent cross-functional decision-making bodies that operate outside
+> standard departmental authority. They often carry significant influence over
+> strategy, investment, compliance, and product direction.
+>
+> **Chair** is the accountable leader. **Members** are listed by department — individual
+> names can be added as the committee roster is known.
+> **Meeting Cadence** signals how active and influential the committee is in practice.
+
+| Committee | Chair | Chair Title | Goals | Member Departments | Meeting Cadence | Notes |
+|---|---|---|---|---|---|---|
+| [e.g., Executive Leadership Team] | [Name] | [e.g., CEO] | [e.g., Company strategy, cross-functional alignment, investment decisions] | All departments | [e.g., Weekly] | |
+| [e.g., Product Review Board] | [Name] | [e.g., CPO / VP Product] | [e.g., Roadmap prioritization, feature approval, resource allocation] | Product, Engineering, Sales, Finance | [e.g., Bi-weekly] | |
+| [e.g., Risk & Compliance Committee] | [Name] | [e.g., General Counsel / CCO] | [e.g., Regulatory adherence, risk assessment, audit readiness] | Legal, Compliance, Finance, Engineering | [e.g., Monthly] | |
+| [e.g., Change Advisory Board (CAB)] | [Name] | [e.g., Engineering Lead] | [e.g., Review and approve significant technical changes before deployment] | Engineering, Product, Operations | [e.g., Weekly] | [e.g., Required sign-off for production releases] |
+| [e.g., Budget & Investment Committee] | [Name] | [e.g., CFO] | [e.g., Capital allocation, vendor approvals, initiative funding] | Finance, Executive, Department heads | [e.g., Quarterly] | |
+
+> Add or remove rows to reflect active committees in your organization.
+> If a committee has no formal chair, note the de facto decision owner in the Chair field.
+
+---
+
+## 4. Open Questions
 
 | # | Question | Owner | Due Date | Resolution |
 |---|---|---|---|---|
