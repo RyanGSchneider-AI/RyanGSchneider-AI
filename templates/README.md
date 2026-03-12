@@ -16,25 +16,23 @@ without ambiguity.
 ## Corporate Intelligence Framework
 
 ```
-├── Product Development
+├── Product-Development
 │   └── PRD-Template.md              ← Requirements, test, and agent handoff
 │
-├── People & Relationships
+├── People-and-Relationships
 │   ├── Internal-Stakeholders.md     ← Internal org structure and stakeholder concerns
 │   │   Governed by: Organizational structure and reporting authority
 │   │
 │   └── External-Stakeholders.md     ← Strategic partners, vendors, and regulatory bodies
 │       Governed by: Contracts, agreements, terms of service, and compliance obligations
 │
-├── Market & Customer
+├── Market-and-Customer
 │   ├── Key-Customers.md             ← Named accounts with strategic importance
 │   ├── Customer-Personas.md         ← Research-based archetypes organized by use case
 │   └── Competitive Intelligence      ← coming soon
 │
-├── Institutional Knowledge
-│   └── Institutional-Knowledge.md   ← Living repository of decisions, lessons, constraints, and process
-│
-└── Strategic Context
+└── Organizational-Intelligence
+    ├── Institutional-Knowledge.md   ← Living repository of decisions, lessons, constraints, and process
     └── Strategic-Context.md         ← Living organizational goals, reasoning, and initiative connections
 ```
 
@@ -44,13 +42,13 @@ without ambiguity.
 
 | File | Description | Governed By | Serves |
 |---|---|---|---|
-| [PRD-Template.md](./PRD-Template.md) | AI-ready Product Requirements Document | Product roadmap and initiative priority | Product, Engineering, QA, Compliance |
-| [Internal-Stakeholders.md](./Internal-Stakeholders.md) | Internal org structure and stakeholder areas of concern | Organizational structure and reporting authority | All internal teams |
-| [External-Stakeholders.md](./External-Stakeholders.md) | Strategic partners, vendors, and regulatory bodies | Contracts, agreements, terms of service, and compliance obligations | Sales, Legal, Finance, Executive Leadership |
-| [Key-Customers.md](./Key-Customers.md) | Named accounts classified by revenue tier and strategic importance | Executed agreements and terms of service | Sales, Executive Leadership, Product, Finance |
-| [Customer-Personas.md](./Customer-Personas.md) | Research-based customer archetypes organized by use case | Research and market understanding | Product, Marketing, Sales |
-| [Institutional-Knowledge.md](./Institutional-Knowledge.md) | Living repository of organizational learning — decisions, lessons, constraints, and process | Collectively owned — fed from retros, reviews, and organizational feedback | All teams, new hires, AI agents |
-| [Strategic-Context.md](./Strategic-Context.md) | Organizational mission, vision, and living goals across time horizons | Collectively owned — maintained against current organizational direction | All teams, executive leadership, AI agents |
+| [PRD-Template.md](./Product-Development/PRD-Template.md) | AI-ready Product Requirements Document | Product roadmap and initiative priority | Product, Engineering, QA, Compliance |
+| [Internal-Stakeholders.md](./People-and-Relationships/Internal-Stakeholders.md) | Internal org structure and stakeholder areas of concern | Organizational structure and reporting authority | All internal teams |
+| [External-Stakeholders.md](./People-and-Relationships/External-Stakeholders.md) | Strategic partners, vendors, and regulatory bodies | Contracts, agreements, terms of service, and compliance obligations | Sales, Legal, Finance, Executive Leadership |
+| [Key-Customers.md](./Market-and-Customer/Key-Customers.md) | Named accounts classified by revenue tier and strategic importance | Executed agreements and terms of service | Sales, Executive Leadership, Product, Finance |
+| [Customer-Personas.md](./Market-and-Customer/Customer-Personas.md) | Research-based customer archetypes organized by use case | Research and market understanding | Product, Marketing, Sales |
+| [Institutional-Knowledge.md](./Organizational-Intelligence/Institutional-Knowledge.md) | Living repository of organizational learning — decisions, lessons, constraints, and process | Collectively owned — fed from retros, reviews, and organizational feedback | All teams, new hires, AI agents |
+| [Strategic-Context.md](./Organizational-Intelligence/Strategic-Context.md) | Organizational mission, vision, and living goals across time horizons | Collectively owned — maintained against current organizational direction | All teams, executive leadership, AI agents |
 
 ---
 
