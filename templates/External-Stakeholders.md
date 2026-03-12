@@ -23,17 +23,6 @@
 
 ---
 
-## 0. Connected Artifacts
-
-| Artifact | Link / Location |
-|---|---|
-| Internal Stakeholder Map | |
-| PRD | |
-| Business Case | |
-| Customer & Market Research | |
-
----
-
 ## 1. Strategic Partners & Vendors
 
 > Named organizations with a contracted relationship. Governed by active contracts and SLAs.
@@ -49,23 +38,7 @@
 
 ---
 
-## 2. Key Customers
-
-> Named customers with strategic importance beyond standard commercial terms.
-> Strategic importance may reflect revenue concentration, market influence, reference value, or product co-development.
-> Governed by executed agreements and terms of service.
-
-| Organization | Primary Contact | Title | Segment | Strategic Importance | Governing Instrument | Renewal Date | Notes |
-|---|---|---|---|---|---|---|---|
-| [Company] | [Name] | [e.g., VP Finance] | [e.g., Enterprise K-12] | [e.g., Top 5 revenue, product co-development partner] | [e.g., MSA + SOW] | YYYY-MM-DD | |
-| [Company] | [Name] | [e.g., Controller] | [e.g., Faith-based nonprofit] | [e.g., Reference customer, pilot for new giving tools] | [e.g., Standard SaaS agreement] | YYYY-MM-DD | |
-
-> Add or remove rows as needed.
-> For broad customer understanding and segmentation, see Customer & Market Research in the framework.
-
----
-
-## 3. Regulatory Bodies
+## 2. Regulatory Bodies
 
 > Agencies, standards bodies, and governing authorities whose rules and requirements
 > apply to the organization. Governed by law and compliance obligations — not contracts.
@@ -83,7 +56,7 @@
 
 ---
 
-## 4. Open Questions
+## 3. Open Questions
 
 | # | Question | Owner | Due Date | Resolution |
 |---|---|---|---|---|
