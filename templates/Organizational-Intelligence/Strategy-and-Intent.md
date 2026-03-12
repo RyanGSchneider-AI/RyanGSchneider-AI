@@ -1,7 +1,8 @@
-# Strategic Context
-> Part of the Corporate Intelligence Framework — Strategic Context
-> A living document that captures organizational goals, the reasoning behind them,
-> and how they connect to the initiatives, teams, and artifacts that execute against them.
+# Strategy and Intent
+> Part of the Corporate Intelligence Framework — Organizational Intelligence
+> A living document that captures organizational goals, the reasoning and assumptions
+> behind them, and how they connect to the initiatives, teams, and artifacts that
+> execute against them.
 >
 > This artifact is framework-agnostic — it can express goals as OKRs, strategic pillars,
 > themed initiatives, or simple goal statements. Use whatever structure reflects how
@@ -160,7 +161,60 @@ this the right priority at this moment?]
 
 ---
 
-## 4. Goal History
+## 4. Strategic Assumptions and Risks
+> Strategy is built on beliefs about the world — about the market, the customer,
+> the competitive landscape, and the organization's own capabilities. Those beliefs
+> are rarely written down, which means when they turn out to be wrong, nobody notices
+> the connection between the failed assumption and the failing strategy.
+>
+> This section makes those beliefs explicit. Capturing assumptions doesn't mean
+> they're correct — it means they're visible, which is the first step to testing
+> and updating them.
+
+### 4.1 Strategic Assumptions
+> What does the organization believe to be true that underpins its current strategy?
+> If any of these assumptions changed significantly, the strategy should be revisited.
+> Add entries in order of strategic importance — most foundational first.
+
+---
+
+**Assumption ID**: SA-001
+**Assumption**: [What the organization believes to be true.]
+**Category**: Market / Customer / Competitive / Regulatory / Organizational
+**Basis**: [Why we believe this — data, experience, expert input, or reasoned judgment.]
+**Confidence**: High / Medium / Low
+**How We'd Know If It's Wrong**: [What signal or evidence would indicate this assumption has changed or failed?]
+**Last Reviewed**: YYYY-MM-DD
+
+---
+
+> Add assumption entries above this line, most foundational first.
+
+### 4.2 Strategic Risks
+> What could make the strategy wrong — not execution failures, but directional risks?
+> These are distinct from operational risks (see Organizational-Risk-and-Compliance.md).
+> Strategic risks are threats to the direction itself: a market shift, a competitive
+> move, a regulatory change, or an assumption that proves false.
+
+---
+
+**Risk ID**: SR-001
+**Risk**: [What could undermine the strategy.]
+**Category**: Market / Competitive / Regulatory / Technological / Organizational
+**Likelihood**: High / Medium / Low
+**Impact if realized**: [What changes about the strategy or organization if this risk materializes.]
+**Connected Assumption**: [SA-ID if this risk is tied to a specific assumption above.]
+**Early Warning Signals**: [What would we see before this risk fully materializes?]
+**Response**: [How would the organization respond if this risk materialized?]
+**Last Reviewed**: YYYY-MM-DD
+
+---
+
+> Add risk entries above this line.
+
+---
+
+## 5. Goal History
 
 > Goals that have been achieved, paused, or retired are recorded here.
 > Retain for institutional continuity — understanding past goals provides context
@@ -172,7 +226,7 @@ this the right priority at this moment?]
 
 ---
 
-## 5. Open Questions
+## 6. Open Questions
 
 | # | Question | Owner | Due Date | Resolution |
 |---|---|---|---|---|
