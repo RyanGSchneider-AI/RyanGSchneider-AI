@@ -7,14 +7,14 @@
 >
 > This is not a component library, a Figma file, or a technical specification.
 > It references those artifacts where precision is needed, but its purpose is
-> higher-level: to ensure that every team member, every PRD author, and every
+> higher-level: to ensure that every team member, every Product Build Record author, and every
 > AI agent working on this product understands the design intent before making
 > changes.
 >
 > **Relationship to other artifacts:**
 > - Informed by **Product-Chronicle.md** — design principles and customer lens
 >   are the source of truth for *why* standards exist
-> - Referenced by every **PRD** that touches UI/UX — the PRD documents
+> - Referenced by every **Product Build Record** that touches UI/UX — the record documents
 >   what is being built; this guide governs how it should behave and feel
 > - Links to external design assets (Figma, Storybook, component libraries)
 >   for technical implementation detail

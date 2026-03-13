@@ -1,6 +1,6 @@
 # Internal Stakeholder Map
 > Part of the Corporate Intelligence Framework
-> A data artifact — independently useful and referenced by the PRD, Business Case, and other framework documents.
+> A data artifact — independently useful and referenced by Product Build Records, Business Cases, and other framework documents.
 
 ---
 

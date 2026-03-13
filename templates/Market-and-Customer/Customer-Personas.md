@@ -1,7 +1,7 @@
 # Customer Personas
 > Part of the Corporate Intelligence Framework — Market & Customer
 > A research artifact describing types of customers — not named accounts.
-> Organized by use case. Referenced by the PRD, Marketing, Sales, and Product strategy.
+> Organized by use case. Referenced by Product Build Records, Marketing, Sales, and Product strategy.
 >
 > **Governance note:** Personas are governed by research and market understanding.
 > They should be validated against real customer data and updated as markets evolve.
@@ -35,7 +35,7 @@
 > Personas represent patterns observed across real customers and prospects.
 > They are not fictional — every attribute should be grounded in research, interviews, or data.
 >
-> **In the PRD**: Reference the relevant persona in Section 3 (Users & Personas) rather than redefining them.
+> **In the Product Build Record**: Reference the relevant persona in Section 3 (Users & Personas) rather than redefining them.
 > **In Marketing**: Use goals and pain points to shape messaging and positioning.
 > **In Sales**: Use buying triggers and objections to prepare for discovery conversations.
 > **In Product**: Use jobs to be done to prioritize features and evaluate tradeoffs.
@@ -101,7 +101,7 @@
 ### 2.2 Lightweight Persona
 
 > Use for secondary personas where full detail isn't warranted yet.
-> Minimum viable persona — enough to inform a PRD or a sales conversation.
+> Minimum viable persona — enough to inform a Product Build Record or a sales conversation.
 
 ---
 

@@ -3,7 +3,7 @@
 > The accumulated intelligence of a product — why customers buy it, how they use it,
 > what they say about it, and why it was built the way it was.
 >
-> This is not a user manual, a PRD, or a vision document. It draws from all of them
+> This is not a user manual, a Product Build Record, or a vision document. It draws from all of them
 > and from customer research, support history, competitive analysis, and organizational
 > memory. It is a receiver — fed from many sources over time — and a reference, consulted
 > whenever a decision about this product needs to be grounded in accumulated knowledge.
@@ -187,7 +187,7 @@ direction, maintaining a dual focus, or phasing the existing customer base?]
 
 ## 4. Design Principles
 > Design Principles are the active governance layer of this product.
-> Every PRD, feature request, and product change should be evaluated against them.
+> Every Product Build Record, feature request, and product change should be evaluated against them.
 > They are derived from the Customer Lens — when customer understanding evolves,
 > these principles should be revisited to reflect that evolution.
 >
