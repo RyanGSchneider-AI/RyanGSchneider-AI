@@ -34,16 +34,10 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 │                                        enterprise
 │
 ├── Market and Customer
-│   ├── Brand-and-Narrative.md         ← External brand position, voice, and   [coming soon]
-│   │                                     messaging architecture — how the
-│   │                                     organization wants to be perceived
-│   ├── Competitive-Intelligence.md    ← Market landscape and competitor        [coming soon]
-│   │                                     analysis — from formal profiles to
-│   │                                     "here's what my users are also using"
+│   ├── Brand-and-Narrative.md         ← Narrative architecture, voice, messaging hierarchy, and how the organization tells its story consistently
+│   ├── Competitive-Intelligence.md    ← Direct competitors, substitute solutions, status quo alternatives, and competitive signal log
 │   ├── Customer-Personas.md           ← Research-based archetypes organized by use case
-│   └── Reference-Customers-and-Champions.md ← Customers who validate the      [coming soon]
-│                                              product, open doors, and advocate
-│                                              in the market
+│   └── Reference-Customers-and-Champions.md ← Strategic accounts, individual champions, relationship health, and reference activity
 │
 ├── Operations
 │   ├── Key-Operational-Processes.md   ← Critical processes, workflows, and    [coming soon]
@@ -108,9 +102,10 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 | File | Description | Governed By | Serves |
 |---|---|---|---|
 | Brand-and-Narrative.md | External brand position, voice, and messaging architecture — how the organization wants to be perceived and talked about | Marketing and Executive leadership | Marketing, Sales, Product, Executive Leadership |
+| [Brand-and-Narrative.md](./market-and-customer/Brand-and-Narrative.md) | Narrative architecture, voice principles, messaging hierarchy, and core story — ensures consistent communication across every context and audience | Marketing and Executive leadership | Marketing, Sales, Product, Executive Leadership, AI agents |
 | [Business-Case.md](./product/Business-Case.md) | Rationale for pursuing a product effort — scales from brief internal reasoning to formal executive approval | Product strategy and executive approval | Product, Finance, Executive Leadership |
 | Company-Calendar.md | Industry events, product releases, compliance dates, internal cadences, and organizational milestones | Organizational planning and external commitments | All teams |
-| Competitive-Intelligence.md | Market landscape and competitor analysis — from formal profiles to informal usage mapping | Market research and ongoing competitive monitoring | Product, Marketing, Sales, Executive Leadership |
+| [Competitive-Intelligence.md](./market-and-customer/Competitive-Intelligence.md) | Direct competitor profiles, substitute solution analysis, status quo alternatives, win/loss patterns, and a continuous competitive signal log | Product, Marketing, and Sales leadership | Product, Sales, Marketing, Executive Leadership |
 | Cost-and-Benefit-Framework.md | How the organization estimates effort and impact — living history of tradeoff characterization that informs every Business Case; scales from solo founder to enterprise | Finance and Product leadership | Product, Finance, Executive Leadership |
 | [Funding-and-Business-Model.md](./financial/Funding-and-Business-Model.md) | How the organization is capitalized, how it creates and captures value, and what it is currently optimizing for — essential context for strategy, product, and financial decisions | Finance and Executive leadership | Executive Leadership, Board, Finance, Product |
 | [Customer-Personas.md](./market-and-customer/Customer-Personas.md) | Research-based customer archetypes organized by use case | Research and market understanding | Product, Marketing, Sales |
@@ -127,7 +122,7 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 | [PRD-Template.md](./product/PRD-Template.md) | AI-ready Product Requirements Document | Product roadmap and initiative priority | Product, Engineering, QA, Compliance |
 | [Product-Chronicle.md](./product/Product-Chronicle.md) | Living product intelligence — design principles, tradeoffs, customer understanding, and internal narrative | Product ownership and accumulated organizational learning | Product, Marketing, Sales, Engineering |
 | [Product-Design-Guide.md](./product/Product-Design-Guide.md) | Persistent UI/UX standards, interaction patterns, voice and tone, and accessibility commitments | Product and Design leadership | Product, Engineering, Design, QA |
-| Reference-Customers-and-Champions.md | Customers who validate the product, open doors, and advocate in the market — classified by strategic role, not just revenue | Executed agreements and terms of service | Sales, Executive Leadership, Product, Marketing |
+| [Reference-Customers-and-Champions.md](./market-and-customer/Reference-Customers-and-Champions.md) | Strategic accounts and individual champions — classified by role, tracked for health, and used actively in sales and marketing | Customer Success and Sales leadership | Sales, Executive Leadership, Product, Marketing |
 | [Sales-Playbook.md](./sales/Sales-Playbook.md) | How deals are run — discovery, stakeholder mapping, objection handling, pricing conversations, and competitive positioning | Sales leadership | Sales, Marketing |
 | [Strategy-and-Intent.md](./organizational-intelligence/Strategy-and-Intent.md) | Organizational mission, vision, living goals across time horizons, and the strategic assumptions and risks that underpin them | Collectively owned — maintained against current organizational direction | All teams, executive leadership, AI agents |
 | Systems-Registry.md | All platforms the organization uses, with clear designation of Systems of Record per data domain | IT and Operations leadership | All teams, Engineering, Finance, AI agents |
