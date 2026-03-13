@@ -60,7 +60,8 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 │   └── Product-Design-Guide.md        ← Persistent UI/UX standards, interaction patterns, voice and tone, and accessibility commitments — governs all PRDs that touch UI/UX
 │
 ├── Rhythm and Calendar
-│   └── Company-Calendar.md            ← Annual cycles, events, release windows, and capacity context for initiative timing
+│   ├── Company-Cadences.md            ← Structural rhythms of the organization — fiscal structure, release philosophy, planning cycles, and recurring capacity pressure patterns
+│   └── Calendar-YYYY.md               ← Per-year instance: confirmed event dates, release windows, compliance deadlines, and capacity summary — one file per fiscal year
 │
 ├── Sales
 │   ├── Go-to-Market.md                ← Channels, sales motion, target segment strategy, and pricing and packaging
@@ -79,7 +80,8 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 |---|---|---|---|
 | [Brand-and-Narrative.md](./Market-and-Customer/Brand-and-Narrative.md) | Narrative architecture, voice principles, messaging hierarchy, and core story — ensures consistent communication across every context and audience | Marketing and Executive leadership | Marketing, Sales, Product, Executive Leadership, AI agents |
 | [Business-Case.md](./Product/Business-Case.md) | Rationale for pursuing a product effort — scales from brief internal reasoning to formal executive approval | Product strategy and executive approval | Product, Finance, Executive Leadership |
-| [Company-Calendar.md](./Rhythm-and-Calendar/Company-Calendar.md) | Annual fiscal, product, sales, industry, and organizational cycles — with specific known dates — providing the timing context for any Business Case or Product Build Record | Operations and Executive leadership | All teams, Product, Sales, Finance |
+| [Calendar-YYYY.md](./Rhythm-and-Calendar/Calendar-YYYY.md) | Per-year instance of the organizational calendar — confirmed event dates, release windows, freeze periods, compliance deadlines, and capacity pressure summary for the fiscal year; one file per year, named Calendar-YYYY | Operations and Executive leadership | All teams, Product, Sales, Finance |
+| [Company-Cadences.md](./Rhythm-and-Calendar/Company-Cadences.md) | Structural rhythms of the organization — fiscal year boundaries, release philosophy, planning cycles, sales rhythms, and recurring capacity pressure patterns; evergreen template that each Calendar-YYYY is built from | Operations and Executive leadership | All teams, Product, Sales, Finance |
 | [Competitive-Intelligence.md](./Market-and-Customer/Competitive-Intelligence.md) | Direct competitor profiles, substitute solution analysis, status quo alternatives, win/loss patterns, and a continuous competitive signal log | Product, Marketing, and Sales leadership | Product, Sales, Marketing, Executive Leadership |
 | [Cost-and-Benefit-Framework.md](./Financial/Cost-and-Benefit-Framework.md) | Standard methods for estimating revenue growth, cost reduction, and risk reduction benefits — and for estimating initiative costs consistently across all Business Cases | Finance and Product leadership | Product, Finance, Executive Leadership |
 | [Customer-Personas.md](./Market-and-Customer/Customer-Personas.md) | Research-based customer archetypes organized by use case | Research and market understanding | Product, Marketing, Sales |
@@ -144,11 +146,12 @@ These artifacts fall into two categories:
 
 **Living frameworks** — maintained continuously as a single source of truth for the organization or product. Most artifacts in this framework are this type. They are never "complete" — they are updated as the organization learns, decisions are made, and context changes. Start with whatever sections are most immediately useful and fill in the rest over time.
 
-**Per-effort documents** — created fresh for each discrete initiative. Two artifacts work this way:
-- **Product-Build-Record** — one per development effort
+**Per-effort documents** — created fresh for each discrete initiative or period. Three artifacts work this way:
+- **Product-Build-Record** — one per development effort at a specific validation stage
 - **Business-Case** — one per initiative contemplated
+- **Calendar-YYYY** — one per fiscal year, created from Company-Cadences as a template
 
-When creating a per-effort document, copy the template, rename it to reflect the specific effort and validation stage (e.g., `Product-Build-Record-user-onboarding-Q3-2026-ABTest.md`, `Business-Case-mobile-app.md`), and work through the relevant sections.
+When creating a per-effort document, copy the template and rename it to reflect the specific effort or period (e.g., `Product-Build-Record-user-onboarding-Q3-2026-ABTest.md`, `Business-Case-mobile-app.md`, `Calendar-2026.md`), and work through the relevant sections.
 
 ### Flexibility, Not Rigor
 No artifact needs to be complete before it is useful. Start with what you know. A partially populated Chronicle is more valuable than no Chronicle. A rough Business Case with honest estimates is more valuable than no Business Case.
