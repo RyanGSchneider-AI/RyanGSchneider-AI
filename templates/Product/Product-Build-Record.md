@@ -1,10 +1,12 @@
 # Product Build Record
 
-> The complete record of a discrete product effort — from problem definition through requirements, cost estimation, execution, and post-launch validation. This document follows the initiative from inception to retrospective and becomes the primary source of historical cost and outcome data for future estimates.
+> The complete record of a discrete product effort at a specific validation stage — from problem definition through requirements, cost estimation, execution, and validation findings. Multiple Product Build Records may execute against a single Business Case, each one moving through a validation stage (Prototype → Pilot → Beta → A/B → GA) and passing its findings forward to the next.
 >
-> **This document has a lifecycle.** Sections 1–11 are completed before build begins. Section 11 (Test and Validation) is completed during and after build. Section 12 (Agent Handoff) is populated before handoff. Sections 13–14 are completed during and after execution. Each section completed adds value independently — a record with only the cost estimate and requirements is still useful. A record with actuals and retrospective is significantly more useful, and becomes a reference class anchor for future initiatives.
+> **This document is a unit of learning, not just a unit of delivery.** A prototype record that answers one question well and informs the next record has done its job — even if nothing was shipped to customers. The Validation Stage field in Document Control signals what this record is trying to learn or deliver, and determines which sections are load-bearing.
 >
-> Human teams may use this document without Section 13. AI-assisted teams will get significantly better results with Section 13 populated — it is the primary mechanism for reducing ambiguity at handoff.
+> **This document has a lifecycle.** Sections 1–11 are completed before build begins. Section 12 (Agent Handoff) is populated before handoff. Sections 13–14 are completed during and after execution. Each section completed adds value independently — a record with only the cost estimate and requirements is still useful. A record with actuals and retrospective is significantly more useful, and becomes a reference class anchor for future initiatives.
+>
+> Human teams may use this document without Section 12. AI-assisted teams will get significantly better results with Section 12 populated — it is the primary mechanism for reducing ambiguity at handoff.
 
 ---
 
@@ -14,6 +16,7 @@
 |---|---|
 | **Initiative Name** | |
 | **Record Type** | Maintenance / Incremental Improvement / Strategic Request / Growth Initiative |
+| **Validation Stage** | Prototype / Pilot / Beta / A/B Test / General Availability |
 | **Status** | Scoping / Estimating / Approved / In Build / Complete / Cancelled |
 | **Author** | |
 | **Created** | YYYY-MM-DD |
@@ -21,6 +24,7 @@
 | **Target Release** | YYYY-MM-DD |
 | **Actual Release** | YYYY-MM-DD |
 | **Linked Business Case** | [Link or "Not required — see record type guidance below"] |
+| **Prior Build Record(s)** | [Link to predecessor record(s) in this validation sequence, or "First in sequence"] |
 | **Linked Strategy Goal** | [Reference to Strategy-and-Intent goal this effort serves] |
 
 > **Record Type Definitions:**
@@ -29,24 +33,33 @@
 > - **Strategic Request**: Customer-driven feature work — validate broad applicability before committing
 > - **Growth Initiative**: New products, new user segments, or new markets — expanding beyond current footprint
 
-> **Section guidance by record type:**
+> **Validation Stage Definitions:**
+> - **Prototype**: An early, limited build designed to test a concept or hypothesis — not for customer use; produced to generate learning, not delivery. Requirements are deliberately lightweight. Success is defined as a clear answer to a specific question, not a shippable product.
+> - **Pilot**: A controlled release to a defined, consenting subset of customers or users. Scope is real but bounded. Success criteria gate progression to broader rollout. Findings are expected to refine requirements for the next record.
+> - **Beta**: Broader early access — more users than a pilot, less control. Designed to surface edge cases, gather qualitative feedback, and begin building reference customers. A beta record may run in parallel with continued development.
+> - **A/B Test**: A specific variation tested against a control in a live environment. Requires a hypothesis, a measurement plan, a minimum sample size, and a decision framework defined before launch. Results feed directly into the next record or confirm GA readiness.
+> - **General Availability**: Full release to the intended audience. All prior validation stages have produced sufficient confidence to commit to broad rollout.
 >
-> | Section | Maintenance | Incremental | Strategic Request | Growth Initiative |
-> |---|---|---|---|---|
-> | 1. Problem Statement | 1.2 only | All | All | All |
-> | 2. Goals & Metrics | Goals + 1 KPI | All | All | All |
-> | 3. Personas | Optional | Optional | Required | Required |
-> | 4. Cost Estimate | Required | Required | Required | Required |
-> | 5. Functional Requirements | Required | Required | Required | Required |
-> | 6. User Stories | Optional | Required | Required | Required |
-> | 7. Non-Functional Requirements | Affected areas only | Affected areas only | All | All |
-> | 8. Design & UX | Optional | Required | Required | Required |
-> | 9. Dependencies & Constraints | Required | Required | Required | Required |
-> | 10. Open Questions | Required | Required | Required | Required |
-> | 11. Test & Validation | Required | Required | Required | Required |
-> | 12. Agent Handoff | Optional | Optional | Optional | Optional |
-> | 13. Execution Log | Required | Required | Required | Required |
-> | 14. Actuals & Retrospective | Required | Required | Required | Required |
+> **A single Business Case may be served by multiple Product Build Records moving through validation stages.** A prototype record produces findings that refine the pilot record's requirements. A pilot record produces findings that validate the Business Case benefit estimates before GA commitment. Each record is lightweight relative to its stage — a prototype record does not need a full non-functional requirements section. The validation stage field signals to every reader which sections are load-bearing for this record.
+
+> **Section guidance by record type and validation stage:**
+>
+> | Section | Maintenance | Incremental | Strategic / Growth — Prototype | Strategic / Growth — Pilot / Beta | Strategic / Growth — A/B | Strategic / Growth — GA |
+> |---|---|---|---|---|---|---|
+> | 1. Problem Statement | 1.2 only | All | All | All | 1.2 + hypothesis | All |
+> | 2. Goals & Metrics | Goals + 1 KPI | All | Learning goals only | All | Hypothesis + success metric | All |
+> | 3. Personas | Optional | Optional | Lightweight | Required | Required | Required |
+> | 4. Cost Estimate | Required | Required | ROM acceptable | Three-point | ROM acceptable | Three-point |
+> | 5. Functional Requirements | Required | Required | Lightweight — core concept only | Full | Variation defined only | Full |
+> | 6. User Stories | Optional | Required | Optional | Required | Optional | Required |
+> | 7. Non-Functional Requirements | Affected only | Affected only | Skip | Key areas only | Skip | All |
+> | 8. Design & UX | Optional | Required | Wireframes / mockups | Required | Required | Required |
+> | 9. Dependencies & Constraints | Required | Required | Key blockers only | Required | Required | Required |
+> | 10. Open Questions | Required | Required | Required — questions drive the prototype | Required | Required | Required |
+> | 11. Test & Validation | Required | Required | Concept validation methods | Pilot-appropriate methods | A/B test plan | Full QA + sign-off |
+> | 12. Agent Handoff | Optional | Optional | Optional | Optional | Optional | Optional |
+> | 13. Execution Log | Required | Required | Required | Required | Required | Required |
+> | 14. Actuals & Retrospective | Required | Required | Required — findings feed next record | Required | Required — decision logged | Required |
 
 ---
 
@@ -401,10 +414,179 @@
 
 ## 11. Test and Validation
 
-> Maps every requirement to a test case. Populate the Results column during QA.
-> Fill in as much as the initiative and timeline allow — partial test records are still useful.
+> Validation means different things at different stages. Internal QA confirms that what was built works correctly. User and market validation confirms that what was built is the right thing. Both matter — but they belong at different points in the lifecycle and require different methods.
+>
+> Complete the subsections that correspond to this record's Validation Stage. A prototype record needs concept validation, not a full QA suite. A GA record needs full QA, not just a concept question. Complete what is appropriate; leave the rest clearly marked as not applicable for this stage.
 
-### 11.1 Test Cases
+### 11.1 Validation Strategy
+
+> Define upfront what this build needs to validate and how. The questions being answered here should drive which methods are used.
+
+**The primary question this build is designed to answer:**
+[One sentence. e.g., "Do users understand the new navigation pattern without instruction?" / "Does the pilot segment experience the projected time savings?" / "Does variant B produce a higher completion rate than variant A?"]
+
+**Validation method(s) for this stage:** [Select all that apply]
+- [ ] Internal QA — requirement and acceptance criteria verification
+- [ ] Concept / usability testing — structured sessions with representative users
+- [ ] Prototype review — stakeholder or user feedback on early build or mockup
+- [ ] Pilot — controlled release to defined customer subset
+- [ ] Beta — broader early access with instrumented feedback collection
+- [ ] A/B test — live comparison of variant against control
+- [ ] Post-launch measurement — metric lookback at defined intervals
+
+**Who provides validation input:**
+[e.g., Internal QA team / 5 representative customers recruited from Reference-Customers-and-Champions / Pilot cohort of 10 accounts / All users — 50/50 split]
+
+**What a successful validation looks like for this stage:**
+[Define clearly before testing begins — not after results come in. e.g., "80% of usability test participants complete the core task without assistance" / "Pilot accounts report 30%+ time savings within 30 days" / "Variant B completion rate exceeds variant A by ≥5% with p<0.05"]
+
+**What finding would cause this build to be revised or abandoned:**
+[The honest answer to "what would change our minds?" e.g., "If fewer than 50% of pilot accounts activate the feature within 60 days, we will treat adoption friction as unresolved and create a new record before GA commitment."]
+
+---
+
+### 11.2 Concept and Usability Validation
+> *Applicable stages: Prototype, Pilot, Beta. Skip for Maintenance, Incremental, and A/B.*
+
+**Method:** [e.g., Moderated usability sessions / Unmoderated remote testing / Stakeholder walkthrough / Customer interview]
+**Participants:** [Number, recruitment source, how representative of target persona]
+**Session structure:** [Brief description — what participants were asked to do or evaluate]
+
+| Session # | Participant | Role / Segment | Task Completion | Key Observations | Follow-on Questions Surfaced |
+|---|---|---|---|---|---|
+| 1 | [Name / Anonymous] | [e.g., Operations Manager — mid-market] | [Complete / Partial / Failed] | [What they did, said, or struggled with] | |
+| 2 | | | | | |
+
+**Synthesis:**
+[What patterns emerged across sessions? What worked, what didn't, and what was surprising? 3–5 sentences.]
+
+**Findings that change the requirements:**
+[List any requirement that should be added, removed, or modified based on these findings. These become inputs to the next Product Build Record if this is a prototype or pilot stage.]
+
+- [e.g., REQ-003 — users expected inline validation, not a modal error. Requirement should be revised.]
+- [e.g., New requirement needed — users looked for a "save draft" option that does not exist in current scope.]
+
+---
+
+### 11.3 Pilot Validation
+> *Applicable stages: Pilot. Skip for all others.*
+
+**Pilot design:**
+
+| Field | Value |
+|---|---|
+| **Pilot cohort** | [How many accounts / users, how selected, from what segment] |
+| **Pilot duration** | [Start date — end date] |
+| **Instrumentation** | [How is usage and outcome data being collected?] |
+| **Success criteria** | [From Section 11.1 — repeated here for clarity] |
+| **Gate decision** | [What happens at pilot end — proceed to beta / GA / revise / stop?] |
+
+**Pilot participants:**
+
+| Organization | Contact | Segment | Activation Date | Engaged | Notes |
+|---|---|---|---|---|---|
+| [Name] | [Name] | [e.g., Mid-market / Healthcare] | YYYY-MM-DD | [Yes / No / Partial] | |
+
+**Pilot results:**
+
+| Metric | Target | Actual | Notes |
+|---|---|---|---|
+| [e.g., Feature activation rate] | [e.g., >70% within 30 days] | | |
+| [e.g., Reported time savings] | [e.g., ≥30%] | | |
+| [e.g., Support tickets generated] | [e.g., <2 per account] | | |
+
+**Qualitative feedback summary:**
+[What did pilot participants say — in their own words where possible. What did they value, what frustrated them, what surprised them.]
+
+**Gate decision:**
+- [ ] Proceed to Beta / GA — success criteria met; requirements confirmed
+- [ ] Revise and re-pilot — findings require material requirement changes; new record to be created
+- [ ] Stop — findings indicate the approach does not solve the problem as hypothesized
+
+**Gate decision rationale:**
+[Brief explanation of the decision and what evidence drove it.]
+
+**Findings that feed the next record:**
+[Requirements added, removed, or revised based on pilot. Benefit estimate adjustments for the Business Case. Persona or Product Chronicle updates triggered.]
+
+---
+
+### 11.4 Beta Validation
+> *Applicable stages: Beta. Skip for all others.*
+
+**Beta design:**
+
+| Field | Value |
+|---|---|
+| **Beta cohort** | [Size, selection method, segment coverage] |
+| **Beta duration** | [Start — end] |
+| **Access model** | [e.g., Opt-in / Invited / Feature flag — % of traffic] |
+| **Feedback collection** | [e.g., In-app survey / NPS pulse / CS check-in / Support ticket monitoring] |
+| **Success criteria** | [From Section 11.1] |
+
+**Quantitative results:**
+
+| Metric | Baseline | Target | Actual | Notes |
+|---|---|---|---|---|
+| [e.g., Adoption rate — beta cohort] | | | | |
+| [e.g., Error rate] | | | | |
+| [e.g., NPS — beta users] | | | | |
+
+**Qualitative feedback themes:**
+[What were the most common themes in feedback? What was praised, what was criticized, what was requested?]
+
+**Edge cases surfaced:**
+[Unexpected behaviors, failure modes, or use cases discovered during beta that were not anticipated in requirements.]
+
+**GA readiness assessment:**
+- [ ] Ready for GA — no material issues; proceed
+- [ ] Ready with known limitations — proceed with documented exceptions and a plan to address
+- [ ] Not ready — material issues require a new record before GA
+
+---
+
+### 11.5 A/B Test Plan and Results
+> *Applicable stages: A/B Test. Skip for all others.*
+
+**Hypothesis:**
+[Formal hypothesis statement: "We believe that [variant] will produce [outcome] for [audience] because [reasoning]. We will know this is true when [measurable result]."]
+
+**Test design:**
+
+| Field | Value |
+|---|---|
+| **Control (A)** | [Description of current / baseline experience] |
+| **Variant (B)** | [Description of what is being changed] |
+| **Audience** | [Who is in the test — segment, % of traffic, inclusion/exclusion criteria] |
+| **Split** | [e.g., 50/50 / 80/20] |
+| **Primary metric** | [The one metric that determines the winner] |
+| **Secondary metrics** | [Metrics monitored for unintended effects] |
+| **Minimum sample size** | [Calculated before launch — not after] |
+| **Minimum run duration** | [e.g., 2 weeks minimum regardless of sample size — accounts for day-of-week effects] |
+| **Decision framework** | [e.g., Adopt B if primary metric improves ≥5% with p<0.05 and no secondary metric degrades >10%] |
+
+**Results:**
+
+| Metric | Control (A) | Variant (B) | Difference | Statistical Significance | Notes |
+|---|---|---|---|---|---|
+| [Primary metric] | | | | [p = X / Not significant] | |
+| [Secondary metric] | | | | | |
+
+**Decision:**
+- [ ] Adopt variant B — hypothesis confirmed; proceed to GA
+- [ ] Retain control A — hypothesis not confirmed; variant did not outperform
+- [ ] Inconclusive — insufficient sample or significance; extend test or redesign
+- [ ] Stop — variant B caused meaningful degradation in secondary metrics
+
+**Decision rationale and next record implications:**
+[What the results mean for the next step. If adopting B, what GA requirements change? If retaining A, what was learned about the hypothesis that informs a revised approach?]
+
+---
+
+### 11.6 Internal QA — Test Cases
+> *Applicable stages: Pilot, Beta, GA. Lightweight for Prototype. Skip for A/B (no new build).*
+
+> Maps requirements to test cases. Populate the Results column during QA.
 
 | Test ID | Linked Requirement | Linked Story / AC | Test Description | Expected Result | Actual Result | Pass / Fail | Tested By | Date |
 |---|---|---|---|---|---|---|---|---|
@@ -413,7 +595,7 @@
 | TC-003 | REQ-010 | AC-004 | [e.g., Generate report for 6-month range] | [e.g., Report renders within 5 seconds] | | | | |
 | TC-004 | REQ-011 | AC-005 | [e.g., Generate report under concurrent load] | [e.g., Response within SLA at P99] | | | | |
 
-### 11.2 Edge Cases and Negative Tests
+### 11.7 Edge Cases and Negative Tests
 
 | Test ID | Scenario | Expected Behavior | Actual Result | Pass / Fail |
 |---|---|---|---|---|
@@ -421,7 +603,9 @@
 | TC-E002 | [e.g., Submit the same form twice rapidly] | [e.g., Duplicate submission prevented] | | |
 | TC-E003 | [e.g., Network drops mid-submission] | [e.g., Graceful failure, no partial record created] | | |
 
-### 11.3 Validation Sign-Off
+### 11.8 Validation Sign-Off
+
+> Complete for GA stage. For earlier stages, sign-off is on the gate decision, not full QA.
 
 | Role | Name | Approval | Date |
 |---|---|---|---|
@@ -549,6 +733,8 @@ In plain language, the goal of this build is: [One sentence — what are we buil
 ### 14.3 Benefit Realization
 
 > Measured at the lookback dates defined in Section 2.3. Copy the metrics table from Section 2.3 and fill in actuals.
+>
+> For Prototype and Pilot stages, benefit realization is measured against the learning goals defined in Section 11.1 — not against the full Business Case targets, which are validated progressively across the sequence of records.
 
 **Lookback date:** YYYY-MM-DD  **Days post-launch:** [X]
 
@@ -558,12 +744,24 @@ In plain language, the goal of this build is: [One sentence — what are we buil
 | | | | | | |
 
 **Benefit realization summary:**
-[2–3 sentences on whether the initiative delivered its intended benefits. Honest assessment — not a press release. e.g., Onboarding completion rate improved from 61% to 74% against a target of 75% — essentially on target. Support ticket volume for this workflow declined 40%, exceeding the 25% target. Time-to-complete did not improve materially — the bottleneck turned out to be downstream of the flow we modified.]
+[2–3 sentences on whether the initiative delivered its intended benefits at this stage. Honest assessment. e.g., Pilot accounts reported an average 34% reduction in manual processing time against a 30% target — hypothesis confirmed. Adoption rate within the pilot cohort was 65%, below the 80% target — onboarding friction is unresolved and should be addressed before GA commitment.]
 
-**Will this initiative require a follow-on effort?**
-- [ ] Yes — [describe what is needed and why]
-- [ ] No
-- [ ] Unknown — reassess at next lookback
+**Business Case implications:**
+[Does this record's findings change the benefit estimates in the linked Business Case? If so, describe the revision. e.g., Pilot results support the cost reduction benefit estimate. Revenue growth estimate should be revised downward — adoption friction will likely delay benefit realization by one quarter relative to the original model. Business Case owner notified: [Name], YYYY-MM-DD.]
+
+**Will this initiative continue to the next validation stage or require a new record?**
+- [ ] Continue to next stage — [Pilot / Beta / A/B / GA] — findings support progression; new record to be created
+- [ ] Revise and repeat this stage — findings require material changes; new record at same stage
+- [ ] Proceed to GA from here — no further staged validation needed
+- [ ] Stop — findings indicate the approach does not solve the problem as hypothesized
+- [ ] Complete — this was a GA record; no further validation stages
+
+**Next record implications:**
+[What should the next Product Build Record do differently based on what was learned here? What requirements should change? What hypotheses remain open? What should be carried forward and what should be abandoned? This is the primary handoff from one record to the next.]
+
+- [e.g., Onboarding step 3 needs to be redesigned before GA — users consistently stall here]
+- [e.g., The mobile experience was not tested in the pilot — it should be a specific test case in the beta record]
+- [e.g., Requirement REQ-008 was never triggered in pilot — confirm it is still needed before carrying forward]
 
 ---
 
