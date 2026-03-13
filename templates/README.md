@@ -65,9 +65,7 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 │   └── Product-Design-Guide.md        ← Persistent UI/UX standards, interaction patterns, voice and tone, and accessibility commitments — governs all PRDs that touch UI/UX
 │
 ├── Rhythm and Calendar
-│   └── Company-Calendar.md            ← Industry events, product releases,     [coming soon]
-│                                          compliance dates, internal cadences,
-│                                          and organizational milestones
+│   └── Company-Calendar.md            ← Annual cycles, events, release windows, and capacity context for initiative timing
 │
 ├── Sales
 │   ├── Go-to-Market.md                ← Channels, sales motion, target segment strategy, and pricing and packaging
@@ -93,7 +91,6 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 
 | File | Description | Governed By | Serves |
 |---|---|---|---|
-| Brand-and-Narrative.md | External brand position, voice, and messaging architecture — how the organization wants to be perceived and talked about | Marketing and Executive leadership | Marketing, Sales, Product, Executive Leadership |
 | [Brand-and-Narrative.md](./Market-and-Customer/Brand-and-Narrative.md) | Narrative architecture, voice principles, messaging hierarchy, and core story — ensures consistent communication across every context and audience | Marketing and Executive leadership | Marketing, Sales, Product, Executive Leadership, AI agents |
 | [Business-Case.md](./Product/Business-Case.md) | Rationale for pursuing a product effort — scales from brief internal reasoning to formal executive approval | Product strategy and executive approval | Product, Finance, Executive Leadership |
 | [Company-Calendar.md](./Rhythm-and-Calendar/Company-Calendar.md) | Annual fiscal, product, sales, industry, and organizational cycles — with specific known dates — providing the timing context for any Business Case or Product Build Record | Operations and Executive leadership | All teams, Product, Sales, Finance |
@@ -111,7 +108,7 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 | Metrics-Framework.md | What the organization measures — standardized definitions, financial context, and Goodhart's Law guardrails distinguishing health indicators from targets | Finance, Data, and Product leadership | All teams, Finance, Executive Leadership, AI agents |
 | [Organizational-Risk-and-Compliance.md](./Operations/Organizational-Risk-and-Compliance.md) | Risk inventory with probability and impact records, compliance obligations register, certification and audit history, and a running event log — the source of risk data for Cost-and-Benefit-Framework benefit claims | Legal, Operations, and Executive leadership | All teams, Legal, Finance, Executive Leadership, AI agents |
 | [People-and-Talent-Strategy.md](./People-and-Relationships/People-and-Talent-Strategy.md) | How the organization thinks about capability needs, search and onboarding, culture fit, and key person risk — tied directly to strategic goals | HR and Executive leadership | Executive Leadership, Department heads, HR |
-| [Product-Build-Record.md](./Product/Product-Build-Record.md) | Complete record of a discrete product effort — problem definition, cost estimation, requirements, execution log, and retrospective with benefit realization and reference class data | Product ownership across the full initiative lifecycle | Product, Engineering, QA, Finance, Executive Leadership |
+| [Product-Build-Record.md](./Product/Product-Build-Record.md) | Complete record of a discrete product effort at a specific validation stage (Prototype → Pilot → Beta → A/B → GA) — multiple records may serve a single Business Case, each passing findings forward to the next | Product ownership across the full initiative lifecycle | Product, Engineering, QA, Finance, Executive Leadership |
 | [Product-Chronicle.md](./Product/Product-Chronicle.md) | Living product intelligence — design principles, tradeoffs, customer understanding, and internal narrative | Product ownership and accumulated organizational learning | Product, Marketing, Sales, Engineering |
 | [Product-Design-Guide.md](./Product/Product-Design-Guide.md) | Persistent UI/UX standards, interaction patterns, voice and tone, and accessibility commitments | Product and Design leadership | Product, Engineering, Design, QA |
 | [Reference-Customers-and-Champions.md](./Market-and-Customer/Reference-Customers-and-Champions.md) | Strategic accounts and individual champions — classified by role, tracked for health, and used actively in sales and marketing | Customer Success and Sales leadership | Sales, Executive Leadership, Product, Marketing |
