@@ -37,13 +37,8 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 │   └── Reference-Customers-and-Champions.md ← Strategic accounts, individual champions, relationship health, and reference activity
 │
 ├── Operations
-│   ├── Key-Operational-Processes.md   ← Critical processes, workflows, and    [coming soon]
-│   │                                     how work actually gets done
-│   └── Organizational-Risk-and-Compliance.md ← Risk inventory, compliance      [coming soon]
-│                                               obligations, certifications, and
-│                                               regulatory commitments — informs
-│                                               how operational processes are
-│                                               designed and governed
+│   ├── Key-Operational-Processes.md   ← Recurring process inventory, full process records, and change impact guidance
+│   └── Organizational-Risk-and-Compliance.md ← Risk inventory, compliance obligations, certifications, and event log
 │
 ├── Organizational Intelligence
 │   ├── Institutional-Knowledge.md     ← Living repository of decisions, lessons, constraints, and process
@@ -112,9 +107,9 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 | [Go-to-Market.md](./sales/Go-to-Market.md) | Channels, sales motion, target segment strategy, and pricing and packaging — accommodates any combination of product-led, sales-led, and partner-led motions | Sales and Marketing leadership | Sales, Marketing, Product, Executive Leadership |
 | [Institutional-Knowledge.md](./organizational-intelligence/Institutional-Knowledge.md) | Living repository of organizational learning — decisions, lessons, constraints, and process | Collectively owned — fed from retros, reviews, and organizational feedback | All teams, new hires, AI agents |
 | [Internal-Stakeholders.md](./people-and-relationships/Internal-Stakeholders.md) | Internal org structure and stakeholder areas of concern | Organizational structure and reporting authority | All internal teams |
-| Key-Operational-Processes.md | Critical processes and how work actually gets done | Operations leadership | All teams, new hires, AI agents |
+| [Key-Operational-Processes.md](./operations/Key-Operational-Processes.md) | Inventory and records of every recurring process the organization depends on — including ownership, failure modes, system dependencies, and a structured guide for evaluating how any change will interact with existing processes | Operations and Executive leadership | All teams, Product, Finance, new hires, AI agents |
 | Metrics-Framework.md | What the organization measures — standardized definitions, financial context, and Goodhart's Law guardrails distinguishing health indicators from targets | Finance, Data, and Product leadership | All teams, Finance, Executive Leadership, AI agents |
-| Organizational-Risk-and-Compliance.md | Risk inventory, compliance obligations, certifications, and regulatory commitments — informs how operational processes are designed and governed | Legal, Operations, and Executive leadership | All teams, Legal, Finance, Executive Leadership, AI agents |
+| [Organizational-Risk-and-Compliance.md](./operations/Organizational-Risk-and-Compliance.md) | Risk inventory with probability and impact records, compliance obligations register, certification and audit history, and a running event log — the source of risk data for Cost-and-Benefit-Framework benefit claims | Legal, Operations, and Executive leadership | All teams, Legal, Finance, Executive Leadership, AI agents |
 | [People-and-Talent-Strategy.md](./people-and-relationships/People-and-Talent-Strategy.md) | How the organization thinks about capability needs, search and onboarding, culture fit, and key person risk — tied directly to strategic goals | HR and Executive leadership | Executive Leadership, Department heads, HR |
 | [Product-Build-Record.md](./product/Product-Build-Record.md) | Complete record of a discrete product effort — problem definition, cost estimation, requirements, execution log, and retrospective with benefit realization and reference class data | Product ownership across the full initiative lifecycle | Product, Engineering, QA, Finance, Executive Leadership |
 | [Product-Chronicle.md](./product/Product-Chronicle.md) | Living product intelligence — design principles, tradeoffs, customer understanding, and internal narrative | Product ownership and accumulated organizational learning | Product, Marketing, Sales, Engineering |
