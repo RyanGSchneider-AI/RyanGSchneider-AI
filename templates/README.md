@@ -33,7 +33,7 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 ├── Market and Customer
 │   ├── Brand-and-Narrative.md         ← Narrative architecture, voice, messaging hierarchy, and how the organization tells its story consistently
 │   ├── Competitive-Intelligence.md    ← Direct competitors, substitute solutions, status quo alternatives, and competitive signal log
-│   ├── Customer-Personas.md           ← Research-based archetypes organized by use case
+│   ├── Roles-and-Personas.md          ← Role-based archetypes covering the full range of people who influence product design, purchase, adoption, and outcome — users, buyers, gatekeepers, champions, and internal and external affected parties
 │   └── Reference-Customers-and-Champions.md ← Strategic accounts, individual champions, relationship health, and reference activity
 │
 ├── Operations
@@ -84,7 +84,7 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 | [Company-Cadences.md](./Rhythm-and-Calendar/Company-Cadences.md) | Structural rhythms of the organization — fiscal year boundaries, release philosophy, planning cycles, sales rhythms, and recurring capacity pressure patterns; evergreen template that each Calendar-YYYY is built from | Operations and Executive leadership | All teams, Product, Sales, Finance |
 | [Competitive-Intelligence.md](./Market-and-Customer/Competitive-Intelligence.md) | Direct competitor profiles, substitute solution analysis, status quo alternatives, win/loss patterns, and a continuous competitive signal log | Product, Marketing, and Sales leadership | Product, Sales, Marketing, Executive Leadership |
 | [Cost-and-Benefit-Framework.md](./Financial/Cost-and-Benefit-Framework.md) | Standard methods for estimating revenue growth, cost reduction, and risk reduction benefits — and for estimating initiative costs consistently across all Business Cases | Finance and Product leadership | Product, Finance, Executive Leadership |
-| [Customer-Personas.md](./Market-and-Customer/Customer-Personas.md) | Research-based customer archetypes organized by use case | Research and market understanding | Product, Marketing, Sales |
+| [Roles-and-Personas.md](./Market-and-Customer/Roles-and-Personas.md) | Role-based archetypes covering the full range of people who influence product design, purchase, adoption, and outcome — users, buyers, gatekeepers, champions, and internal and external affected parties | Research and market understanding | Product, Marketing, Sales, Executive Leadership |
 | [External-Stakeholders.md](./People-and-Relationships/External-Stakeholders.md) | Strategic partners, vendors, and regulatory bodies | Contracts, agreements, terms of service, and compliance obligations | Sales, Legal, Finance, Executive Leadership |
 | [Funding-and-Business-Model.md](./Financial/Funding-and-Business-Model.md) | How the organization is capitalized, how it creates and captures value, and what it is currently optimizing for — essential context for strategy, product, and financial decisions | Finance and Executive leadership | Executive Leadership, Board, Finance, Product |
 | [Go-to-Market.md](./Sales/Go-to-Market.md) | Channels, sales motion, target segment strategy, and pricing and packaging — accommodates any combination of product-led, sales-led, and partner-led motions | Sales and Marketing leadership | Sales, Marketing, Product, Executive Leadership |
