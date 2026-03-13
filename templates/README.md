@@ -72,17 +72,7 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 │   └── Sales-Playbook.md              ← How deals are run: stages, discovery, objection handling, and competitive positioning in a sales context
 │
 └── Systems and Data
-    ├── Data-Dictionary.md             ← Authoritative definitions of key data   [coming soon]
-    │                                     entities, their meaning, and where
-    │                                     they live — prevents ambiguity across
-    │                                     systems, teams, and AI agents
-    ├── Data-Intelligence-Map.md       ← What useful insight lives in each       [coming soon]
-    │                                     system, and how data flows and enriches
-    │                                     across systems to answer business
-    │                                     questions no single system can
-    └── Systems-Registry.md            ← All platforms the organization uses,    [coming soon]
-                                          with clear designation of which are
-                                          Systems of Record for each data domain
+    └── Systems-and-Data.md            ← Systems registry, System of Record map, data dictionary, data intelligence map, and access register — unified around the system as organizing spine
 ```
 
 ---
@@ -96,11 +86,9 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 | [Company-Calendar.md](./Rhythm-and-Calendar/Company-Calendar.md) | Annual fiscal, product, sales, industry, and organizational cycles — with specific known dates — providing the timing context for any Business Case or Product Build Record | Operations and Executive leadership | All teams, Product, Sales, Finance |
 | [Competitive-Intelligence.md](./Market-and-Customer/Competitive-Intelligence.md) | Direct competitor profiles, substitute solution analysis, status quo alternatives, win/loss patterns, and a continuous competitive signal log | Product, Marketing, and Sales leadership | Product, Sales, Marketing, Executive Leadership |
 | [Cost-and-Benefit-Framework.md](./Financial/Cost-and-Benefit-Framework.md) | Standard methods for estimating revenue growth, cost reduction, and risk reduction benefits — and for estimating initiative costs consistently across all Business Cases | Finance and Product leadership | Product, Finance, Executive Leadership |
-| [Funding-and-Business-Model.md](./Financial/Funding-and-Business-Model.md) | How the organization is capitalized, how it creates and captures value, and what it is currently optimizing for — essential context for strategy, product, and financial decisions | Finance and Executive leadership | Executive Leadership, Board, Finance, Product |
 | [Customer-Personas.md](./Market-and-Customer/Customer-Personas.md) | Research-based customer archetypes organized by use case | Research and market understanding | Product, Marketing, Sales |
-| Data-Dictionary.md | Authoritative definitions of key data entities, their meaning, and where they live | Engineering and Data leadership | Engineering, Product, Finance, AI agents |
-| Data-Intelligence-Map.md | What useful insight lives in each system, and how data flows and enriches across systems to answer business questions no single system can | Engineering, Data, and Product leadership | Product, Sales, Finance, Marketing, AI agents |
 | [External-Stakeholders.md](./People-and-Relationships/External-Stakeholders.md) | Strategic partners, vendors, and regulatory bodies | Contracts, agreements, terms of service, and compliance obligations | Sales, Legal, Finance, Executive Leadership |
+| [Funding-and-Business-Model.md](./Financial/Funding-and-Business-Model.md) | How the organization is capitalized, how it creates and captures value, and what it is currently optimizing for — essential context for strategy, product, and financial decisions | Finance and Executive leadership | Executive Leadership, Board, Finance, Product |
 | [Go-to-Market.md](./Sales/Go-to-Market.md) | Channels, sales motion, target segment strategy, and pricing and packaging — accommodates any combination of product-led, sales-led, and partner-led motions | Sales and Marketing leadership | Sales, Marketing, Product, Executive Leadership |
 | [Institutional-Knowledge.md](./Organizational-Intelligence/Institutional-Knowledge.md) | Living repository of organizational learning — decisions, lessons, constraints, and process | Collectively owned — fed from retros, reviews, and organizational feedback | All teams, new hires, AI agents |
 | [Internal-Stakeholders.md](./People-and-Relationships/Internal-Stakeholders.md) | Internal org structure and stakeholder areas of concern | Organizational structure and reporting authority | All internal teams |
@@ -114,7 +102,8 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 | [Reference-Customers-and-Champions.md](./Market-and-Customer/Reference-Customers-and-Champions.md) | Strategic accounts and individual champions — classified by role, tracked for health, and used actively in sales and marketing | Customer Success and Sales leadership | Sales, Executive Leadership, Product, Marketing |
 | [Sales-Playbook.md](./Sales/Sales-Playbook.md) | How deals are run — discovery, stakeholder mapping, objection handling, pricing conversations, and competitive positioning | Sales leadership | Sales, Marketing |
 | [Strategy-and-Intent.md](./Organizational-Intelligence/Strategy-and-Intent.md) | Organizational mission, vision, living goals across time horizons, and the strategic assumptions and risks that underpin them | Collectively owned — maintained against current organizational direction | All teams, executive leadership, AI agents |
-| Systems-Registry.md | All platforms the organization uses, with clear designation of Systems of Record per data domain | IT and Operations leadership | All teams, Engineering, Finance, AI agents |
+| [Systems-and-Data.md](./Systems-and-Data/Systems-and-Data.md) | Systems registry, System of Record map, data dictionary (entity definitions and aliases), data intelligence map (what each system can answer and what combinations unlock), and access and security register — unified in one document | IT, Engineering, and Data leadership | All teams, Engineering, Product, Finance, AI agents |
+
 
 ---
 
