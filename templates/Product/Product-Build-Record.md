@@ -2,9 +2,9 @@
 
 > The complete record of a discrete product effort — from problem definition through requirements, cost estimation, execution, and post-launch validation. This document follows the initiative from inception to retrospective and becomes the primary source of historical cost and outcome data for future estimates.
 >
-> **This document has a lifecycle.** Sections 1–11 are completed before build begins. Section 12 (Test and Validation) is completed during and after build. Sections 13 (Agent Handoff) is populated before handoff. Sections 14–15 are completed during and after execution. A Product Build Record is not complete until Section 15 is filled — the retrospective is not optional.
+> **This document has a lifecycle.** Sections 1–11 are completed before build begins. Section 11 (Test and Validation) is completed during and after build. Section 12 (Agent Handoff) is populated before handoff. Sections 13–14 are completed during and after execution. Each section completed adds value independently — a record with only the cost estimate and requirements is still useful. A record with actuals and retrospective is significantly more useful, and becomes a reference class anchor for future initiatives.
 >
-> Human teams may use this document without Section 13. AI-assisted teams should treat Section 13 as required.
+> Human teams may use this document without Section 13. AI-assisted teams will get significantly better results with Section 13 populated — it is the primary mechanism for reducing ambiguity at handoff.
 
 ---
 
@@ -402,7 +402,7 @@
 ## 11. Test and Validation
 
 > Maps every requirement to a test case. Populate the Results column during QA.
-> A Product Build Record is not complete until this section is filled.
+> Fill in as much as the initiative and timeline allow — partial test records are still useful.
 
 ### 11.1 Test Cases
 
@@ -504,7 +504,9 @@ In plain language, the goal of this build is: [One sentence — what are we buil
 
 > Completed after launch and at defined lookback intervals. This section closes the loop between estimate and reality — and generates the reference class data that improves future estimates.
 >
-> **The retrospective is not optional.** An organization that estimates but never compares estimates to actuals is not learning. This section is what makes the framework self-improving over time.
+> Complete as much of this section as the initiative allows. A full retrospective produces the most value — but even partial actuals (just cost and timeline) are worth capturing. An organization that captures actuals without a full retrospective is still learning. One that captures nothing learns nothing.
+>
+> The more consistently this section is completed, the faster the organization's estimates improve. Treat it as an investment in the next initiative, not an obligation on this one.
 
 ### 14.1 Cost Actuals
 
