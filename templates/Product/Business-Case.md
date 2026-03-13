@@ -3,19 +3,19 @@
 >
 > The Business Case answers one question: *Should we pursue this?*
 > It is the argument for committing organizational resources — time, money, and attention —
-> to a specific initiative. It is written before the PRD and informs whether a PRD
+> to a specific initiative. It is written before a Product Build Record and informs whether one
 > should exist at all.
 >
 > **A Business Case is recommended but not required.** Not every initiative needs a
 > formal Business Case — a small maintenance update or a quick fix may need nothing
-> more than a PRD. But most decisions that consume meaningful organizational resources
+> more than a Product Build Record. But most decisions that consume meaningful organizational resources
 > benefit from at least a brief, honest answer to: what are we doing, why does it matter,
 > and is it worth it? Even a few paragraphs of clear reasoning is a Business Case in spirit.
 > This template scales from that brief rationale to a formal executive or investor document.
 >
-> **A Business Case is not a PRD.** It does not define requirements or solutions in detail.
+> **A Business Case is not a Product Build Record.** It does not define requirements or solutions in detail.
 > It defines the problem, the opportunity, and the argument for acting — or not acting.
-> The PRD follows if the Business Case is approved.
+> A Product Build Record follows if the Business Case is approved.
 >
 > **Rejected Business Cases have value.** A "no" decision recorded here becomes
 > institutional memory. It prevents the same initiative from being relitigated without
@@ -84,7 +84,7 @@ it may affect prioritization.]
 ## 3. Proposed Initiative
 > A clear description of what is being proposed — not a requirements document.
 > The goal is to communicate the shape and scope of the solution clearly enough
-> to evaluate it. Save the details for the PRD.
+> to evaluate it. Save the details for the Product Build Record.
 
 ### 3.1 What We Are Proposing
 [What is the initiative? Describe it in plain language — what it does, who it serves,
@@ -92,7 +92,7 @@ and what it changes about the current state.]
 
 ### 3.2 What This Is Not
 [Explicitly scope out what this initiative does not include.
-This is not the same as the PRD's scope — it's a higher-level boundary that prevents
+This is not the same as the Product Build Record's scope — it's a higher-level boundary that prevents
 misaligned expectations before work begins.]
 
 ### 3.3 Strategic Alignment
@@ -108,7 +108,7 @@ should be pursued anyway — or reconsider whether it should be.]
 > Always include "do nothing" as an explicit alternative — it forces honest evaluation
 > of the cost of inaction and grounds the recommendation in a real comparison.
 >
-> Note: "We are not building X" is a scoping decision that belongs in the PRD,
+> Note: "We are not building X" is a scoping decision that belongs in the Product Build Record,
 > not here. This section evaluates whether to pursue the initiative at all,
 > and through what approach.
 
@@ -173,7 +173,7 @@ especially in organizations where capacity, not budget, is the primary constrain
 
 | Risk | Likelihood | Impact | Mitigation |
 |---|---|---|---|
-| [e.g., Scope expands beyond estimate] | Medium | High | [e.g., Define explicit phase boundaries in PRD] |
+| [e.g., Scope expands beyond estimate] | Medium | High | [e.g., Define explicit phase boundaries in Product Build Record] |
 | [e.g., Customer adoption lower than projected] | Medium | Medium | [e.g., Pilot with Reference Customer before full rollout] |
 | [e.g., Regulatory or compliance requirement missed] | Low | High | [e.g., Review against Organizational Risk and Compliance before build] |
 
@@ -193,10 +193,10 @@ especially in organizations where capacity, not budget, is the primary constrain
 **What approval authorizes**:
 [What specifically is being approved — a full build, a discovery phase, a pilot,
 a budget allocation? Be precise. Approval of a Business Case is not the same as
-approval of full scope — the PRD defines that.]
+approval of full scope — the Product Build Record defines that.]
 
 **Next step if approved**:
-[e.g., Begin PRD scoping — estimated completion YYYY-MM-DD]
+[e.g., Begin Product Build Record scoping — estimated completion YYYY-MM-DD]
 [e.g., Allocate engineering resources in next sprint planning]
 [e.g., Schedule discovery phase with Reference Customer X]
 

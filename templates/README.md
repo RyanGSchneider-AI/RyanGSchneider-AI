@@ -57,7 +57,7 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 │   ├── Business-Case.md               ← Rationale for pursuing an effort
 │   ├── Product-Build-Record.md        ← Full initiative lifecycle — estimate, build, actuals, retrospective
 │   ├── Product-Chronicle.md           ← Living product intelligence: design principles, tradeoff rationale, customer understanding, competitive positioning, and internal narrative
-│   └── Product-Design-Guide.md        ← Persistent UI/UX standards, interaction patterns, voice and tone, and accessibility commitments — governs all PRDs that touch UI/UX
+│   └── Product-Design-Guide.md        ← Persistent UI/UX standards, interaction patterns, voice and tone, and accessibility commitments — governs all Product Build Records that touch UI/UX
 │
 ├── Rhythm and Calendar
 │   ├── Company-Cadences.md            ← Structural rhythms of the organization — fiscal structure, release philosophy, planning cycles, and recurring capacity pressure patterns
@@ -116,10 +116,10 @@ If they don't, move forward independently.
 
 **Connectable** — artifacts inform each other at the point of use, not through
 hardcoded references within each file. The README is the map. Connections are made
-in context — in a PRD, a Business Case, a meeting — not maintained as lists inside
+in context — in a Product Build Record, a Business Case, a meeting — not maintained as lists inside
 every document. Relationships between artifacts are flexible and situational: a
-Business Case can spawn multiple PRDs, a PRD may support multiple Business Cases,
-and a Maintenance PRD may have no Business Case at all. No relationship is assumed
+Business Case can spawn multiple Product Build Records, a Product Build Record may support multiple Business Cases,
+and a Maintenance record may have no Business Case at all. No relationship is assumed
 — all are possible.
 
 **Memory-preserving** — every artifact is designed to capture not just *what* was
@@ -166,9 +166,9 @@ Artifacts are updated in two ways:
 **Explicitly** — any artifact can be deliberately updated to inform or trigger a review of related artifacts. If the Customer Lens in the Chronicle changes significantly, it should prompt a review of the Design Principles. If Strategy-and-Intent shifts, People-and-Talent-Strategy should be reviewed against it. These connections are made at the point of use — not hardcoded in the artifacts themselves.
 
 ### Standalone vs. Connected
-Each artifact is independently useful. An organization that only has a PRD and a Business Case is still better off than one with neither. Each artifact added to the framework increases the intelligence available to the people and agents working within it.
+Each artifact is independently useful. An organization that only has a Product Build Record and a Business Case is still better off than one with neither. Each artifact added to the framework increases the intelligence available to the people and agents working within it.
 
-The framework becomes compoundingly more powerful as more artifacts are populated and connected. A PRD that can reference a populated Product Chronicle, Design Guide, Customer Personas, and Competitive Intelligence is a fundamentally different document than one written in isolation — and an AI agent working from a fully populated framework operates with organizational context that would otherwise take months to absorb.
+The framework becomes compoundingly more powerful as more artifacts are populated and connected. A Product Build Record that can reference a populated Product Chronicle, Design Guide, Customer Personas, and Competitive Intelligence is a fundamentally different document than one written in isolation — and an AI agent working from a fully populated framework operates with organizational context that would otherwise take months to absorb.
 
 ---
 
