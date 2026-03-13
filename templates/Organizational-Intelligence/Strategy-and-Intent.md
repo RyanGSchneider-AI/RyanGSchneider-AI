@@ -27,6 +27,14 @@
 > Strategy is collectively owned. The Maintainer ensures goals are captured consistently
 > and that the document reflects current organizational direction.
 
+> **Connected artifacts:**
+> - **Metrics-Framework** — Key Results in goal entries reference metric IDs from that document; targets are defined here and measures are defined there; when a goal uses a metric as a success indicator, the metric record there carries a one-way pointer back to this goal
+> - **Business-Case** — initiatives funded by a Business Case should reference the goal they serve here
+> - **Product-Build-Record** — build efforts reference the linked strategy goal in Document Control
+> - **Organizational-Risk-and-Compliance** — strategic risks here are distinct from operational risks there; both should be reviewed together when strategy shifts
+> - **Funding-and-Business-Model** — organizational drivers and horizon there should be consistent with long-term goals here
+> - **People-and-Talent-Strategy** — capability needs there should be traceable to goals here
+
 ---
 
 ## 1. How to Use This Document
@@ -37,7 +45,7 @@
 | Audience | Primary Use |
 |---|---|
 | **Executive Leadership** | Communicate and align organizational direction |
-| **Product / Engineering** | Connect initiative and PRD work to company goals |
+| **Product / Engineering** | Connect initiative and Product Build Record work to company goals |
 | **Sales / Marketing** | Frame go-to-market efforts against strategic priorities |
 | **Finance** | Evaluate investment and budget decisions against stated goals |
 | **New Team Members** | Understand where the organization is going and why |
@@ -66,6 +74,10 @@
 > Goals are organized by time horizon — Long-Term, Near-Term, and Current.
 > Each goal includes the reasoning behind it, not just the goal itself.
 > Connect goals to initiatives and artifacts where they exist.
+>
+> **On metrics and targets:** Key Results that reference a formal metric should use the metric ID from Metrics-Framework (e.g., MET-F003 — NRR). This creates a clean connection between the target set here and the measure defined there — without duplicating the definition in both places.
+>
+> When setting a metric as a target, consider whether optimizing that metric could produce behavior that serves the number but not the underlying goal. The most useful check is to ask: what would a team do to hit this number without actually achieving what we want? If the answer is obvious, pair the target metric with a counterbalancing measure. Targets that are easy to game without detection tend to get gamed.
 
 ---
 
@@ -85,11 +97,13 @@ makes this the right direction? Include what was considered and not chosen.]
 
 **Key Results / Success Indicators**:
 - [e.g., X% market share in our primary segment by YYYY]
-- [e.g., Net revenue retention above X%]
+- [e.g., Net revenue retention above X% — MET-F003]
 - [e.g., Recognized in [industry analyst report] as a leading solution in our category]
 
+> Where a Key Result references a formal metric, include the metric ID from Metrics-Framework. The measure's definition lives there — only the target value lives here.
+
 **Connected Initiatives**:
-- [Initiative name — link to PRD or Business Case]
+- [Initiative name — link to Product-Build-Record or Business-Case]
 
 **Notes**:
 [Anything that shapes how this goal should be interpreted or pursued.]
@@ -115,12 +129,14 @@ makes this the right direction? Include what was considered and not chosen.]
 this the right priority at this moment?]
 
 **Key Results / Success Indicators**:
-- [e.g., X enterprise customers live on RTP by YYYY-MM-DD]
-- [e.g., Customer satisfaction score above X for RTP feature]
-- [e.g., Zero critical incidents in first 90 days post-launch]
+- [e.g., X enterprise customers live on new capability by YYYY-MM-DD — MET-C001]
+- [e.g., Customer satisfaction score above X — MET-C004]
+- [e.g., Zero critical incidents in first 90 days post-launch — MET-O001]
+
+> Where a Key Result references a formal metric, include the metric ID from Metrics-Framework. The measure's definition lives there — only the target value lives here.
 
 **Connected Initiatives**:
-- [Initiative name — link to PRD or Business Case]
+- [Initiative name — link to Product-Build-Record or Business-Case]
 
 **Notes**:
 
@@ -147,11 +163,13 @@ this the right priority at this moment?]
 
 **Success Conditions**:
 - [e.g., Certification completed and documented]
-- [e.g., Two pilot customers onboarded and transacting]
+- [e.g., Two pilot customers onboarded and transacting — MET-C001]
 - [e.g., Post-pilot review scheduled]
 
+> Where a success condition references a formal metric, include the metric ID from Metrics-Framework.
+
 **Connected Initiatives**:
-- [Initiative name — link to PRD or Business Case]
+- [Initiative name — link to Product-Build-Record or Business-Case]
 
 **Notes**:
 
