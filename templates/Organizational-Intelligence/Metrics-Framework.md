@@ -4,7 +4,7 @@
 >
 > **This document works in conjunction with Systems-and-Data**, which defines the underlying entities and systems that metrics are built on. Metric definitions here reference entity definitions there — they do not duplicate them. When a metric and its source entity disagree, the Systems-and-Data entity definition and System of Record designation take precedence.
 >
-> **On metrics and targets:** A metric that becomes a target changes behavior — sometimes in ways that serve the underlying goal, and sometimes in ways that don't. The organization's formal targets live in Strategy-and-Intent (OKRs and goals). Metrics here are the measurement instruments. When a metric is designated as a target, it should be set in the context of the broader goal it serves — and monitored for whether it is still measuring what it was intended to measure. See Strategy-and-Intent for guidance on how metrics and OKRs are connected.
+> **Everything in this document is a measure, not a target.** Targets live in Strategy-and-Intent, where OKRs and goals are defined. When an OKR references a metric from this register, that connection is made there — not here. Keeping targets out of this document prevents the same number from living in two places and drifting apart. Metric records here include a reference field pointing to any Strategy-and-Intent goal that uses them — one directional pointer, no duplication.
 
 ---
 
@@ -19,7 +19,7 @@
 
 > **Connected artifacts:**
 > - **Systems-and-Data** — all metrics reference a source system and entity definition from that document; data conflicts that affect metric values should be logged in the Conflict and Exception Log there
-> - **Strategy-and-Intent** — organizational targets and OKRs reference metrics defined here; the connection between a metric and the goal it serves should be explicit in both documents
+> - **Strategy-and-Intent** — OKRs and goals that use a metric as a success measure reference the metric ID here; that connection is made there, not here; metric records include a one-way reference field to the relevant goal
 > - **Cost-and-Benefit-Framework** — benefit estimates reference metrics here for baseline values and expected post-initiative movement
 > - **Product-Build-Record** — success metrics in Section 2.3 should use metrics defined here; benefit realization in Section 14.3 measures actuals against those definitions
 > - **Internal-Stakeholders** — metric ownership and visibility align to the org structure captured there; department-level metrics map to the functions defined there
@@ -85,80 +85,80 @@ Visibility defines who is permitted to see a metric. It may be narrower than the
 
 > One row per metric. Organized by category. Full records in Section 4 for metrics that warrant detailed documentation.
 >
-> **Health Indicator vs. Target:** H = metric is monitored as a health indicator / T = metric is actively used as a target in OKRs or goals / H+T = both. See Strategy-and-Intent for the targets associated with T and H+T metrics.
+> **The entries below are illustrative examples.** They demonstrate the structure and the kinds of metrics organizations commonly track — they are not a prescribed set. Replace them entirely with the metrics your organization actually measures. The register is only valuable when it reflects what the organization genuinely uses, not a generic list of industry-standard metrics.
 
 ### 3.1 Financial Metrics
 
-| Metric ID | Metric Name | Level | Visibility | H or T | Source System | Entity Reference | Calculation Summary | Owner | Record |
-|---|---|---|---|---|---|---|---|---|---|
-| MET-F001 | MRR (Monthly Recurring Revenue) | Company | Executive, Finance, Sales leadership | H+T | [e.g., Stripe — SYS-002] | [MRR — S&D 4.2] | Sum of normalized monthly value of all active subscriptions as of measurement date | Finance | Full |
-| MET-F002 | ARR (Annual Recurring Revenue) | Company | Executive, Finance, Sales leadership | H+T | [e.g., Stripe — SYS-002] | [ARR — S&D 4.2] | MRR × 12 | Finance | Full |
-| MET-F003 | Net Revenue Retention (NRR) | Company | Executive, Finance | H+T | [e.g., Stripe — SYS-002] | [NRR — S&D 4.2] | (Starting MRR + expansion − contraction − churn) ÷ Starting MRR × 100 | Finance | Full |
-| MET-F004 | Gross Revenue Retention (GRR) | Company | Executive, Finance | H | [e.g., Stripe — SYS-002] | [Active Customer — S&D 4.2] | (Starting MRR − contraction − churn) ÷ Starting MRR × 100 | Finance | Full |
-| MET-F005 | Gross Margin | Executive | Executive only | H+T | [e.g., NetSuite — SYS-004] | [Revenue, COGS — S&D 4.2] | (Revenue − COGS) ÷ Revenue × 100 | Finance | Full |
-| MET-F006 | Burn Rate | Executive | Executive only | H | [e.g., NetSuite — SYS-004] | | Net cash consumed per month | Finance | Summary |
-| MET-F007 | Runway | Executive | Executive only | H | [e.g., NetSuite — SYS-004] | | Cash on hand ÷ Monthly burn rate | Finance | Summary |
-| MET-F008 | CAC (Customer Acquisition Cost) | Executive | Executive, Finance, Sales leadership | H+T | [e.g., NetSuite + HubSpot] | [Customer — S&D 4.2] | Total sales and marketing spend ÷ New customers acquired in period | Finance / Sales | Full |
-| MET-F009 | LTV (Customer Lifetime Value) | Executive | Executive, Finance, Sales leadership | H | [e.g., Stripe + NetSuite] | [Active Customer, MRR — S&D 4.2] | Average MRR per customer ÷ Monthly churn rate × Gross margin % | Finance | Full |
-| MET-F010 | LTV:CAC Ratio | Executive | Executive, Finance | H+T | Derived | [MET-F009, MET-F008] | LTV ÷ CAC | Finance | Summary |
+| Metric ID | Metric Name | Level | Visibility | Source System | Entity Reference | Calculation Summary | Owner | Record |
+|---|---|---|---|---|---|---|---|---|
+| MET-F001 | MRR (Monthly Recurring Revenue) | Company | Executive, Finance, Sales leadership | | [e.g., Stripe — SYS-002] | [MRR — S&D 4.2] | Sum of normalized monthly value of all active subscriptions as of measurement date | Finance | Full |
+| MET-F002 | ARR (Annual Recurring Revenue) | Company | Executive, Finance, Sales leadership | | [e.g., Stripe — SYS-002] | [ARR — S&D 4.2] | MRR × 12 | Finance | Full |
+| MET-F003 | Net Revenue Retention (NRR) | Company | Executive, Finance | | [e.g., Stripe — SYS-002] | [NRR — S&D 4.2] | (Starting MRR + expansion − contraction − churn) ÷ Starting MRR × 100 | Finance | Full |
+| MET-F004 | Gross Revenue Retention (GRR) | Company | Executive, Finance | | [e.g., Stripe — SYS-002] | [Active Customer — S&D 4.2] | (Starting MRR − contraction − churn) ÷ Starting MRR × 100 | Finance | Full |
+| MET-F005 | Gross Margin | Executive | Executive only | | [e.g., NetSuite — SYS-004] | [Revenue, COGS — S&D 4.2] | (Revenue − COGS) ÷ Revenue × 100 | Finance | Full |
+| MET-F006 | Burn Rate | Executive | Executive only | | [e.g., NetSuite — SYS-004] | | Net cash consumed per month | Finance | Summary |
+| MET-F007 | Runway | Executive | Executive only | | [e.g., NetSuite — SYS-004] | | Cash on hand ÷ Monthly burn rate | Finance | Summary |
+| MET-F008 | CAC (Customer Acquisition Cost) | Executive | Executive, Finance, Sales leadership | | [e.g., NetSuite + HubSpot] | [Customer — S&D 4.2] | Total sales and marketing spend ÷ New customers acquired in period | Finance / Sales | Full |
+| MET-F009 | LTV (Customer Lifetime Value) | Executive | Executive, Finance, Sales leadership | | [e.g., Stripe + NetSuite] | [Active Customer, MRR — S&D 4.2] | Average MRR per customer ÷ Monthly churn rate × Gross margin % | Finance | Full |
+| MET-F010 | LTV:CAC Ratio | Executive | Executive, Finance | | Derived | [MET-F009, MET-F008] | LTV ÷ CAC | Finance | Summary |
 
 ### 3.2 Customer Metrics
 
-| Metric ID | Metric Name | Level | Visibility | H or T | Source System | Entity Reference | Calculation Summary | Owner | Record |
-|---|---|---|---|---|---|---|---|---|---|
-| MET-C001 | Active Customer Count | Company | Company-wide | H+T | [e.g., Stripe — SYS-002] | [Active Customer — S&D 4.2] | Count of accounts with active or past-due subscription status as of measurement date | CS / Finance | Full |
-| MET-C002 | Customer Churn Rate (Logo) | Company | Executive, CS, Finance | H+T | [e.g., Stripe — SYS-002] | [Churned Customer — S&D 4.2] | Customers lost in period ÷ Customers at start of period × 100 | CS / Finance | Full |
-| MET-C003 | MRR Churn Rate | Company | Executive, Finance | H+T | [e.g., Stripe — SYS-002] | [MRR — S&D 4.2] | MRR lost to churn in period ÷ MRR at start of period × 100 | Finance | Full |
-| MET-C004 | NPS (Net Promoter Score) | Company | Company-wide | H+T | [e.g., Survey platform — SYS-XXX] | | (% Promoters − % Detractors) | CS | Full |
-| MET-C005 | CSAT (Customer Satisfaction) | Department — CS | CS, Product, Executive | H | [e.g., Zendesk — SYS-006] | | Average satisfaction score on closed tickets in period | CS | Summary |
-| MET-C006 | Time to First Value | Department — CS / Product | CS, Product | H+T | [e.g., Product DB — SYS-003 + Stripe] | [Active Customer — S&D 4.2] | Days from subscription start to first qualifying product action | CS / Product | Full |
-| MET-C007 | Expansion MRR | Company | Executive, Finance, CS | H+T | [e.g., Stripe — SYS-002] | [MRR — S&D 4.2] | MRR added from existing customers (upsell, cross-sell, seat expansion) in period | CS / Sales | Summary |
+| Metric ID | Metric Name | Level | Visibility | Source System | Entity Reference | Calculation Summary | Owner | Record |
+|---|---|---|---|---|---|---|---|---|
+| MET-C001 | Active Customer Count | Company | Company-wide | | [e.g., Stripe — SYS-002] | [Active Customer — S&D 4.2] | Count of accounts with active or past-due subscription status as of measurement date | CS / Finance | Full |
+| MET-C002 | Customer Churn Rate (Logo) | Company | Executive, CS, Finance | | [e.g., Stripe — SYS-002] | [Churned Customer — S&D 4.2] | Customers lost in period ÷ Customers at start of period × 100 | CS / Finance | Full |
+| MET-C003 | MRR Churn Rate | Company | Executive, Finance | | [e.g., Stripe — SYS-002] | [MRR — S&D 4.2] | MRR lost to churn in period ÷ MRR at start of period × 100 | Finance | Full |
+| MET-C004 | NPS (Net Promoter Score) | Company | Company-wide | | [e.g., Survey platform — SYS-XXX] | | (% Promoters − % Detractors) | CS | Full |
+| MET-C005 | CSAT (Customer Satisfaction) | Department — CS | CS, Product, Executive | [e.g., Zendesk — SYS-006] | | Average satisfaction score on closed tickets in period | CS | Summary |
+| MET-C006 | Time to First Value | Department — CS / Product | CS, Product | [e.g., Product DB — SYS-003 + Stripe] | [Active Customer — S&D 4.2] | Days from subscription start to first qualifying product action | CS / Product | Full |
+| MET-C007 | Expansion MRR | Company | Executive, Finance, CS | | [e.g., Stripe — SYS-002] | [MRR — S&D 4.2] | MRR added from existing customers (upsell, cross-sell, seat expansion) in period | CS / Sales | Summary |
 
 ### 3.3 Product Metrics
 
-| Metric ID | Metric Name | Level | Visibility | H or T | Source System | Entity Reference | Calculation Summary | Owner | Record |
-|---|---|---|---|---|---|---|---|---|---|
-| MET-P001 | Monthly Active Users (MAU) | Company | Company-wide | H+T | [e.g., Mixpanel — SYS-007] | [Active User — S&D 4.2] | Count of unique users performing a qualifying action in the calendar month | Product | Full |
-| MET-P002 | Daily Active Users (DAU) | Department — Product | Product, Engineering | H | [e.g., Mixpanel — SYS-007] | [Active User — S&D 4.2] | Count of unique users performing a qualifying action on a given day | Product | Summary |
-| MET-P003 | DAU/MAU Ratio (Stickiness) | Department — Product | Product, Executive | H+T | Derived | [MET-P002, MET-P001] | DAU ÷ MAU × 100 | Product | Summary |
-| MET-P004 | Feature Adoption Rate | Department — Product | Product, CS | H+T | [e.g., Mixpanel — SYS-007] | [Feature Adoption — S&D 4.2] | Users who have adopted feature ÷ Eligible users × 100 | Product | Full |
-| MET-P005 | Activation Rate | Department — Product | Product, CS, Executive | H+T | [e.g., Mixpanel + Stripe] | [Active User, Active Customer — S&D 4.2] | New customers completing activation milestone within defined window ÷ New customers in period × 100 | Product | Full |
-| MET-P006 | User Retention (D30 / D90) | Department — Product | Product, Executive | H+T | [e.g., Mixpanel — SYS-007] | [Active User — S&D 4.2] | Users active on Day 30/90 after first use ÷ Users who completed first use × 100 | Product | Full |
-| MET-P007 | Core Workflow Completion Rate | Department — Product | Product, CS | H | [e.g., Mixpanel — SYS-007] | | Users completing defined workflow ÷ Users who initiated it × 100 | Product | Summary |
+| Metric ID | Metric Name | Level | Visibility | Source System | Entity Reference | Calculation Summary | Owner | Record |
+|---|---|---|---|---|---|---|---|---|
+| MET-P001 | Monthly Active Users (MAU) | Company | Company-wide | | [e.g., Mixpanel — SYS-007] | [Active User — S&D 4.2] | Count of unique users performing a qualifying action in the calendar month | Product | Full |
+| MET-P002 | Daily Active Users (DAU) | Department — Product | Product, Engineering | [e.g., Mixpanel — SYS-007] | [Active User — S&D 4.2] | Count of unique users performing a qualifying action on a given day | Product | Summary |
+| MET-P003 | DAU/MAU Ratio (Stickiness) | Department — Product | Product, Executive | Derived | [MET-P002, MET-P001] | DAU ÷ MAU × 100 | Product | Summary |
+| MET-P004 | Feature Adoption Rate | Department — Product | Product, CS | [e.g., Mixpanel — SYS-007] | [Feature Adoption — S&D 4.2] | Users who have adopted feature ÷ Eligible users × 100 | Product | Full |
+| MET-P005 | Activation Rate | Department — Product | Product, CS, Executive | [e.g., Mixpanel + Stripe] | [Active User, Active Customer — S&D 4.2] | New customers completing activation milestone within defined window ÷ New customers in period × 100 | Product | Full |
+| MET-P006 | User Retention (D30 / D90) | Department — Product | Product, Executive | [e.g., Mixpanel — SYS-007] | [Active User — S&D 4.2] | Users active on Day 30/90 after first use ÷ Users who completed first use × 100 | Product | Full |
+| MET-P007 | Core Workflow Completion Rate | Department — Product | Product, CS | [e.g., Mixpanel — SYS-007] | | Users completing defined workflow ÷ Users who initiated it × 100 | Product | Summary |
 
 ### 3.4 Sales Metrics
 
-| Metric ID | Metric Name | Level | Visibility | H or T | Source System | Entity Reference | Calculation Summary | Owner | Record |
-|---|---|---|---|---|---|---|---|---|---|
-| MET-S001 | Pipeline Value | Department — Sales | Sales, Executive, Finance | H+T | [e.g., Salesforce — SYS-001] | | Sum of weighted opportunity value across all open stages | Sales | Full |
-| MET-S002 | Pipeline Coverage Ratio | Department — Sales | Sales, Executive | H+T | [e.g., Salesforce — SYS-001] | | Pipeline value ÷ Revenue target for period | Sales | Summary |
-| MET-S003 | Win Rate | Department — Sales | Sales, Executive, Product | H+T | [e.g., Salesforce — SYS-001] | | Opportunities won ÷ Opportunities closed (won + lost) × 100 | Sales | Full |
-| MET-S004 | Average Contract Value (ACV) | Company | Executive, Sales, Finance | H+T | [e.g., Salesforce — SYS-001] | | Total ARR from new bookings ÷ Number of new customers in period | Sales / Finance | Full |
-| MET-S005 | Sales Cycle Length | Department — Sales | Sales, Executive | H | [e.g., Salesforce — SYS-001] | | Average days from opportunity creation to close (won) | Sales | Summary |
-| MET-S006 | Quota Attainment | Department — Sales | Sales leadership, Executive | H+T | [e.g., Salesforce — SYS-001] | | Closed ARR ÷ Quota × 100 — by rep and team | Sales | Summary |
-| MET-S007 | Lead Conversion Rate | Department — Sales / Marketing | Sales, Marketing | H+T | [e.g., HubSpot + Salesforce] | | Leads converted to opportunities ÷ Total leads in period × 100 | Sales / Marketing | Summary |
+| Metric ID | Metric Name | Level | Visibility | Source System | Entity Reference | Calculation Summary | Owner | Record |
+|---|---|---|---|---|---|---|---|---|
+| MET-S001 | Pipeline Value | Department — Sales | Sales, Executive, Finance | [e.g., Salesforce — SYS-001] | | Sum of weighted opportunity value across all open stages | Sales | Full |
+| MET-S002 | Pipeline Coverage Ratio | Department — Sales | Sales, Executive | [e.g., Salesforce — SYS-001] | | Pipeline value ÷ Revenue target for period | Sales | Summary |
+| MET-S003 | Win Rate | Department — Sales | Sales, Executive, Product | [e.g., Salesforce — SYS-001] | | Opportunities won ÷ Opportunities closed (won + lost) × 100 | Sales | Full |
+| MET-S004 | Average Contract Value (ACV) | Company | Executive, Sales, Finance | | [e.g., Salesforce — SYS-001] | | Total ARR from new bookings ÷ Number of new customers in period | Sales / Finance | Full |
+| MET-S005 | Sales Cycle Length | Department — Sales | Sales, Executive | [e.g., Salesforce — SYS-001] | | Average days from opportunity creation to close (won) | Sales | Summary |
+| MET-S006 | Quota Attainment | Department — Sales | Sales leadership, Executive | [e.g., Salesforce — SYS-001] | | Closed ARR ÷ Quota × 100 — by rep and team | Sales | Summary |
+| MET-S007 | Lead Conversion Rate | Department — Sales / Marketing | Sales, Marketing | [e.g., HubSpot + Salesforce] | | Leads converted to opportunities ÷ Total leads in period × 100 | Sales / Marketing | Summary |
 
 ### 3.5 People Metrics
 
-| Metric ID | Metric Name | Level | Visibility | H or T | Source System | Entity Reference | Calculation Summary | Owner | Record |
-|---|---|---|---|---|---|---|---|---|---|
-| MET-HR001 | Total Headcount | Company | Company-wide | H+T | [e.g., Workday — SYS-005] | [Headcount — S&D 4.2] | Count of active employees as of measurement date | HR / Finance | Full |
-| MET-HR002 | Headcount by Department | Department | Department heads, Executive, Finance | H | [e.g., Workday — SYS-005] | [Headcount, Employee — S&D 4.2] | Count of active employees per department | HR | Summary |
-| MET-HR003 | Voluntary Attrition Rate | Executive | Executive, HR | H+T | [e.g., Workday — SYS-005] | [Employee — S&D 4.2] | Voluntary departures in period ÷ Average headcount × 100 | HR | Full |
-| MET-HR004 | Time to Fill (Open Roles) | Department — HR | HR, Department heads | H+T | [e.g., ATS — SYS-XXX] | | Average days from role opening to accepted offer | HR | Summary |
-| MET-HR005 | Offer Acceptance Rate | Department — HR | HR, Executive | H | [e.g., ATS — SYS-XXX] | | Offers accepted ÷ Offers extended × 100 | HR | Summary |
-| MET-HR006 | Revenue per Employee | Executive | Executive, Finance | H | Derived | [MET-F002, MET-HR001] | ARR ÷ Total headcount | Finance / HR | Summary |
+| Metric ID | Metric Name | Level | Visibility | Source System | Entity Reference | Calculation Summary | Owner | Record |
+|---|---|---|---|---|---|---|---|---|
+| MET-HR001 | Total Headcount | Company | Company-wide | | [e.g., Workday — SYS-005] | [Headcount — S&D 4.2] | Count of active employees as of measurement date | HR / Finance | Full |
+| MET-HR002 | Headcount by Department | Department | Department heads, Executive, Finance | | [e.g., Workday — SYS-005] | [Headcount, Employee — S&D 4.2] | Count of active employees per department | HR | Summary |
+| MET-HR003 | Voluntary Attrition Rate | Executive | Executive, HR | | [e.g., Workday — SYS-005] | [Employee — S&D 4.2] | Voluntary departures in period ÷ Average headcount × 100 | HR | Full |
+| MET-HR004 | Time to Fill (Open Roles) | Department — HR | HR, Department heads | [e.g., ATS — SYS-XXX] | | Average days from role opening to accepted offer | HR | Summary |
+| MET-HR005 | Offer Acceptance Rate | Department — HR | HR, Executive | [e.g., ATS — SYS-XXX] | | Offers accepted ÷ Offers extended × 100 | HR | Summary |
+| MET-HR006 | Revenue per Employee | Executive | Executive, Finance | | Derived | [MET-F002, MET-HR001] | ARR ÷ Total headcount | Finance / HR | Summary |
 
 ### 3.6 Operations Metrics
 
-| Metric ID | Metric Name | Level | Visibility | H or T | Source System | Entity Reference | Calculation Summary | Owner | Record |
-|---|---|---|---|---|---|---|---|---|---|
-| MET-O001 | System Uptime / Availability | Company | Company-wide | H+T | [e.g., Monitoring platform — SYS-XXX] | | (Total time − Downtime) ÷ Total time × 100 | Engineering | Full |
-| MET-O002 | Incident Response Time (P1) | Department — Engineering | Engineering, Executive | H+T | [e.g., Incident management — SYS-XXX] | | Average time from P1 incident detection to acknowledgment | Engineering | Summary |
-| MET-O003 | Support SLA Compliance | Department — CS | CS, Engineering, Executive | H+T | [e.g., Zendesk — SYS-006] | | Tickets responded to within SLA ÷ Total tickets in period × 100 | CS | Summary |
-| MET-O004 | Deployment Frequency | Department — Engineering | Engineering, Product | H | [e.g., CI/CD platform — SYS-XXX] | | Count of production deployments per period | Engineering | Summary |
-| MET-O005 | Change Failure Rate | Department — Engineering | Engineering, Product | H+T | [e.g., CI/CD + Incident management] | | Deployments causing incident or rollback ÷ Total deployments × 100 | Engineering | Summary |
-| MET-O006 | Mean Time to Recovery (MTTR) | Department — Engineering | Engineering, Executive | H+T | [e.g., Incident management — SYS-XXX] | | Average time from incident detection to resolution | Engineering | Full |
+| Metric ID | Metric Name | Level | Visibility | Source System | Entity Reference | Calculation Summary | Owner | Record |
+|---|---|---|---|---|---|---|---|---|
+| MET-O001 | System Uptime / Availability | Company | Company-wide | | [e.g., Monitoring platform — SYS-XXX] | | (Total time − Downtime) ÷ Total time × 100 | Engineering | Full |
+| MET-O002 | Incident Response Time (P1) | Department — Engineering | Engineering, Executive | [e.g., Incident management — SYS-XXX] | | Average time from P1 incident detection to acknowledgment | Engineering | Summary |
+| MET-O003 | Support SLA Compliance | Department — CS | CS, Engineering, Executive | [e.g., Zendesk — SYS-006] | | Tickets responded to within SLA ÷ Total tickets in period × 100 | CS | Summary |
+| MET-O004 | Deployment Frequency | Department — Engineering | Engineering, Product | [e.g., CI/CD platform — SYS-XXX] | | Count of production deployments per period | Engineering | Summary |
+| MET-O005 | Change Failure Rate | Department — Engineering | Engineering, Product | [e.g., CI/CD + Incident management] | | Deployments causing incident or rollback ÷ Total deployments × 100 | Engineering | Summary |
+| MET-O006 | Mean Time to Recovery (MTTR) | Department — Engineering | Engineering, Executive | [e.g., Incident management — SYS-XXX] | | Average time from incident detection to resolution | Engineering | Full |
 
 ---
 
@@ -227,16 +227,13 @@ Visibility defines who is permitted to see a metric. It may be narrower than the
 
 ---
 
-#### Targets and Goals
+#### Strategy-and-Intent Reference
 
-**Health indicator or target:** [H / T / H+T]
-
-**If target:** [Reference to the OKR or goal in Strategy-and-Intent that uses this metric as a success measure. e.g., "FY2026 Q2 OKR: Reduce MRR churn rate to below 1.2% monthly. See Strategy-and-Intent Goal G-004."]
+**Referenced in Strategy-and-Intent as:** [Goal or OKR ID and name, or "Not currently referenced as a target" — e.g., "G-004: Reduce MRR churn rate to below 1.2% monthly (FY2026 Q2)"]
 
 **Baseline:** [Current value as of last measurement date — YYYY-MM-DD]
 
-**Known gaming or distortion risk:**
-[If this metric is a target, is there a known way it could be optimized in a way that doesn't serve the underlying goal? e.g., "Logo churn rate can be improved by converting at-risk customers to lower-tier plans rather than losing them — which improves this metric while MRR churn and NRR decline. Monitor alongside MRR churn rate to catch this pattern."]
+> Targets are defined and owned in Strategy-and-Intent. This field is a one-way pointer — updated when a goal referencing this metric is added or changed there. Do not duplicate the target value or goal description here.
 
 ---
 
@@ -273,7 +270,7 @@ Visibility defines who is permitted to see a metric. It may be narrower than the
 > This matrix defines the default visibility. Individual metrics may have more restrictive visibility — those exceptions are noted in the metric's record. No metric should be more broadly visible than its category default without explicit approval from the metric owner.
 
 | Metric Category | Board | CEO / Executive Team | Finance | Sales Leadership | Sales (Individual) | Marketing | Product | Engineering | CS Leadership | CS (Individual) | HR | Department Heads | All Employees |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | **Financial — Company** | ✓ | ✓ | ✓ | Summary only | — | — | Summary only | — | — | — | — | Summary only | — |
 | **Financial — Executive** | ✓ | ✓ | ✓ | — | — | — | — | — | — | — | — | — | — |
 | **Financial — Unit Economics** | ✓ | ✓ | ✓ | Summary only | — | — | Summary only | — | — | — | — | — | — |
@@ -311,6 +308,6 @@ Visibility defines who is permitted to see a metric. It may be narrower than the
 | # | Question | Owner | Due Date | Resolution |
 |---|---|---|---|---|
 | 1 | [e.g., Are there metrics currently used in board or investor reporting that are not in this register?] | [Name] | YYYY-MM-DD | |
-| 2 | [e.g., Which metric records are missing that are referenced as targets in Strategy-and-Intent OKRs?] | [Name] | YYYY-MM-DD | |
+| 2 | [e.g., Which metric records are missing for metrics referenced in Strategy-and-Intent OKRs?] | [Name] | YYYY-MM-DD | |
 | 3 | [e.g., Does the visibility matrix reflect current dashboard and reporting tool access controls, or does it need to be enforced?] | [Name] | YYYY-MM-DD | |
 | 4 | [e.g., Which metrics currently have definition disagreements between teams that should be resolved and logged in Section 6?] | [Name] | YYYY-MM-DD | |
