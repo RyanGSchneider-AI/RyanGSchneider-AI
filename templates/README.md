@@ -27,11 +27,8 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 
 ```
 ├── Financial
-│   ├── Cost-and-Benefit-Framework.md ← How the organization estimates effort  [coming soon]
+│   ├── Cost-and-Benefit-Framework.md ← Standard benefit and cost estimation methods — ensures every Business Case is comparable
 │   └── Funding-and-Business-Model.md ← Capitalization, business model, and organizational drivers
-│                                        and impact — informs every Business
-│                                        Case; scales from solo founder to
-│                                        enterprise
 │
 ├── Market and Customer
 │   ├── Brand-and-Narrative.md         ← Narrative architecture, voice, messaging hierarchy, and how the organization tells its story consistently
@@ -106,7 +103,7 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 | [Business-Case.md](./product/Business-Case.md) | Rationale for pursuing a product effort — scales from brief internal reasoning to formal executive approval | Product strategy and executive approval | Product, Finance, Executive Leadership |
 | Company-Calendar.md | Industry events, product releases, compliance dates, internal cadences, and organizational milestones | Organizational planning and external commitments | All teams |
 | [Competitive-Intelligence.md](./market-and-customer/Competitive-Intelligence.md) | Direct competitor profiles, substitute solution analysis, status quo alternatives, win/loss patterns, and a continuous competitive signal log | Product, Marketing, and Sales leadership | Product, Sales, Marketing, Executive Leadership |
-| Cost-and-Benefit-Framework.md | How the organization estimates effort and impact — living history of tradeoff characterization that informs every Business Case; scales from solo founder to enterprise | Finance and Product leadership | Product, Finance, Executive Leadership |
+| [Cost-and-Benefit-Framework.md](./financial/Cost-and-Benefit-Framework.md) | Standard methods for estimating revenue growth, cost reduction, and risk reduction benefits — and for estimating initiative costs consistently across all Business Cases | Finance and Product leadership | Product, Finance, Executive Leadership |
 | [Funding-and-Business-Model.md](./financial/Funding-and-Business-Model.md) | How the organization is capitalized, how it creates and captures value, and what it is currently optimizing for — essential context for strategy, product, and financial decisions | Finance and Executive leadership | Executive Leadership, Board, Finance, Product |
 | [Customer-Personas.md](./market-and-customer/Customer-Personas.md) | Research-based customer archetypes organized by use case | Research and market understanding | Product, Marketing, Sales |
 | Data-Dictionary.md | Authoritative definitions of key data entities, their meaning, and where they live | Engineering and Data leadership | Engineering, Product, Finance, AI agents |
