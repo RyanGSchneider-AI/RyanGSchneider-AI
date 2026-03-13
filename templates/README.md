@@ -42,7 +42,6 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 │
 ├── Organizational Intelligence
 │   ├── Institutional-Knowledge.md     ← Living repository of decisions, lessons, constraints, and process
-│   ├── Metrics-Framework.md           ← Formal metrics register organized by category — definitions, source systems, levels, visibility, and a conflict log
 │   └── Strategy-and-Intent.md           ← Living organizational goals, reasoning, and initiative connections
 │
 ├── People and Relationships
@@ -68,6 +67,7 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 │   └── Sales-Playbook.md              ← How deals are run: stages, discovery, objection handling, and competitive positioning in a sales context
 │
 └── Systems and Data
+    ├── Metrics-Framework.md           ← Formal metrics register organized by category — definitions, source systems, levels, visibility, and a conflict log
     └── Systems-and-Data.md            ← Systems registry, System of Record map, data dictionary, data intelligence map, and access register — unified around the system as organizing spine
 ```
 
@@ -89,7 +89,7 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 | [Institutional-Knowledge.md](./Organizational-Intelligence/Institutional-Knowledge.md) | Living repository of organizational learning — decisions, lessons, constraints, and process | Collectively owned — fed from retros, reviews, and organizational feedback | All teams, new hires, AI agents |
 | [Internal-Stakeholders.md](./People-and-Relationships/Internal-Stakeholders.md) | Internal org structure and stakeholder areas of concern | Organizational structure and reporting authority | All internal teams |
 | [Key-Operational-Processes.md](./Operations/Key-Operational-Processes.md) | Inventory and records of every recurring process the organization depends on — including ownership, failure modes, system dependencies, and a structured guide for evaluating how any change will interact with existing processes | Operations and Executive leadership | All teams, Product, Finance, new hires, AI agents |
-| [Metrics-Framework.md](./Organizational-Intelligence/Metrics-Framework.md) | Formal metrics register organized by category — what each metric means, where it comes from, who sees it, and a conflict log for when metrics disagree across teams or systems | Finance, Data, and Product leadership | All teams, Finance, Executive Leadership, AI agents |
+| [Metrics-Framework.md](./Systems-and-Data/Metrics-Framework.md) | Formal metrics register organized by category — what each metric means, where it comes from, who sees it, and a conflict log for when metrics disagree across teams or systems | Finance, Data, and Product leadership | All teams, Finance, Executive Leadership, AI agents |
 | [Organizational-Risk-and-Compliance.md](./Operations/Organizational-Risk-and-Compliance.md) | Risk inventory with probability and impact records, compliance obligations register, certification and audit history, and a running event log — the source of risk data for Cost-and-Benefit-Framework benefit claims | Legal, Operations, and Executive leadership | All teams, Legal, Finance, Executive Leadership, AI agents |
 | [People-and-Talent-Strategy.md](./People-and-Relationships/People-and-Talent-Strategy.md) | How the organization thinks about capability needs, search and onboarding, culture fit, and key person risk — tied directly to strategic goals | HR and Executive leadership | Executive Leadership, Department heads, HR |
 | [Product-Build-Record.md](./Product/Product-Build-Record.md) | Complete record of a discrete product effort at a specific validation stage (Prototype → Pilot → Beta → A/B → GA) — multiple records may serve a single Business Case, each passing findings forward to the next | Product ownership across the full initiative lifecycle | Product, Engineering, QA, Finance, Executive Leadership |
