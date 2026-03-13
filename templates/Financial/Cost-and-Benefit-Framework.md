@@ -371,28 +371,97 @@ The initiative reduces average outage cost to $30,000 by enabling faster recover
 
 **Estimation method:**
 1. Identify every role that will contribute meaningful time to the initiative
-2. Estimate the effort in hours or weeks per role
+2. Estimate effort using the organization's standard method (ROM or Three-Point — defined below)
 3. Apply the fully-loaded hourly rate from Section 2.4
 4. Sum across all roles for total internal labor cost
 
-**Effort estimation standard:**
+---
 
-> The organization uses the following method for estimating effort. Select one, define it here, and apply it consistently across all Business Cases.
+#### Estimation Stage: ROM vs. Three-Point
 
-- [ ] **T-shirt sizing** — S / M / L / XL effort ranges, defined as:
-  - S: [e.g., 1–2 weeks, 1–2 people]
-  - M: [e.g., 1–2 months, 2–4 people]
-  - L: [e.g., 3–6 months, 4–8 people]
-  - XL: [e.g., 6+ months, 8+ people]
+> The appropriate estimation method depends on how well scope is defined at the time the estimate is needed.
 
-- [ ] **Story points / sprints** — Estimated in points; 1 sprint = [X] weeks; team velocity = [Y] points/sprint
+**ROM (Rough Order of Magnitude)**
 
-- [ ] **Day-based estimation** — Engineering days estimated by the team closest to the work; apply [X]% buffer for unknowns
+Use when scope is not yet defined enough to decompose — early exploration, go/no-go conversations, or initial roadmap sizing. ROM produces a range, not a single number, and that honesty is its value.
 
-- [ ] **Analogous estimation** — Compared to a prior initiative of similar scope; deviation from analogy must be documented
+- Express as a range: [Low end] to [High end]
+- State the scope assumption behind each end of the range explicitly
+- Label the estimate as ROM whenever it is used — a decision-maker who mistakes a ROM for a committed estimate will be misled
+- Typical accuracy: −50% to +100% of actual cost
+- **Promote to Three-Point before any build is approved**
 
-**Uncertainty buffer:**
-All internal labor estimates include a **[X]%** uncertainty buffer applied at the total, not per task. Padding individual tasks obscures real uncertainty — one honest buffer at the summary level is more useful and more honest.
+*ROM example:*
+> Scope is not yet defined. If limited to the core workflow only: 3–5 weeks. If full integration and compliance work is required: 8–14 weeks. ROM — not for budget commitment.
+
+---
+
+**Three-Point Estimation**
+
+Use when scope is sufficiently defined to decompose into phases or major work items. Three-point is the standard method for all approved builds.
+
+Three inputs are required per work item or phase:
+- **O (Optimistic):** Best realistic case — everything goes smoothly, no surprises
+- **M (Most Likely):** Expected case — normal friction, typical unknowns
+- **P (Pessimistic):** Worst realistic case — meaningful complications, not catastrophe
+
+**Weighted estimate = (O + 4M + P) ÷ 6**
+
+The Pessimistic input is not a disaster scenario — it is the outcome if the known risks materialize. If completing this estimate requires imagining catastrophe, the scope is not yet defined enough for Three-Point. Use ROM.
+
+Apply at the phase level for most initiatives. Decompose to work-item level for large or high-risk efforts where phase-level estimates carry too much hidden uncertainty.
+
+*Three-Point example:*
+> Backend development — Senior Engineer
+> O: 40 hrs | M: 65 hrs | P: 100 hrs
+> Weighted: (40 + 4×65 + 100) ÷ 6 = **68 hrs**
+
+---
+
+#### Estimate Provenance
+
+> Required for every estimate submitted with a Business Case. States what the estimate is based on so decision-makers understand its reliability. Detail lives in the Product Build Record — summarize here.
+
+| Provenance Type | Description | Typical Confidence |
+|---|---|---|
+| **Historical analogy** | Based on a comparable completed initiative; similarity assessment completed in the Product Build Record | Highest — when the analogy is sound |
+| **Structured decomposition** | Built from individual work items estimated independently via Three-Point | High — when scope is well-defined |
+| **Expert judgment** | Based on the informed assessment of a qualified team member, with reasoning documented | Medium |
+| **Assumption** | No prior basis; reflects best judgment with no supporting data | Low — must be flagged clearly |
+
+> An estimate whose provenance is Assumption is still usable — it just needs to be labeled honestly. A decision made on an Assumption-based estimate carries more risk than one made on a Historical Analogy. The decision-maker should know which one they have.
+
+---
+
+#### Reference Class and Cost History
+
+> The most reliable anchor for any estimate is what comparable initiatives actually cost. This is called reference class forecasting — starting from the outside view (what did similar things cost?) before adjusting for the specifics of the new initiative.
+
+> **Cost history lives in completed Product Build Records** — specifically Section 14.4 (Reference Class Record) of each completed initiative. When estimating a new initiative, search completed records for comparable efforts before building a Three-Point estimate from scratch.
+
+**How to use reference class data:**
+1. Identify the most comparable completed initiative in the Product Build Record history
+2. Note its actual cost and the primary driver of any variance from its own estimate
+3. Identify where the new initiative differs from the reference — more complex, less familiar, different team, different dependencies
+4. Adjust the reference class cost for those differences as the anchor for your Most Likely (M) input
+5. Document the reference and the adjustment in the Product Build Record Similarity Assessment
+
+> Organizations without cost history should begin building it immediately. Every completed Product Build Record is a data point. After 10–15 completed records, reference class patterns will begin to emerge — what integrations actually cost, what compliance work actually takes, what estimates systematically under- or over-perform.
+
+**If no comparable history exists:**
+State it explicitly: *"No comparable initiative exists in the cost history. This estimate is based on [provenance type]. Confidence is [Low / Medium]. This initiative's actuals will be logged as a reference class anchor for future similar efforts."*
+
+---
+
+**Uncertainty Buffer:**
+All internal labor estimates include a **[X]%** uncertainty buffer applied to the total, not per task. Padding individual tasks obscures real uncertainty — one honest buffer at the summary level is more useful and more honest. The appropriate buffer percentage should reflect the provenance of the estimate:
+
+| Provenance | Suggested Buffer Range |
+|---|---|
+| Historical analogy — strong similarity | 10–15% |
+| Structured decomposition — well-defined scope | 15–25% |
+| Expert judgment | 20–30% |
+| Assumption | 30–50% |
 
 ---
 
@@ -482,7 +551,7 @@ If no specific alternative is identified, state explicitly: *"[X] engineer-weeks
 | [Revenue growth claim] | [High / Medium / Low] | [e.g., Churn reduction depends on adoption rate not yet validated] |
 | [Cost reduction claim] | [High / Medium / Low] | [e.g., Labor savings assume process is fully automated — partial automation reduces the estimate] |
 | [Risk reduction claim] | [High / Medium / Low] | [e.g., Probability estimate is assumption-based — no historical data available] |
-| [Build cost estimate] | [High / Medium / Low] | [e.g., T-shirt sized L — uncertainty buffer applied] |
+| [Build cost estimate] | [High / Medium / Low] | [e.g., Three-point, structured decomposition — uncertainty buffer applied; or ROM if pre-approval] |
 
 ---
 
@@ -514,5 +583,5 @@ If no specific alternative is identified, state explicitly: *"[X] engineer-weeks
 | # | Question | Owner | Due Date | Resolution |
 |---|---|---|---|---|
 | 1 | [e.g., What uncertainty buffer percentage does the organization want to standardize on?] | [Name] | YYYY-MM-DD | |
-| 2 | [e.g., Which effort estimation method — t-shirt sizing, story points, or day-based — will be the standard?] | [Name] | YYYY-MM-DD | |
+| 2 | [e.g., What uncertainty buffer percentage will the organization standardize on per provenance type?] | [Name] | YYYY-MM-DD | |
 | 3 | [e.g., How frequently will actual vs. estimated outcomes be reviewed, and who owns that process?] | [Name] | YYYY-MM-DD | |

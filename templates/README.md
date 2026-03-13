@@ -65,7 +65,7 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 │
 ├── Product
 │   ├── Business-Case.md               ← Rationale for pursuing an effort
-│   ├── PRD-Template.md                ← Requirements, test, and agent handoff
+│   ├── Product-Build-Record.md        ← Full initiative lifecycle — estimate, build, actuals, retrospective
 │   ├── Product-Chronicle.md           ← Living product intelligence: design principles, tradeoff rationale, customer understanding, competitive positioning, and internal narrative
 │   └── Product-Design-Guide.md        ← Persistent UI/UX standards, interaction patterns, voice and tone, and accessibility commitments — governs all PRDs that touch UI/UX
 │
@@ -116,7 +116,7 @@ By capturing not just *what* was decided but *why* — not just *how* work gets 
 | Metrics-Framework.md | What the organization measures — standardized definitions, financial context, and Goodhart's Law guardrails distinguishing health indicators from targets | Finance, Data, and Product leadership | All teams, Finance, Executive Leadership, AI agents |
 | Organizational-Risk-and-Compliance.md | Risk inventory, compliance obligations, certifications, and regulatory commitments — informs how operational processes are designed and governed | Legal, Operations, and Executive leadership | All teams, Legal, Finance, Executive Leadership, AI agents |
 | [People-and-Talent-Strategy.md](./people-and-relationships/People-and-Talent-Strategy.md) | How the organization thinks about capability needs, search and onboarding, culture fit, and key person risk — tied directly to strategic goals | HR and Executive leadership | Executive Leadership, Department heads, HR |
-| [PRD-Template.md](./product/PRD-Template.md) | AI-ready Product Requirements Document | Product roadmap and initiative priority | Product, Engineering, QA, Compliance |
+| [Product-Build-Record.md](./product/Product-Build-Record.md) | Complete record of a discrete product effort — problem definition, cost estimation, requirements, execution log, and retrospective with benefit realization and reference class data | Product ownership across the full initiative lifecycle | Product, Engineering, QA, Finance, Executive Leadership |
 | [Product-Chronicle.md](./product/Product-Chronicle.md) | Living product intelligence — design principles, tradeoffs, customer understanding, and internal narrative | Product ownership and accumulated organizational learning | Product, Marketing, Sales, Engineering |
 | [Product-Design-Guide.md](./product/Product-Design-Guide.md) | Persistent UI/UX standards, interaction patterns, voice and tone, and accessibility commitments | Product and Design leadership | Product, Engineering, Design, QA |
 | [Reference-Customers-and-Champions.md](./market-and-customer/Reference-Customers-and-Champions.md) | Strategic accounts and individual champions — classified by role, tracked for health, and used actively in sales and marketing | Customer Success and Sales leadership | Sales, Executive Leadership, Product, Marketing |
@@ -168,7 +168,7 @@ These artifacts fall into two categories:
 **Living frameworks** — maintained continuously as a single source of truth for the organization or product. Most artifacts in this framework are this type. They are never "complete" — they are updated as the organization learns, decisions are made, and context changes. Start with whatever sections are most immediately useful and fill in the rest over time.
 
 **Per-effort documents** — created fresh for each discrete initiative. Two artifacts work this way:
-- **PRD-Template** — one per development effort
+- **Product-Build-Record** — one per development effort
 - **Business-Case** — one per initiative contemplated
 
 When creating a per-effort document, copy the template, rename it to reflect the specific effort (e.g., `PRD-user-onboarding-2026.md`, `Business-Case-mobile-app.md`), and work through the relevant sections.
