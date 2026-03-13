@@ -5,7 +5,7 @@
 >
 > **Governance note:** Personas are governed by research and market understanding.
 > They should be validated against real customer data and updated as markets evolve.
-> For named customer accounts, see Key Customers.
+> For named customer accounts, see Reference Customers and Champions.
 
 ---
 
@@ -14,9 +14,19 @@
 | Field | Value |
 |---|---|
 | **Organization / Company** | |
-| **Author** | |
-| **Status** | Draft / Active / Needs Review |
-| **Last Reviewed** | YYYY-MM-DD |
+| **Maintainer** | |
+| **Status** | Active |
+| **Last Updated** | YYYY-MM-DD |
+
+
+> **Significant Change Log**
+> A record of meaningful changes to this document — entries made when the content shifts in a way that would affect how a reader interprets decisions made against it. Routine updates (correcting a date, adding a new entry to a register) do not require a log entry. A log entry is warranted when: the document's overall picture has changed, a core definition or principle has shifted, organizational context that drove earlier decisions has been replaced, or a reader a year from now would need to know that this document meant something different before this date.
+>
+> When writing an entry, capture not just what changed but what the document reflected *before* — so the log itself is recoverable context, not just a changelog.
+
+| Date | What Changed | What It Was Before | Why It Changed | Connected Artifacts Affected |
+|---|---|---|---|---|
+| YYYY-MM-DD | [One sentence: the thing that is now different] | [One sentence: what this section or field reflected before this change] | [The organizational event, decision, or learning that prompted it — e.g., Board approved Series B / New CRO hired, replacing VP Sales / Product-Build-Record-XX retrospective revealed assumption was wrong] | [Artifact names if other documents should be read differently in light of this change] |
 
 ---
 

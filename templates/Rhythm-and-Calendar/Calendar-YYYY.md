@@ -24,6 +24,16 @@
 > - **Product-Build-Record** — launch windows, freeze periods, and capacity constraints should be noted in Dependencies and Constraints
 > - **Organizational-Risk-and-Compliance** — compliance filing deadlines and audit windows here should match the obligations register there
 
+
+> **Significant Change Log**
+> A record of meaningful changes to this document after initial creation — entries made when the scope, intent, assumptions, or decisions captured here shift in a way that would affect how a reader interprets this effort. Routine progress updates, status changes, and date confirmations do not require a log entry. A log entry is warranted when: the scope or success criteria change materially, a key assumption underlying this effort is revised, a decision is reversed or significantly modified, or new information emerges mid-effort that would have changed the original document if known at the start.
+>
+> When writing an entry, capture not just what changed but what the document reflected *before* — so the log itself is recoverable context for anyone reviewing this record after the fact.
+
+| Date | What Changed | What It Was Before | Why It Changed | Connected Artifacts Affected |
+|---|---|---|---|---|
+| YYYY-MM-DD | [One sentence: the thing that is now different] | [One sentence: what this section or field reflected before this change] | [The event, decision, or discovery that prompted it — e.g., Board review raised new constraint / Mid-pilot finding invalidated original hypothesis / Scope reduced due to resource reallocation] | [Artifact names if other documents should be read differently in light of this change] |
+
 ---
 
 ## 1. Fiscal and Financial Calendar
