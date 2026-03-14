@@ -146,6 +146,8 @@ These artifacts fall into two categories:
 
 **Living frameworks** — maintained continuously as a single source of truth for the organization or product. Most artifacts in this framework are this type. They are never "complete" — they are updated as the organization learns, decisions are made, and context changes. Start with whatever sections are most immediately useful and fill in the rest over time.
 
+> **A note on named individuals vs. archetypes:** Several artifacts capture similar-sounding things but at different levels of abstraction. **Roles-and-Personas** holds role archetypes — patterns observed across many customers and prospects, not named individuals. **Reference-Customers-and-Champions** holds named accounts and the specific people within them. **Internal-Stakeholders** holds named people inside the organization. **External-Stakeholders** holds named partner and vendor organizations. Keeping these levels distinct matters: archetypes inform product and GTM decisions at scale; named records track specific relationships. Populating a named individual into a persona document, or an archetype into a stakeholder register, reduces the usefulness of both.
+
 **Per-effort documents** — created fresh for each discrete initiative or period. Three artifacts work this way:
 - **Product-Build-Record** — one per development effort at a specific validation stage
 - **Business-Case** — one per initiative contemplated
@@ -172,7 +174,72 @@ The framework becomes compoundingly more powerful as more artifacts are populate
 
 ---
 
+## Maintaining This Framework
+
+### The Significant Change Log
+Every artifact in this framework includes a **Significant Change Log** inside its Document Control section. This is distinct from Git commit history — Git records what changed at the line level; the Change Log records *why a change was significant* and *what the document reflected before*.
+
+A Change Log entry is warranted when the change would affect how a reader interprets decisions previously made against this document — when the document meant something materially different before this date. Routine updates (adding a new entry to a register, correcting a date, updating a contact name) do not need an entry.
+
+When writing an entry, capture not just what changed but what the document reflected before the change. The log should be self-contained enough that a reader a year later can reconstruct the organizational context at any point in the document's history — without needing to dig through Git.
+
+The most valuable entry in any artifact is the founding entry — written when the document is first put into active use, describing the organizational context at that moment. This becomes the baseline everything else is measured against. It is easy to skip because "nothing has changed yet" — but it is the most important one.
+
+### Targets vs. Measures
+This framework maintains a strict separation: **targets live in Strategy-and-Intent; measures live in Metrics-Framework**. A metric's definition, calculation, source system, and ownership are defined once in Metrics-Framework and referenced by ID everywhere else. Strategy-and-Intent goal entries reference metric IDs when a Key Result uses a formal metric — the target value is stated there, but the definition is never duplicated. This prevents the same number from living in two places and drifting apart over time.
+
+### Automated vs. Explicit Updates
+Some artifacts will be updated automatically as a result of execution — metrics pulling from systems, execution logs being populated, feedback flowing in from builds. Most of these updates are routine and do not warrant a Change Log entry.
+
+The threshold for a Change Log entry is judgment-based: does this update reflect a meaningful shift in what the document represents, or is it noise from normal operation? A support ticket count updating weekly is noise. A strategic goal being retired mid-year because a market assumption proved wrong is signal. When in doubt, ask: would someone reading this document in a year need to know that it meant something different before this date? If yes, make the entry.
+
+---
+
+## Where to Start
+
+There is no required sequence — every artifact is independently useful. But facing 23 templates with no populated data can be paralyzing. This guide offers a suggested path based on what gives the rest of the framework its context.
+
+### Foundation First
+
+Start with the two artifacts that provide context for everything else:
+
+**Strategy-and-Intent** — what the organization is trying to accomplish, across what time horizon, and why. Without this, Business Cases have no strategic anchor, hiring decisions have no capability rationale, and AI agents have no intent to orient against.
+
+**Funding-and-Business-Model** — how the organization is capitalized, how it creates and captures value, and what it is currently optimizing for. This determines which benefit types carry the most weight in prioritization, what constraints govern every decision, and what the organization's horizon looks like.
+
+These two together answer: *what are we doing, why, and under what conditions?* Every other artifact is more useful once these exist.
+
+### Layer by Context
+
+With the foundation in place, populate the artifacts that give the rest of the framework their organizational context. The right order depends on what the organization most needs — but a natural sequence is:
+
+**Understand the market and customer** — Roles-and-Personas, Competitive-Intelligence. Who are you building for and selling to, and against what alternatives? These inform product decisions, GTM strategy, and sales execution simultaneously.
+
+**Map the organization** — Internal-Stakeholders, External-Stakeholders, People-and-Talent-Strategy. Who is inside the organization, who owns what, and what capabilities exist vs. what is needed? These make every cross-functional initiative faster to navigate.
+
+**Capture what you know about the product** — Product-Chronicle, Product-Design-Guide. The accumulated intelligence of the product — why it was built the way it was, what principles govern it, and what has been learned. These are the most valuable artifacts for onboarding and for AI-assisted product work.
+
+**Establish the intelligence infrastructure** — Systems-and-Data, Metrics-Framework. What systems exist, what data they own, and what the organization formally measures. These underpin every data-driven decision and make benefit claims in Business Cases defensible.
+
+### Execute as You Go
+
+The remaining artifacts are populated through execution — they grow as the organization operates:
+
+- **Business-Case and Product-Build-Record** — created per initiative; populated as work is contemplated and executed
+- **Institutional-Knowledge** — fed from retros, post-mortems, and significant decisions; grows continuously
+- **Reference-Customers-and-Champions** — populated as deals close and relationships develop
+- **Key-Operational-Processes and Organizational-Risk-and-Compliance** — built up as processes are formalized and risks are identified
+- **Company-Cadences and Calendar-YYYY** — populated at the start of each fiscal year from the organization's established rhythms
+- **Go-to-Market and Sales-Playbook** — developed once there is enough market and customer understanding to be specific
+- **Brand-and-Narrative** — refined as positioning becomes clearer through market feedback
+- **Cost-and-Benefit-Framework** — established once and maintained as cost structures and business model evolve
+
+### A Note on Partial Population
+
+Every artifact is more useful partially populated than empty. A Strategy-and-Intent with three goals and honest assumptions is a better decision-making tool than a blank template. A Product Chronicle with one section filled in is better than none. Start with what you know. Fill in the rest as you learn it.
+
+---
+
 ## This Framework is Evolving
 
-Templates are added and refined as they are applied to real work. If you use
-one and find a gap, open an issue or submit a PR.
+Templates are added and refined as they are applied to real work. If you use one and find a gap, open an issue or submit a PR.
