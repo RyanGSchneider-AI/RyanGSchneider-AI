@@ -29,8 +29,15 @@
 |---|---|
 | **Maintainer** | |
 | **Last Updated** | YYYY-MM-DD |
-| **Connected Artifacts** | Strategy-and-Intent.md, Internal-Stakeholders.md |
 
+
+
+> **Connected artifacts:**
+> - **Strategy-and-Intent** — capability needs here should be traceable to strategic goals there; when goals shift, review this document for capability implications
+> - **Internal-Stakeholders** — org structure and current team composition there inform the capability assessment here
+> - **Business-Case** — hiring decisions that resolve a capability gap should be initiated through a Business Case when they represent a meaningful investment
+> - **Organizational-Risk-and-Compliance** — key person risk identified here should be reflected in the risk inventory there
+> - **Institutional-Knowledge** — significant hiring decisions, culture lessons, and onboarding learnings belong there
 
 > **Significant Change Log**
 > A record of meaningful changes to this document — entries made when the content shifts in a way that would affect how a reader interprets decisions made against it. Routine updates (correcting a date, adding a new entry to a register) do not require a log entry. A log entry is warranted when: the document's overall picture has changed, a core definition or principle has shifted, organizational context that drove earlier decisions has been replaced, or a reader a year from now would need to know that this document meant something different before this date.

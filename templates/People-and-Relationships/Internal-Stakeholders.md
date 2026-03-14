@@ -14,6 +14,13 @@
 | **Last Updated** | YYYY-MM-DD |
 
 
+> **Connected artifacts:**
+> - **People-and-Talent-Strategy** — capability gaps and key person risk assessed there map to roles and individuals captured here
+> - **Metrics-Framework** — metric ownership and visibility in the access matrix there should align with department structure here
+> - **Strategy-and-Intent** — goals there should have identifiable owners in the org structure here
+> - **Roles-and-Personas** — internal affected party personas there describe how functions like Finance and Support are affected by product changes; named individuals in those functions are here
+> - **Organizational-Risk-and-Compliance** — committee composition and decision authority here is relevant context for risk ownership there
+
 > **Significant Change Log**
 > A record of meaningful changes to this document — entries made when the content shifts in a way that would affect how a reader interprets decisions made against it. Routine updates (correcting a date, adding a new entry to a register) do not require a log entry. A log entry is warranted when: the document's overall picture has changed, a core definition or principle has shifted, organizational context that drove earlier decisions has been replaced, or a reader a year from now would need to know that this document meant something different before this date.
 >

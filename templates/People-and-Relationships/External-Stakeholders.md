@@ -22,6 +22,12 @@
 | **Last Updated** | YYYY-MM-DD |
 
 
+> **Connected artifacts:**
+> - **Organizational-Risk-and-Compliance** — vendor compliance obligations and regulatory body requirements here should align with the compliance obligations register there
+> - **Roles-and-Personas** — gatekeeper personas there describe how regulatory and procurement bodies behave in a buying context; this document names the actual bodies and instruments
+> - **Funding-and-Business-Model** — funding structure and ownership model create compliance obligations that surface here
+> - **Institutional-Knowledge** — significant partner relationship decisions, vendor changes, and regulatory findings belong there
+
 > **Significant Change Log**
 > A record of meaningful changes to this document — entries made when the content shifts in a way that would affect how a reader interprets decisions made against it. Routine updates (correcting a date, adding a new entry to a register) do not require a log entry. A log entry is warranted when: the document's overall picture has changed, a core definition or principle has shifted, organizational context that drove earlier decisions has been replaced, or a reader a year from now would need to know that this document meant something different before this date.
 >
