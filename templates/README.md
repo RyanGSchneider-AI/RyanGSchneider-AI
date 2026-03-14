@@ -197,11 +197,36 @@ The threshold for a Change Log entry is judgment-based: does this update reflect
 
 ## Where to Start
 
-There is no required sequence — every artifact is independently useful. But facing 23 templates with no populated data can be paralyzing. This guide offers a suggested path based on what gives the rest of the framework its context.
+There is no required sequence — every artifact is independently useful, and the framework delivers value from the first artifact populated. Most people will not start by building the foundation deliberately. They will have a product idea, a deal to close, a hire to make — and they will reach for the framework mid-motion. That is a valid and effective way to use it.
 
-### Foundation First
+Three common entry points are described below. Choose the one that matches where you are.
 
-Start with the two artifacts that provide context for everything else:
+---
+
+### Entry Point 1: Starting from an Effort
+
+You have something specific in front of you — a product idea, a Business Case to write, a sales motion to build, a hire to make. Start there. Open the most relevant artifact, work through it, and let it tell you what context it needs.
+
+The artifacts are designed to surface their own dependencies. A Business Case will tell you it needs a strategy goal to anchor to — that points you to Strategy-and-Intent. A Product Build Record will tell you it needs a cost estimate method — that points you to Cost-and-Benefit-Framework. A Sales Playbook entry will tell you it needs buyer and gatekeeper context — that points you to Roles-and-Personas. Each artifact you open pulls the next one into view.
+
+**The framework grows outward from the work.** You do not need to build it before it delivers value — you build it by doing the work.
+
+A natural pull sequence for common efforts:
+
+| Starting effort | Pulls in next | Then pulls in |
+|---|---|---|
+| Product idea | Business-Case | Strategy-and-Intent, Cost-and-Benefit-Framework, Roles-and-Personas |
+| Building a product | Product-Build-Record | Business-Case, Product-Chronicle, Product-Design-Guide, Systems-and-Data |
+| Closing a deal | Sales-Playbook | Go-to-Market, Roles-and-Personas, Competitive-Intelligence, Reference-Customers-and-Champions |
+| Hiring a key role | People-and-Talent-Strategy | Strategy-and-Intent, Internal-Stakeholders |
+| Launching in a new market | Go-to-Market | Roles-and-Personas, Competitive-Intelligence, Brand-and-Narrative, Strategy-and-Intent |
+| Evaluating a risk | Organizational-Risk-and-Compliance | Strategy-and-Intent, Key-Operational-Processes, Systems-and-Data |
+
+---
+
+### Entry Point 2: Starting from the Foundation
+
+If you have the opportunity to build deliberately — a new organization, a new product line, a deliberate framework adoption — start with the two artifacts that give everything else its context:
 
 **Strategy-and-Intent** — what the organization is trying to accomplish, across what time horizon, and why. Without this, Business Cases have no strategic anchor, hiring decisions have no capability rationale, and AI agents have no intent to orient against.
 
@@ -209,30 +234,37 @@ Start with the two artifacts that provide context for everything else:
 
 These two together answer: *what are we doing, why, and under what conditions?* Every other artifact is more useful once these exist.
 
-### Layer by Context
+From there, a natural sequence is:
 
-With the foundation in place, populate the artifacts that give the rest of the framework their organizational context. The right order depends on what the organization most needs — but a natural sequence is:
+**Understand the market and customer** — Roles-and-Personas, Competitive-Intelligence. Who are you building for and selling to, and against what alternatives?
 
-**Understand the market and customer** — Roles-and-Personas, Competitive-Intelligence. Who are you building for and selling to, and against what alternatives? These inform product decisions, GTM strategy, and sales execution simultaneously.
+**Map the organization** — Internal-Stakeholders, External-Stakeholders, People-and-Talent-Strategy. Who owns what, what capabilities exist, and where are the gaps?
 
-**Map the organization** — Internal-Stakeholders, External-Stakeholders, People-and-Talent-Strategy. Who is inside the organization, who owns what, and what capabilities exist vs. what is needed? These make every cross-functional initiative faster to navigate.
+**Capture what you know about the product** — Product-Chronicle, Product-Design-Guide. The accumulated intelligence of the product — why it was built the way it was, what principles govern it.
 
-**Capture what you know about the product** — Product-Chronicle, Product-Design-Guide. The accumulated intelligence of the product — why it was built the way it was, what principles govern it, and what has been learned. These are the most valuable artifacts for onboarding and for AI-assisted product work.
+**Establish the intelligence infrastructure** — Systems-and-Data, Metrics-Framework. What systems exist, what data they own, and what the organization formally measures.
 
-**Establish the intelligence infrastructure** — Systems-and-Data, Metrics-Framework. What systems exist, what data they own, and what the organization formally measures. These underpin every data-driven decision and make benefit claims in Business Cases defensible.
+The remaining artifacts — Business-Case, Product-Build-Record, Institutional-Knowledge, Reference-Customers-and-Champions, Key-Operational-Processes, Organizational-Risk-and-Compliance, Company-Cadences, Calendar-YYYY, Go-to-Market, Sales-Playbook, Brand-and-Narrative, Cost-and-Benefit-Framework — are populated through execution as the organization operates.
 
-### Execute as You Go
+---
 
-The remaining artifacts are populated through execution — they grow as the organization operates:
+### Entry Point 3: Starting Mid-Organization
 
-- **Business-Case and Product-Build-Record** — created per initiative; populated as work is contemplated and executed
-- **Institutional-Knowledge** — fed from retros, post-mortems, and significant decisions; grows continuously
-- **Reference-Customers-and-Champions** — populated as deals close and relationships develop
-- **Key-Operational-Processes and Organizational-Risk-and-Compliance** — built up as processes are formalized and risks are identified
-- **Company-Cadences and Calendar-YYYY** — populated at the start of each fiscal year from the organization's established rhythms
-- **Go-to-Market and Sales-Playbook** — developed once there is enough market and customer understanding to be specific
-- **Brand-and-Narrative** — refined as positioning becomes clearer through market feedback
-- **Cost-and-Benefit-Framework** — established once and maintained as cost structures and business model evolve
+The organization already exists. There is context, history, and accumulated knowledge — most of it in people's heads. You are introducing the framework into a running system.
+
+The priority here is capture before loss. Start with the artifacts that preserve what already exists:
+
+**Institutional-Knowledge** — capture significant decisions, lessons, and constraints that are currently held by individuals. Every entry is a deposit against the risk of that person leaving.
+
+**Strategy-and-Intent** — document the goals that are already driving decisions, even informally. Making implicit strategy explicit surfaces misalignment that is usually already present but unacknowledged.
+
+**Internal-Stakeholders** — map who owns what and what they actually care about. In an existing organization this is often the most immediately useful artifact for anyone navigating cross-functional work.
+
+**Product-Chronicle** — if there is a product, capture what is already known about it: why it was built the way it was, what principles have emerged, what tradeoffs have been made. This is the artifact most at risk of never being populated because it requires articulating things that feel obvious to the people who already know them.
+
+From there, follow whichever path — effort-first or foundation-first — matches the organization's most pressing need.
+
+---
 
 ### A Note on Partial Population
 
