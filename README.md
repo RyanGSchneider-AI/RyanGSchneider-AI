@@ -24,7 +24,7 @@ That experience confirmed what I suspected: AI tools have fundamentally changed 
 
 Current focus areas:
 - Automating product research and synthesis workflows with Claude Code
-- Building lightweight prototypes using Cursor, Claude Code, and Google Antigravity to validate fintech, education, and nonprofit/faith-based product concepts faster
+- Building lightweight prototypes using Cursor and Claude Code to validate fintech, education, and nonprofit/faith-based product concepts faster
 - Exploring underserved opportunities at the intersection of payments, donor management, and community engagement — informed by deep experience in the K-12 and faith-based markets
 - Documenting and sharing AI-assisted approaches to product discovery, prioritization, and roadmapping — building a public record of how AI tools are reshaping the product leader's toolkit
 
